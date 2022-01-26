@@ -1,0 +1,60 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.topic {
+  position: relative;
+  box-shadow: 0 5px 75px rgba(43, 55, 79, 0.1);
+  border-radius: 5px;
+  background: colors.$white;
+  width: 100%;
+  color: colors.$black;
+
+  &_opened {
+    .topic__title {
+      //color: colors.$orange;
+    }
+
+    .topic__content {
+      display: block;
+    }
+  }
+
+  &__title {
+    @include typography.h2;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0;
+    padding: 25px 30px;
+    color: colors.$black;
+
+    @include media.tablet() {
+      padding: 15px 20px;
+    }
+
+    &:hover {
+      //color: colors.$orange;
+    }
+  }
+
+  &__content {
+    display: none;
+    @include typography.body1;
+    transition: all 0.3s;
+    padding: 5px 30px 30px;
+    width: 100%;
+
+    @include media.tablet {
+      padding: 5px 20px 20px;
+    }
+
+    blockquote {
+      margin: 0 0 20px;
+      padding: 10px 20px;
+      border-left: 5px solid #eee;
+      font-size: inherit;
+      font-style: italic;
+      color: #777;
+    }
+  }
+}

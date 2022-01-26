@@ -1,0 +1,246 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+
+.header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  color: colors.$white;
+
+  @include media.tablet {
+    position: fixed;
+    background: #005eaf;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+    @include media.tablet {
+      height: 50px;
+    }
+  }
+
+  &__logo {
+    width: 125px;
+    line-height: 1;
+    @include media.tablet {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  &_light {
+    background: colors.$white;
+    box-shadow: 0 2px 5px rgba(43, 55, 79, 0.1);
+    color: colors.$black;
+  }
+}
+
+.logo {
+  color: inherit;
+}
+
+.menu {
+  &__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include media.tablet {
+      position: fixed;
+      width: 100%;
+      top: 50px;
+      left: 0;
+      background-color: colors.$black;
+      color: colors.$white;
+
+      display: none;
+      &_opened {
+        display: block;
+      }
+    }
+  }
+
+  &__languages {
+    margin-left: 50px;
+    @include media.tablet {
+      display: none;
+    }
+  }
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    @include media.tablet {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2rem 0;
+    }
+
+    li {
+      margin-left: 50px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      @include media.tablet {
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    //text-align: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+
+    @include media.tablet {
+      display: block;
+      padding: 2rem 2.5rem;
+      width: 100%;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    @include media.tablet {
+      display: block;
+    }
+  }
+}
+
+.languages {
+  &__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.nav-icon {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-icon:before,
+.nav-icon div,
+.nav-icon:after {
+  content: '';
+  background-color: colors.$black;
+  transition: all 0.2s ease-in-out 0s;
+  margin: 2px 0;
+  border-radius: 1px;
+  width: 16px;
+  height: 2px;
+  color: inherit;
+}
+
+.nav-icon.active:before {
+  position: relative;
+  transform: translateY(12px) rotate(135deg);
+  top: -4px;
+  left: 0;
+}
+
+.nav-icon.active:after {
+  position: relative;
+  transform: translateY(-12px) rotate(-135deg);
+  top: 2px;
+  left: 0;
+}
+
+.nav-icon.active div {
+  transform: scale(0);
+  margin: 5px 0;
+}
+
+.nav-icon.nav-icon_white:before,
+.nav-icon.nav-icon_white div,
+.nav-icon.nav-icon_white:after {
+  background-color: colors.$white;
+}
+
+//.mobile-menu {
+//  background: $MainDark;
+//  width: 100%;
+//  position: fixed;
+//  top: 60px;
+//  left: -100%;
+//  z-index: 1000;
+//  height: auto;
+//  transition: all 0.3s;
+//  overflow-y: auto;
+//  padding: 20px 0;
+//
+//  &.visibility {
+//    left: 0;
+//    display: none;
+//    //box-shadow: 0 13px 13px rgba(0, 0, 0, 0.3);
+//  }
+//
+//  .main-nav {
+//    display: flex;
+//    flex-flow: column;
+//
+//    &__item {
+//      display: flex;
+//      margin: 25px 0;
+//      padding: 0 25px;
+//      font-size: 12px;
+//      line-height: 18px;
+//    }
+//  }
+//}
+//
+//@media screen and (max-width: 767px) {
+//  .nav-icon {
+//    display: flex;
+//  }
+//  .mobile-menu {
+//    &.visibility {
+//      display: flex;
+//      flex-flow: column;
+//    }
+//  }
+//}
+//

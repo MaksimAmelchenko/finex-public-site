@@ -1,0 +1,11 @@
+@use 'src/styles/media';
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 70px;
+  @include media.phone {
+    grid-template-columns: 100%;
+  }
+}

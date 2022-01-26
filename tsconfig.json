@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "noEmit": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "react"]
+  },
+  "exclude": ["node_modules"]
+}

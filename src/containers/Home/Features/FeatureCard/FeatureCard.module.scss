@@ -1,0 +1,39 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.feature {
+  position: relative;
+  width: 100%;
+  padding: 70px 50px 50px;
+  box-shadow: 0 5px 75px rgba(43, 55, 79, 0.1);
+  border-radius: 5px;
+  background: colors.$white;
+  color: colors.$black;
+
+  @include media.phone {
+    padding: 60px 20px 30px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 100px;
+    height: 100px;
+    transform: translateY(-50%);
+    @include media.phone {
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__title {
+    @include typography.h2;
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    @include typography.body1;
+  }
+}

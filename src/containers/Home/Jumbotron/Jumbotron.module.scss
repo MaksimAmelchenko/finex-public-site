@@ -1,0 +1,164 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(49.21% 49.21% at 54.84% 50.94%, #2287df 0%, #005eaf 100%);
+  padding-bottom: 150px;
+
+  @include media.phone {
+    padding-bottom: 50px;
+  }
+
+  &__header {
+    margin-top: 70px;
+    @include media.phone {
+      margin-top: 30px;
+      height: 80px;
+    }
+  }
+
+  &__quick-start {
+    margin-top: 50px;
+    width: 50%;
+    @include media.phone {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+
+  &__callToAction {
+    margin-top: 70px;
+    width: fit-content;
+    @include media.phone {
+      margin-top: 50px;
+      width: 100%;
+    }
+  }
+
+  &__mobile-image {
+    display: none;
+    margin-top: 30px;
+
+    @include media.phone {
+      display: block;
+    }
+  }
+
+  &__images {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    left: calc(50% + 30px);
+
+    @include media.phone {
+      display: none;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: colors.$white;
+
+  &__title {
+    @include typography.h1;
+    text-transform: uppercase;
+  }
+
+  &__logotype {
+    background: colors.$orange;
+    margin: 0 0 0 10px;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+
+  &__description {
+    @include typography.subtitle2;
+  }
+}
+
+.rocket {
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(34, 135, 223, 0.3) 24.45%, rgba(0, 94, 175, 0.3) 73.66%);
+    box-shadow: -15px -10px 25px rgb(187 224 255 / 10%), 5px 5px 25px rgb(0 52 97 / 10%);
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.quick-start {
+  display: flex;
+
+  @include media.phone {
+    flex-direction: column;
+  }
+
+  &__rocket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+
+    @include media.phone {
+      margin: 0 0 30px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 18px 0;
+    color: colors.$white;
+
+    @include media.phone {
+      flex: auto;
+      row-gap: 26px;
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    @include typography.h3;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    @include typography.subtitle2;
+    font-weight: 300;
+  }
+}
+
+.mobile-image {
+  position: relative;
+  width: 100%;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+
+  &__report {
+    position: absolute;
+    top: 40px;
+  }
+
+  &__dashboard {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    filter: drop-shadow(0px 2px 55px rgba(29, 39, 60, 0.5));
+  }
+}

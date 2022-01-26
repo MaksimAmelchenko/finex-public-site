@@ -1,0 +1,61 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.header {
+  @include typography.h1;
+  padding-top: 100px;
+  margin-bottom: 4rem;
+
+  @include media.tablet() {
+    padding-top: 80px;
+    margin-bottom: 2rem;
+  }
+}
+
+.how-it-works {
+  display: flex;
+  margin-bottom: 60px;
+
+  @include media.tablet() {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+  }
+
+  &__aside {
+    width: 256px;
+    margin-right: 32px;
+    flex-shrink: 0;
+    @include media.tablet() {
+      margin: 2rem 0;
+      width: 100%;
+    }
+  }
+}
+
+.feedback {
+  &__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    a {
+      color: #0066bf;
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+  }
+}
+
+.main {
+  width: 100%;
+
+  &__topics {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    //width: 100%;
+  }
+}

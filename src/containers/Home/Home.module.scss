@@ -1,0 +1,45 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+
+.header {
+  color: colors.$orange;
+  @include media.phone {
+    color: #25a8fe;
+    font-size: 8px;
+  }
+}
+
+.main {
+  &__jumbotron {
+    padding-top: 60px;
+  }
+
+  &__features {
+    margin-top: -60px;
+    @include media.phone {
+      margin-top: 0;
+    }
+  }
+
+  &__buttons {
+    margin: 100px 0 100px;
+    @include media.phone {
+      margin: 70px 0 100px;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+
+  @include media.phone {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  &__button {
+    //margin: 0 45px;
+  }
+}
