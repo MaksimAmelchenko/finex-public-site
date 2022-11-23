@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+
+import { useT } from '../../lib/i18n';
 
 interface ISeoProps {
   title?: string;
@@ -10,21 +11,13 @@ interface ISeoProps {
 }
 
 export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JSX.Element {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `
-  );
-
-  const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata.title;
+  const t = useT('Seo');
+  const defaultTitle = t('FINEX.io Домашняя бухгалтерия');
+  const metaDescription =
+    description ||
+    t(
+      'Управляйте своими финансами с помощью домашней бухгалтерии FINEX. Контролируйте ваши расходы и придите к успешному финансовому будущему.'
+    );
 
   return (
     <Helmet
@@ -54,10 +47,10 @@ export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JS
           name: 'twitter:card',
           content: 'summary',
         },
-        {
-          name: 'twitter:creator',
-          content: site.siteMetadata?.social?.twitter || '',
-        },
+        // {
+        //   name: 'twitter:creator',
+        //   content: site.siteMetadata?.social?.twitter || '',
+        // },
         {
           name: 'twitter:title',
           content: title,

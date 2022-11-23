@@ -1,8 +1,6 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://finex.io',
-    title: 'FINEX.io Домашняя бухгалтерия',
-    description: 'Онлайн приложение для управления личными финансами',
   },
   plugins: [
     {
