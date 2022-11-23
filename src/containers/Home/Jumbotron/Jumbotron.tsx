@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { StaticImage } from 'gatsby-plugin-image';
+import { useLocalization } from 'gatsby-theme-i18n';
 
 import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
@@ -22,6 +23,8 @@ interface IJumbotronProps {
 
 export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProps) {
   const t = useT('Jumbotron');
+
+  const { locale } = useLocalization();
 
   return (
     <section className={clsx(styles.jumbotron, className)}>
@@ -53,7 +56,7 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
         </div>
 
         <div className={styles.jumbotron__callToAction}>
-          <Button color="orange" size="large" fullSize href="#">
+          <Button color="orange" size="large" fullSize href={`https://app.finex.io/demo?locale=${locale}`}>
             {t('Посмотреть как это работает')}
           </Button>
         </div>

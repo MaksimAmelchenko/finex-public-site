@@ -46,7 +46,12 @@ export const Home = () => {
             <Button color="orange" size="large" href="/how-it-works" className={styles.buttons__button}>
               {t('Узнать больше')}
             </Button>
-            <Button color="blue" size="large" href="https://app.finex.io/sign-up" className={styles.buttons__button}>
+            <Button
+              color="blue"
+              size="large"
+              href={`https://app.finex.io/sign-up?locale=${locale}`}
+              className={styles.buttons__button}
+            >
               {t('Начать пользоваться')}
             </Button>
           </section>

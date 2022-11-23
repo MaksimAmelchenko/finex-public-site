@@ -15,9 +15,9 @@ en:
     #    - title: Community
     #      link: https://finex.userecho.com
     - title: Sign In
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sing-in?locale=en
     - title: Sign Up
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=en
 de:
   nav:
     #    - title: Wie es funktioniert
@@ -25,6 +25,6 @@ de:
     #    - title: Gemeinschaft
     #      link: https://finex.userecho.com
     - title: Einloggen
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sing-in?locale=de
     - title: Registrieren
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=de
