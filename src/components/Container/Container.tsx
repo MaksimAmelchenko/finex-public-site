@@ -5,6 +5,7 @@ import styles from './Container.module.scss';
 
 interface IContainerProps {
   className?: string;
+  children: React.ReactNode;
 }
 
 export const Container: FC<IContainerProps> = ({ className, children }) => {

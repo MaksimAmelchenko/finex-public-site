@@ -61,8 +61,15 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
 
       <div className={styles.jumbotron__images}>
         <div className={styles.images}>
-          <StaticImage src="./assets/screen1.png" className={styles.images__report} width={600} alt="Report example" />
           <StaticImage
+            style={{ position: 'absolute' }}
+            src="./assets/screen1.png"
+            className={styles.images__report}
+            width={600}
+            alt="Report example"
+          />
+          <StaticImage
+            style={{ position: 'absolute' }}
             src="./assets/screen2.png"
             className={styles.images__dashboard}
             width={600}
