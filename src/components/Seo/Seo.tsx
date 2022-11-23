@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 interface ISeoProps {
-  title: string;
+  title?: string;
   lang: string;
   description?: string;
   meta?: any[];
@@ -24,15 +24,15 @@ export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JS
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
+  const defaultTitle = site.siteMetadata.title;
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={title || defaultTitle}
+      titleTemplate={title && defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
           name: 'description',

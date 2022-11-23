@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://finex.io',
     title: 'FINEX.io Домашняя бухгалтерия',
-    description: 'Бесплатное онлайн приложение для управления личными финансами',
+    description: 'Онлайн приложение для управления личными финансами',
   },
   plugins: [
     {
@@ -44,6 +44,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
+        name: 'FINEX.io',
+        short_name: 'FINEX',
+        start_url: '/?source=pwa',
+        background_color: '#337AB7',
+        theme_color: '#337AB7',
+        display: 'standalone',
         icon: 'src/images/icon.png',
       },
     },
