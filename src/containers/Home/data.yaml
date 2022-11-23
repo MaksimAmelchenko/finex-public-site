@@ -17,7 +17,7 @@ ru:
       description: Ведите учет совместно с другими членами семьи. Давайте права на просмотр и/или редактирование только на определенные счета или проекты.
     - icon: detailsIcon
       title: Детализация учета
-      description: Используя справочник контрагентов, многоуровневые категории и теги выбирайте нужный Вам уровень детализации учета.
+      description: Используя справочник контрагентов, многоуровневые категории и теги выбирайте нужный вам уровень детализации учета.
     - icon: multiCurrencyIcon
       title: Мультивалютный учет
       description: >
@@ -25,75 +25,76 @@ ru:
     - icon: planningIcon
       title: Планирование
       description: >
-        Запланируйте будущие разовые и регулярные (еженедельные, ежемесячные и т.д.) доходы и расходы и уже сегодня сможете оценить, сколько будет у Вас денег.
+        Запланируйте будущие разовые и регулярные (еженедельные, ежемесячные и т.д.) доходы и расходы и уже сегодня сможете оценить, сколько будет у вас денег.
     - icon: budgetIcon
       title: Домашний бюджет
       description: Создавайте семейный бюджет и контролируйте его выполнение*.
     - icon: securityIcon
       title: Безопасность и надежность
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      description: Ваши финансы в безопасности. С 256-битным шифрованием мы защитить вашу информацию, как если бы она была нашей собственной.
 en:
   jumbotron:
-    title: Домашняя бухгалтерия
-    subTitle: Онлайн программа, которая поможет Вам добиться финансового успеха
+    title: Online Money Management
+    subTitle: An online program that will help you achieve financial success.
     rocket:
-      title: Быстрый старт
-      text: Вы уже пользуетесь другой домашней бухгалтерией? <br/> Загрузите Ваши данные и продолжайте вести учет
+      title: Quick start
+      text: Are you already using another home bookkeeping service? <br/> Upload your data and continue to keep records
   features:
     - icon: cashFlowIcon
-      title: Денежные потоки
-      description: Денежные потоки позволяют группировать доходы и расходы.
+      title: Cash Flows
+      description: Cash flows allow you to group income and expenses.
     - icon: projectsIcon
-      title: Проекты
-      description: Ведите столько бухгалтерий (проектов), сколько Вам нужно. <br/> Создавайте личные или общие проекты для всех членов семьи.
+      title: Projects
+      description: Manage as many projects as you need. <br/> Create personal or shared projects for all family members.
     - icon: multiUserIcon
-      title: Многопользовательский учет
-      description: Ведите учет совместно с другими членами семьи. Давайте права на просмотр и/или редактирование только на определенные счета или проекты.
+      title: Multiple users
+      description: Manage finances with other family members. Give viewing and/or editing access rights only to certain accounts or projects.
     - icon: detailsIcon
-      title: Детализация учета
-      description: Используя справочник контрагентов, многоуровневые категории и теги выбирайте нужный Вам уровень детализации учета.
+      title: Detailed tracking
+      description: Using the directory of counterparties, multi-level categories and tags, choose the level of tracking detail you need.
     - icon: multiCurrencyIcon
-      title: Мультивалютный учет
+      title: Multicurrency
       description: >
-        Используйте столько валют, сколько Вам нужно. Создавайте свои валюты: паи, акции, доли и т.д.
+        Use as many currencies as you need. Create your own currencies: shares, stocks, etc.
     - icon: planningIcon
-      title: Планирование
-      description: Запланируйте будущие разовые и регулярные (еженедельные, ежемесячные и т.д.) доходы и расходы и уже сегодня сможете оценить, сколько будет у Вас денег.
+      title: Planning
+      description: Plan future one-time and regular (weekly, monthly, etc.) income and expenses and already today you can estimate how much money you will have.
     - icon: budgetIcon
-      title: Домашний бюджет
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      title: Budget
+      description: Create a family budget and control its execution*.
     - icon: securityIcon
       title: Safety & security
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      description: Your finances, safe and secure. With 256-bit encryption we protect your info as if it’s our own.
 de:
   jumbotron:
-    title: Домашняя бухгалтерия
-    subTitle: Онлайн программа, которая поможет Вам добиться финансового успеха
+    title: Online-Geldverwaltung
+    subTitle: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
     rocket:
-      title: Быстрый старт
-      text: Вы уже пользуетесь другой домашней бухгалтерией? <br/> Загрузите Ваши данные и продолжайте вести учет
+      title: Schnellstart
+      text: Nutzen Sie bereits einen anderen Hausbuchhaltungsservice? <br/> Laden Sie Ihre Daten hoch und führen Sie weiterhin Aufzeichnungen
   features:
     - icon: cashFlowIcon
-      title: Денежные потоки
-      description: Денежные потоки позволяют группировать доходы и расходы.
+      title: Cashflows
+      description: Cashflows ermöglichen es Ihnen, Einnahmen und Ausgaben zu gruppieren.
     - icon: projectsIcon
-      title: Проекты
-      description: Ведите столько бухгалтерий (проектов), сколько Вам нужно. <br/> Создавайте личные или общие проекты для всех членов семьи.
+      title: Projekte
+      description: Verwalten Sie so viele Projekte, wie Sie benötigen. <br/> Erstellen Sie persönliche oder gemeinsame Projekte für alle Familienmitglieder.
     - icon: multiUserIcon
-      title: Многопользовательский учет
-      description: Ведите учет совместно с другими членами семьи. Давайте права на просмотр и/или редактирование только на определенные счета или проекты.
+      title: Mehrere Benutzer
+      description: Verwalten Sie die Finanzen mit anderen Familienmitgliedern. Gewähren Sie nur bestimmten Konten oder Projekten Zugriffsrechte zum Anzeigen und/oder Bearbeiten.
     - icon: detailsIcon
-      title: Детализация учета
-      description: Используя справочник контрагентов, многоуровневые категории и теги выбирайте нужный Вам уровень детализации учета.
+      title: Detaillierte Verfolgung
+      description: Wählen Sie mithilfe des Kontrahentenverzeichnisses, der mehrstufigen Kategorien und Tags die gewünschte Detailverfolgungsebene aus.
     - icon: multiCurrencyIcon
-      title: Мультивалютный учет
-      description: 'Используйте столько валют, сколько Вам нужно. Создавайте свои валюты: паи, акции, доли и т.д.'
+      title: Mehrwährung
+      description: >
+        Use as many currencies as you need. Create your own currencies: shares, etc.
     - icon: planningIcon
-      title: Планирование
-      description: Запланируйте будущие разовые и регулярные (еженедельные, ежемесячные и т.д.) доходы и расходы и уже сегодня сможете оценить, сколько будет у Вас денег.
+      title: Planung
+      description: Planen Sie zukünftig einmalige und regelmäßige (wöchentlich, monatlich etc.) Einnahmen und Ausgaben und können Sie schon heute abschätzen, wie viel Geld Sie haben werden.
     - icon: budgetIcon
-      title: Домашний бюджет
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      title: Budget
+      description: Erstellen Sie ein Familienbudget und kontrollieren Sie dessen Ausführung*.
     - icon: securityIcon
-      title: Safety & security
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      title: Sicherheit
+      description: Ihre Finanzen, sicher und geschützt. Mit 256-Bit-Verschlüsselung schützen wir Ihre Daten, als wären es unsere eigenen.

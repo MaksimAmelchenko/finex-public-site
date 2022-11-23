@@ -6,6 +6,7 @@ import { Container } from '../../components/Container/Container';
 import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../Header/Header';
 import { Link } from '../../components/Link/Link';
+import { Seo } from '../../components/Seo/Seo';
 import { Topic } from './Topic/Topic';
 import { useT } from '../../lib/i18n';
 
@@ -23,7 +24,6 @@ interface IData {
 }
 
 import * as dataI18n from './data.yaml';
-import { Seo } from '../../components/Seo/Seo';
 
 export function HowItWorks(): JSX.Element {
   const { locale, defaultLang } = useLocalization();
@@ -32,7 +32,7 @@ export function HowItWorks(): JSX.Element {
 
   return (
     <>
-      <Seo title="Описание" lang={locale} />
+      <Seo title={t('Описание')} lang={locale} />
       <Header variant="light" />
       <Container>
         <h1 className={styles.header}>{t('Как работает FINEX')}</h1>
@@ -44,8 +44,8 @@ export function HowItWorks(): JSX.Element {
               </div>
 
               <div className={styles.feedback__text}>
-                {t('Остались вопросы?')} {t('Напишите нам в')} <Link to="/c">{t('сообщество')}</Link> {t('или')}
-                <Link to="mailto:support@finex.io"> {t('свяжитесь с нами')}</Link>
+                {t('Остались вопросы?')}
+                <Link to="mailto:support@finex.io"> {t('Напишите нам')}</Link>
               </div>
             </article>
           </aside>

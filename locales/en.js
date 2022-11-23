@@ -1,11 +1,16 @@
 module.exports = {
+  Footer: {
+    'Домашняя бухгалтерия FINEX': 'Online Money Management FINEX',
+  },
+  Home: {
+    'Узнать больше': 'Find out more',
+    'Начать пользоваться': 'Start using',
+  },
   HowItWork: {
-    'Как работает FINEX': 'Как работает FINEX',
-    'Остались вопросы?': 'Остались вопросы?',
-    'Напишите нам в': 'Напишите нам в',
-    сообщество: 'сообщество',
-    или: 'или',
-    'свяжитесь с нами': 'свяжитесь с нами',
+    Описание: 'How it works',
+    'Как работает FINEX': 'How FINEX works',
+    'Остались вопросы?': 'Do you have any questions?',
+    'Напишите нам': 'Contact us',
   },
   Jumbotron: {
     'Посмотреть как это работает': 'See how it works',

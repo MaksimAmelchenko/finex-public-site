@@ -2,28 +2,28 @@ ru:
   nav:
     - title: Как это работает
       link: /how-it-works
-    - title: Сообщество
-      link: https://finex.userecho.com
+    #    - title: Сообщество
+    #      link: https://finex.userecho.com
     - title: Вход
       link: https://app.finex.io/sing-in
     - title: Регистрация
       link: https://app.finex.io/sign-up
 en:
   nav:
-    - title: How it works
-      link: /how-it-works
-    - title: Community
-      link: https://finex.userecho.com
+    #    - title: How it works
+    #      link: /how-it-works
+    #    - title: Community
+    #      link: https://finex.userecho.com
     - title: Sign In
       link: https://app.finex.io/sing-in
     - title: Sign Up
       link: https://app.finex.io/sign-up
 de:
   nav:
-    - title: Wie es funktioniert
-      link: /how-it-works
-    - title: Gemeinschaft
-      link: https://finex.userecho.com
+    #    - title: Wie es funktioniert
+    #      link: /how-it-works
+    #    - title: Gemeinschaft
+    #      link: https://finex.userecho.com
     - title: Einloggen
       link: https://app.finex.io/sing-in
     - title: Registrieren
