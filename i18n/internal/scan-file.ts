@@ -6,6 +6,7 @@ import { Statement } from 'typescript';
 import { SyntaxKind } from 'typescript';
 
 const getTFunctionName = 'getT';
+const useTFunctionName = 'useT';
 
 export function scanFile(path: string) {
   const content = fs.readFileSync(path, 'utf8');
@@ -35,5 +36,44 @@ function extractScope(nodes: NodeArray<Statement>): string {
     return (getTCall as any).declarationList.declarations[0].initializer.arguments[0].text;
   }
 
+  for (const node of nodes) {
+    const scope = traversal(node);
+    if (scope) {
+      return scope;
+    }
+  }
+
   return '';
+}
+
+function traversal(node): string | undefined {
+  if (
+    node.kind === SyntaxKind.VariableDeclaration &&
+    node.name.escapedText === 't' &&
+    node.initializer.expression.escapedText === useTFunctionName
+  ) {
+    return node.initializer.arguments[0].text;
+  }
+
+  for (const [, child] of Object.entries(node)) {
+    // could be an array of nodes or just a node
+    if (Array.isArray(child)) {
+      for (let j = 0; j < child.length; j++) {
+        const result = traversal(child[j]);
+        if (result) {
+          return result;
+        }
+      }
+    } else if (isNode(child)) {
+      const result = traversal(child);
+      if (result) {
+        return result;
+      }
+    }
+  }
+  return undefined;
+}
+
+function isNode(node) {
+  return typeof node === 'object';
 }

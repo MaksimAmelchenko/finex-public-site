@@ -1,12 +1,16 @@
 import I18n, { ToCurrencyOptions } from 'i18n-js';
-import { TDate } from '../../types';
 import dateFormat from 'date-fns/format';
 import dateParseISO from 'date-fns/parseISO';
-import get from 'lodash.get';
 import deepmerge from 'deepmerge';
+import get from 'lodash.get';
+import { useCallback } from 'react';
+import { useLocalization } from 'gatsby-theme-i18n';
 
+import deLocale from 'date-fns/locale/de';
 import enLocale from 'date-fns/locale/en-US';
 import ruLocale from 'date-fns/locale/ru';
+
+import { TDate } from '../types';
 
 const scopeSeparator = '.';
 
@@ -15,6 +19,7 @@ function normalizeKey(text: string): string {
 }
 
 const locales = {
+  de: deLocale,
   en: enLocale,
   ru: ruLocale,
 };
@@ -30,17 +35,10 @@ export type TFunction = (phrase: string, params?: TParams) => string;
 /**
  * Initialize global I18n with translations
  */
-export function initializeI18n(
-  translations: { [key: string]: any },
-  currentLocale: string,
-  defaultLocale: string,
-  pluralization?: any
-) {
+export function initializeI18n(translations: { [key: string]: any }, defaultLocale: string, pluralization?: any) {
   I18n.fallbacks = true;
   I18n.translations = translations;
   I18n.pluralization = pluralization;
-  // I18n.defaultSeparator = scopeSeparator;
-  I18n.locale = currentLocale;
   I18n.defaultLocale = defaultLocale;
 }
 
@@ -84,17 +82,25 @@ export function getWeek(): string[] {
 /**
  * Initialize with scope and get t() function
  * This function should be called in every file you need translator like this:
- * const t = getT('scope');
+ * const t = useT('scope');
  * @param scope
  */
-export function getT(scope: string): TFunction {
-  return function (phrase: string, params?: TParams) {
-    const translatorParams = { defaultValue: process.env.NODE_ENV === 'development' ? `{${phrase}}` : `${phrase}` };
 
-    if (params) {
-      Object.assign(translatorParams, params);
-    }
+export function useT(scope: string): any {
+  const { locale } = useLocalization();
 
-    return I18n.translate(`${scope}${scopeSeparator}${normalizeKey(phrase)}`, translatorParams);
-  };
+  return useCallback(
+    (phrase: string, params?: TParams) => {
+      const translatorParams = {
+        defaultValue: process.env.NODE_ENV === 'development' ? `{${phrase}}` : `${phrase}`,
+      };
+
+      if (params) {
+        Object.assign(translatorParams, params);
+      }
+      I18n.locale = locale;
+      return I18n.translate(`${scope}${scopeSeparator}${normalizeKey(phrase)}`, translatorParams);
+    },
+    [locale]
+  );
 }

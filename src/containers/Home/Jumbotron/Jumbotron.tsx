@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
-import { getT } from '../../../lib/i18n';
+import { useT } from '../../../lib/i18n';
 
 import rocketSvg from './assets/rocket.svg';
 
@@ -20,9 +20,9 @@ interface IJumbotronProps {
   className: string;
 }
 
-const t = getT('Jumbotron');
-
 export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProps) {
+  const t = useT('Jumbotron');
+
   return (
     <section className={clsx(styles.jumbotron, className)}>
       <Container>

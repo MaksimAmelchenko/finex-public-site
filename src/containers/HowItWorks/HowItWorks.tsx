@@ -7,7 +7,7 @@ import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../Header/Header';
 import { Link } from '../../components/Link/Link';
 import { Topic } from './Topic/Topic';
-import { getT } from '../../lib/i18n';
+import { useT } from '../../lib/i18n';
 
 import { ReactComponent as Logo } from '../../components/Icons/logo.svg';
 
@@ -25,11 +25,10 @@ interface IData {
 import * as dataI18n from './data.yaml';
 import { Seo } from '../../components/Seo/Seo';
 
-const t = getT('HowItWork');
-
 export function HowItWorks(): JSX.Element {
   const { locale, defaultLang } = useLocalization();
   const { topics }: IData = dataI18n[locale] || dataI18n[defaultLang];
+  const t = useT('HowItWork');
 
   return (
     <>

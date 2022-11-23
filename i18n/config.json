@@ -1,7 +1,7 @@
 [
   {
     "code": "ru",
-    "hrefLang": "ru-RU",
+    "hrefLang": "ru",
     "name": "Russian",
     "localName": "Ru",
     "langDir": "ltr",
@@ -9,7 +9,7 @@
   },
   {
     "code": "en",
-    "hrefLang": "en-US",
+    "hrefLang": "en",
     "name": "English",
     "localName": "En",
     "langDir": "ltr",
@@ -17,7 +17,7 @@
   },
   {
     "code": "de",
-    "hrefLang": "de-DE",
+    "hrefLang": "de",
     "name": "German",
     "localName": "De",
     "langDir": "ltr",
