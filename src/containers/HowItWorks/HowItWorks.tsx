@@ -9,7 +9,7 @@ import { Link } from '../../components/Link/Link';
 import { Topic } from './Topic/Topic';
 import { getT } from '../../lib/i18n';
 
-import Logo from '../../components/Icons/Logo.inline.svg';
+import { ReactComponent as Logo } from '../../components/Icons/logo.svg';
 
 import styles from './HowItWorks.module.scss';
 

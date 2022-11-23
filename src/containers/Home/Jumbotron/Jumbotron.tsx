@@ -6,7 +6,7 @@ import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
 import { getT } from '../../../lib/i18n';
 
-import Rocket from './assets/Rocket.inline.svg';
+import rocketSvg from './assets/rocket.svg';
 
 import styles from './Jumbotron.module.scss';
 
@@ -43,7 +43,7 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
         <div className={clsx(styles.jumbotron__quickStart, styles.quickStart)}>
           <div className={clsx(styles.quickStart__rocket, styles.rocket)}>
             <div className={styles.rocket__icon}>
-              <Rocket />
+              <img src={rocketSvg} alt="Rocket" />
             </div>
           </div>
           <div className={styles.quickStart__text}>

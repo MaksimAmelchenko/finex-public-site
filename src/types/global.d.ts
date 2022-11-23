@@ -10,7 +10,9 @@ declare module '*.scss' {
 
 declare module '*.svg' {
   const content: any;
+  const ReactComponent: any;
   export default content;
+  export { ReactComponent };
 }
 
 declare module '*.jpg' {

@@ -4,8 +4,8 @@ import clsx from 'clsx';
 
 import { Container } from '../Container/Container';
 
-import FbIcon from './assets/Fb.inline.svg';
-import VkIcon from './assets/Vk.inline.svg';
+// import fbSvg from './assets/fb.svg';
+// import vkSvg from './assets/vk.svg';
 
 import styles from './Footer.module.scss';
 
@@ -19,10 +19,10 @@ export function Footer({ className }: IFooterProps) {
       <Container>
         {/*<div className={clsx(styles.footer__social, styles.social)}>*/}
         {/*  <a className={styles.social__link} href="#">*/}
-        {/*    <FbIcon />*/}
+        {/*    <img src={fbSvg} alt="Facebook" />*/}
         {/*  </a>*/}
         {/*  <a className={styles.social__link} href="#">*/}
-        {/*    <VkIcon />*/}
+        {/*    <img src={vkSvg} alt="VK" />*/}
         {/*  </a>*/}
         {/*</div>*/}
         <div className={styles.footer__copyright}>Домашняя бухгалтерия FINEX © {new Date().getFullYear()}</div>
