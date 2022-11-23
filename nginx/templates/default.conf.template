@@ -1,0 +1,30 @@
+server {
+  listen 80;
+
+  charset utf-8;
+  server_name localhost;
+
+  root "/usr/share/nginx/html";
+
+  try_files $uri $uri/index.html $uri/ =404;
+
+  location /health-check {
+    access_log off;
+    return 200;
+  }
+
+  # Media: images, icons, video, audio
+  location ~* \.(?:png|gif|jpe?g|webp|webm|ico|svg)$ {
+    expires 30d;
+    add_header Cache-Control "public";
+  }
+
+  location ~* \.(?:css|js)$ {
+    expires max;
+    add_header Cache-Control "public";
+  }
+
+  location =/index.html {
+    add_header X-Version ${VERSION};
+  }
+}
