@@ -9,6 +9,7 @@ import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../Header/Header';
 import { Jumbotron } from './Jumbotron/Jumbotron';
 import { Seo } from '../../components/Seo/Seo';
+import { useScrollToTop } from '../../lib/use-scroll-to-top';
 import { useT } from '../../lib/i18n';
 
 import * as dataI18n from './data.yaml';
@@ -31,6 +32,8 @@ export const Home = () => {
   const { locale } = useLocalization();
   const { jumbotron, features }: IData = dataI18n[locale];
   const t = useT('Home');
+
+  useScrollToTop();
 
   return (
     <>
