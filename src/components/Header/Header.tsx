@@ -67,14 +67,14 @@ export function Header({ navItems, variant = 'default', className }: IHeaderProp
               </ul>
 
               <div className={clsx(styles.menu__languages, styles.languages)}>
-                {config.map((lang, index, array) => {
+                {config.map(lang => {
                   return (
                     <a
                       href={`/${lang.code === defaultLang ? '' : lang.code}`}
                       className={styles.languages__item}
                       key={lang.code}
                     >
-                      {index < array.length - 1 ? `${lang.localName} | ` : lang.localName}
+                      {lang.localName}
                     </a>
                   );
                 })}

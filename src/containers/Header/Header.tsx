@@ -11,11 +11,12 @@ interface IData {
 
 interface IHeaderProps {
   variant?: 'default' | 'light';
+  className?: string;
 }
 
-export function Header({ variant = 'default' }: IHeaderProps): JSX.Element {
+export function Header({ variant = 'default', className }: IHeaderProps): JSX.Element {
   const { locale } = useLocalization();
   const { nav }: IData = dataI18n[locale];
 
-  return <HeaderBase navItems={nav} variant={variant} />;
+  return <HeaderBase navItems={nav} variant={variant} className={className} />;
 }
