@@ -18,6 +18,13 @@ module.exports = {
   Jumbotron: {
     'Посмотреть как это работает': 'See how it works',
   },
+  PriceCard: {
+    'until cancelled': 'until cancelled',
+  },
+  Pricing: {
+    'FINEX Pricing': 'FINEX Pricing',
+    'Get started for free with 14 day trial period': 'Get started for free with 14 day trial period',
+  },
   Seo: {
     'FINEX_io Домашняя бухгалтерия': 'FINEX | Budget Tracker & Planner | Online Money Management',
     'Управляйте своими финансами с помощью домашней бухгалтерии FINEX_ Контролируйте ваши расходы и придите к успешному финансовому будущему_':

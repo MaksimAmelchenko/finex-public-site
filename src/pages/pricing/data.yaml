@@ -1,0 +1,23 @@
+ru:
+  cards:
+    - title: Ежемесячная подписка
+      description: >
+        <p>&nbsp</p>
+      price: 129 &#8381;/месяц
+      buttonTitle: Подписаться
+    - title: Годовая подписка
+      description: >
+        <p>Сохраните <strong>20%</strong> с годовой подпиской.</p>
+      price: 1238 &#8381;/год
+      buttonTitle: Подписаться
+en:
+  cards:
+    - title: Ежемесячная подписка
+      description:
+      price: 129 &#8381;/месяц
+      buttonTitle: Start trial
+    - title: Годовая подписка
+      description: >
+        <p>Сохраните <strong>20%</strong> с годовой подпиской.</p>
+      price: 1238 &#8381;/год
+      buttonTitle: Start trial

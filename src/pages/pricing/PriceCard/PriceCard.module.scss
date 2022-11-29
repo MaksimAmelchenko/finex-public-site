@@ -1,0 +1,39 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 5px 75px rgba(43, 55, 79, 0.1);
+  padding: 2.4rem;
+  &__header {
+    @include typography.h2;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  &__description {
+    @include typography.body1;
+    color: colors.$black;
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__cancelText {
+    color: gray;
+    margin: 0.8rem 0 3.2rem;
+  }
+
+  &__button {
+    align-self: start;
+
+    @include media.phone {
+      align-self: stretch;
+    }
+  }
+}

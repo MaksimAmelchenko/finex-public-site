@@ -1,0 +1,39 @@
+@use 'src/styles/colors';
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  overflow: hidden;
+
+  @include media.tablet {
+    grid-template-rows: 1fr auto;
+  }
+}
+
+.header {
+  position: relative;
+  background: #005eaf;
+
+  @include media.tablet {
+    position: fixed;
+  }
+}
+
+.priceSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem 0;
+  gap: 4rem;
+
+  &__priceCard {
+  }
+
+  @include media.phone {
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 0;
+  }
+}

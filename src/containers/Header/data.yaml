@@ -2,6 +2,8 @@ ru:
   nav:
     - title: Как это работает
       link: /how-it-works
+    - title: Цена
+      link: /pricing
     #    - title: Сообщество
     #      link: https://finex.userecho.com
     - title: Вход
