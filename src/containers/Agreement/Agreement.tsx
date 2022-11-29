@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLocalization } from 'gatsby-theme-i18n';
 
-import { Container } from '../../../components/Container/Container';
-import { Footer } from '../../../components/Footer/Footer';
-import { Header } from '../../../containers/Header/Header';
-import { Seo } from '../../../components/Seo/Seo';
-import { THtml } from '../../../types';
-import { useScrollToTop } from '../../../lib/use-scroll-to-top';
+import { Container } from '../../components/Container/Container';
+import { Footer } from '../../components/Footer/Footer';
+import { Header } from '../Header/Header';
+import { Seo } from '../../components/Seo/Seo';
+import { THtml } from '../../types';
+import { useScrollToTop } from '../../lib/use-scroll-to-top';
 
 import * as dataI18n from './data.yaml';
 
@@ -15,9 +15,9 @@ interface IPage {
   content: THtml;
 }
 
-import styles from './privacy.module.scss';
+import styles from './Agreement.module.scss';
 
-export default function Privacy(): JSX.Element {
+export function Agreement(): JSX.Element {
   const { locale, defaultLang } = useLocalization();
   const { title, content }: IPage = dataI18n[locale] || dataI18n[defaultLang];
 

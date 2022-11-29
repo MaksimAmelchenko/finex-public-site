@@ -3,7 +3,7 @@ import { useLocalization } from 'gatsby-theme-i18n';
 
 import { Container } from '../../components/Container/Container';
 import { Footer } from '../../components/Footer/Footer';
-import { Header } from '../../containers/Header/Header';
+import { Header } from '../Header/Header';
 import { Jumbotron } from './Jumbotron/Jumbotron';
 import { PriceCard } from './PriceCard/PriceCard';
 import { Seo } from '../../components/Seo/Seo';
@@ -22,7 +22,7 @@ interface ICard {
   buttonTitle: string;
 }
 
-export default function Pricing(): JSX.Element {
+export function Pricing(): JSX.Element {
   const { locale, defaultLang } = useLocalization();
 
   const { cards }: { cards: ICard[] } = dataI18n[locale] || dataI18n[defaultLang];
