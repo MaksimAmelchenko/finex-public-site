@@ -12,11 +12,11 @@ interface ISeoProps {
 
 export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JSX.Element {
   const t = useT('Seo');
-  const defaultTitle = t('FINEX.io Домашняя бухгалтерия');
+  const defaultTitle = t('FINEX | Budget Tracker & Planner | Online Money Management');
   const metaDescription =
     description ||
     t(
-      'Управляйте своими финансами с помощью домашней бухгалтерии FINEX. Контролируйте ваши расходы и придите к успешному финансовому будущему.'
+      'Take charge of your finances with FINEX online budget planner. Understand your spending and come to a successful financial future.'
     );
 
   return (

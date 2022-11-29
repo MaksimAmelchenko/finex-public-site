@@ -26,8 +26,9 @@ module.exports = {
     'Get started for free with 14 day trial period': 'Get started for free with 14 day trial period',
   },
   Seo: {
-    'FINEX_io Домашняя бухгалтерия': 'FINEX | Budget Tracker & Planner | Online Money Management',
-    'Управляйте своими финансами с помощью домашней бухгалтерии FINEX_ Контролируйте ваши расходы и придите к успешному финансовому будущему_':
+    'FINEX | Budget Tracker & Planner | Online Money Management':
+      'FINEX | Budget Tracker & Planner | Online Money Management',
+    'Take charge of your finances with FINEX online budget planner_ Understand your spending and come to a successful financial future_':
       'Take charge of your finances with FINEX online budget planner. Understand your spending and come to a successful financial future.',
   },
 };
