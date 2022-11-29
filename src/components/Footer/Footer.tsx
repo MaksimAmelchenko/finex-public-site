@@ -19,7 +19,7 @@ export function Footer({ className }: IFooterProps) {
 
   return (
     <footer className={clsx(styles.footer, className)}>
-      <Container>
+      <Container className={styles.container}>
         {/*<div className={clsx(styles.footer__social, styles.social)}>*/}
         {/*  <a className={styles.social__link} href="#">*/}
         {/*    <img src={fbSvg} alt="Facebook" />*/}
@@ -29,7 +29,19 @@ export function Footer({ className }: IFooterProps) {
         {/*  </a>*/}
         {/*</div>*/}
         <div className={styles.footer__copyright}>
-          {t('Домашняя бухгалтерия FINEX')} © {new Date().getFullYear()}
+          © {new Date().getFullYear()} {t('Online money management FINEX')}
+        </div>
+
+        <div className={clsx(styles.footer__legalLinks, styles.legalLinks)}>
+          <a className={styles.legalLinks__link} href="/legal/agreement/">
+            {t('Agreement')}
+          </a>
+          <a className={styles.legalLinks__link} href="/legal/privacy/">
+            {t('Privacy Policy')}
+          </a>
+          <a className={styles.legalLinks__link} href="/legal/terms/">
+            {t('Terms of Use')}
+          </a>
         </div>
       </Container>
     </footer>

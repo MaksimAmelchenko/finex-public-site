@@ -1,0 +1,10 @@
+@use 'src/styles/typography';
+
+.page {
+  overflow: hidden;
+}
+
+.content {
+  margin-top: 8rem;
+  @include typography.body2;
+}

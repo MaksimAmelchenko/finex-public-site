@@ -1,6 +1,9 @@
 module.exports = {
   Footer: {
-    'Домашняя бухгалтерия FINEX': 'Online-Geldverwaltung FINEX',
+    'Online money management FINEX': 'Online money management FINEX',
+    Agreement: 'Agreement',
+    'Privacy Policy': 'Privacy Policy',
+    'Terms of Use': 'Terms of Use',
   },
   Home: {
     'Узнать больше': 'Finde mehr heraus',
