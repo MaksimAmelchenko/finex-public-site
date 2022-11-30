@@ -70,7 +70,7 @@ export function Header({ navItems, variant = 'default', className }: IHeaderProp
                 {config.map(lang => {
                   return (
                     <a
-                      href={`/${lang.code === defaultLang ? '' : lang.code}`}
+                      href={`/${lang.code === defaultLang ? '' : lang.code + '/'}`}
                       className={styles.languages__item}
                       key={lang.code}
                     >
