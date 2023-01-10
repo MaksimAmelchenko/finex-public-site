@@ -1,5 +1,7 @@
 import 'normalize.css';
 import './src/styles/global.css';
+import '@fontsource/nunito';
+import '@fontsource/nunito/600.css';
 
 import { initializeI18n } from './src/lib/i18n';
 

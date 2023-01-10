@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@fontsource/nunito": "^4.5.11",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-links": "^6.5.13",
