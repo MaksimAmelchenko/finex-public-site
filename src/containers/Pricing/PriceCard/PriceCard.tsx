@@ -2,7 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 
 import { Button } from '../../../components/Button/Button';
-import { useScrollToTop } from '../../../lib/use-scroll-to-top';
 import { useT } from '../../../lib/i18n';
 
 import styles from './PriceCard.module.scss';
@@ -17,8 +16,6 @@ interface PriceProps {
 
 export function PriceCard({ title, description, price, buttonTitle, className }: PriceProps): JSX.Element {
   const t = useT('PriceCard');
-
-  useScrollToTop();
 
   return (
     <div className={clsx(styles.card, className)}>
