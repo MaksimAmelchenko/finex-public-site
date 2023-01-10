@@ -28,7 +28,6 @@
   }
 
   &__logo {
-    width: 125px;
     line-height: 1;
     @include media.tablet {
       display: flex;
@@ -46,7 +45,13 @@
 }
 
 .logo {
-  color: inherit;
+  display: block;
+  filter: drop-shadow(0 0 3.2rem #ffffff);
+  height: 4rem;
+  img {
+    height: 100%;
+    width: auto;
+  }
 }
 
 .menu {

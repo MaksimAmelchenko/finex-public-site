@@ -5,7 +5,7 @@ import { useLocalization } from 'gatsby-theme-i18n';
 import { Container } from '../Container/Container';
 import { Link } from '../Link/Link';
 
-import { ReactComponent as Logo } from './assets/logo.svg';
+import { default as logoSvg } from './assets/logo.svg';
 
 import styles from './Header.module.scss';
 
@@ -48,7 +48,7 @@ export function Header({ navItems, variant = 'default', className }: IHeaderProp
 
           <div className={styles.header__logo}>
             <Link to="/" className={styles.logo} aria-label="Go to home page">
-              <Logo alt="FINEX.io" />
+              <img src={logoSvg} alt="FINEX.io" />
             </Link>
           </div>
 
