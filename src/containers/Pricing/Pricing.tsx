@@ -59,6 +59,19 @@ export function Pricing(): JSX.Element {
               />
             ))}
           </section>
+          <section>
+            <p>
+              Реквизиты:
+              <br />
+              Наименование: ИП Амельченко Максим Николаевич
+              <br />
+              ИНН: 222405072950
+              <br />
+              ОГРНИП: 312222328900051
+              <br />
+              E-mail: <a href="mailto:support@finex.io">support@finex.io</a>
+            </p>
+          </section>
         </Container>
       </main>
       <Footer />
