@@ -4,7 +4,7 @@ ru:
     subTitle: Онлайн программа, которая поможет вам добиться финансового успеха
     rocket:
       title: Быстрый старт
-      text: С легкостью организуйте свои финансы с помощью нашего удобного инструмента управления личными финансами. Зарегистрируйтесь сейчас и управляйте своими деньгами!
+      text: С легкостью организуйте свои финансы с помощью нашего удобного инструмента управления личными финансами. Зарегистрируйтесь сейчас и добейтесь финансового успеха!
   features:
     - icon: cashFlowIcon
       title: Денежные потоки
@@ -86,7 +86,7 @@ en:
     subTitle: An online program that will help you achieve financial success.
     rocket:
       title: Quick start
-      text: Effortlessly organize your finances with our user-friendly personal finance management tool. Sign up now and take control of your money!
+      text: Effortlessly organize your finances with our user-friendly personal finance management tool. Sign up now and achieve financial success!
   features:
     - icon: cashFlowIcon
       title: Cash Flows
