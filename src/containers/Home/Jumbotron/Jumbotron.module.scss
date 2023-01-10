@@ -16,7 +16,6 @@
     margin-top: 70px;
     @include media.phone {
       margin-top: 30px;
-      height: 80px;
     }
   }
 
@@ -40,7 +39,6 @@
 
   &__mobile-image {
     display: none;
-    margin-top: 30px;
 
     @include media.phone {
       display: block;
