@@ -34,7 +34,7 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
             {title}
             <span className={styles.header__logotype}>FINEX</span>
           </h1>
-          <div className={styles.header__description}>{subTitle}</div>
+          <p className={styles.header__description}>{subTitle}</p>
         </div>
 
         <div className={styles.jumbotron__mobileImage}>
@@ -50,7 +50,7 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
             </div>
           </div>
           <div className={styles.quickStart__text}>
-            <div className={styles.quickStart__title}>{rocket.title}</div>
+            {/*<div className={styles.quickStart__title}>{rocket.title}</div>*/}
             <div className={styles.quickStart__description} dangerouslySetInnerHTML={{ __html: rocket.text }} />
           </div>
         </div>

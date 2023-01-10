@@ -1,100 +1,240 @@
 ru:
   jumbotron:
-    title: Домашняя бухгалтерия
-    subTitle: Онлайн программа, которая поможет Вам добиться финансового успеха
+    title: Управление финансами с
+    subTitle: Онлайн программа, которая поможет вам добиться финансового успеха
     rocket:
       title: Быстрый старт
-      text: Вы уже пользуетесь другой домашней бухгалтерией? <br/> Загрузите Ваши данные и продолжайте вести учет
+      text: С легкостью организуйте свои финансы с помощью нашего удобного инструмента управления личными финансами. Зарегистрируйтесь сейчас и управляйте своими деньгами!
   features:
     - icon: cashFlowIcon
       title: Денежные потоки
-      description: Денежные потоки позволяют группировать доходы и расходы.
+      description: >
+        <p>
+          Отслеживайте и анализируйте результат групп транзакций.
+        </p>
+        <p>
+          Например, если вы владеете арендуемой недвижимостью, вы можете использовать денежный поток, чтобы увидеть доходы от аренды и расходы на содержание собственности в одном месте.
+          Это может помочь вам оценить финансовые показатели вашей сдаваемой в аренду недвижимости и принять обоснованное решение о ваших инвестициях.
+        </p>
     - icon: projectsIcon
       title: Проекты
-      description: Ведите столько бухгалтерий (проектов), сколько Вам нужно. <br/> Создавайте личные или общие проекты для всех членов семьи.
+      description: >
+        <p>
+          «Проект» — это специальное место, где вы можете отслеживать все финансы вашей семьи или вашего рабочего проекта.
+        </p>
+        <p>
+          Каждый проект полностью отделен от других, поэтому вы можете сосредоточиться только на нем.
+          Вы также можете пригласить других людей, например вашего партнера или членов семьи, чтобы помочь вам управлять финансами проекта.
+        </p>
     - icon: multiUserIcon
-      title: Многопользовательский учет
-      description: Ведите учет совместно с другими членами семьи. Давайте права на просмотр и/или редактирование только на определенные счета или проекты.
+      title: Совместный учет
+      description: >
+        <p>
+           Сотрудничайте и управляйте финансами с другими членами семьи или доверенными лицами. Предоставьте другим пользователям доступ к просмотру и/или редактированию определенного счета или проекта.
+        </p>
+        <p>
+           Например, предоставьте вашему партнеру доступ только для просмотра вашего расчетного счета. Делегируйте финансовые обязанности и сотрудничайте в достижении финансовых целей с другими, сохраняя при этом контроль над своей личной финансовой информацией.
+        </p>
     - icon: detailsIcon
       title: Детализация учета
-      description: Используя справочник контрагентов, многоуровневые категории и теги выбирайте нужный вам уровень детализации учета.
-    - icon: multiCurrencyIcon
-      title: Мультивалютный учет
       description: >
-        Используйте столько валют, сколько Вам нужно. Создавайте свои валюты: паи, акции, доли и т.д.
+        <p>
+           Используйте каталог контрагентов, многоуровневые категории и теги, чтобы выбрать уровень детализации, который лучше всего подходит для вас.
+        </p>
+        <p>
+           Например, вы можете использовать справочник контрагентов, чтобы отслеживать все ваши транзакции с конкретным магазином или поставщиком услуг.
+           Вы можете использовать многоуровневые категории. Например для категории «Спорт и активность» добавить подкатегории «Членство в тренажерном зале» или «Персональные тренировки» для организации ваших транзакций.
+           Вы также можете использовать теги, чтобы добавить дополнительную информацию или примечания к своим транзакциям.
+        </p>
+    - icon: multiCurrencyIcon
+      title: Мультивалютные счета
+      description: >
+        <p>
+          С легкостью управляйте своими финансами в нескольких валютах. Наш сервис позволяет вам использовать традиционные фиатные валюты, а также другие финансовые активы, такие как криптовалюта, акции и многое другое.
+        </p>
+        <p>
+          Вы можете легко переключаться между ними и иметь полное представление о своем финансовом положении.
+        </p>
     - icon: planningIcon
       title: Планирование
       description: >
-        Запланируйте будущие разовые и регулярные (еженедельные, ежемесячные и т.д.) доходы и расходы и уже сегодня сможете оценить, сколько будет у вас денег.
+        <p>
+          Заранее планируйте свои финансы, создавая и управляя разовыми и регулярными финансовыми транзакциями.
+        </p>
+        <p>
+          Получите оценку ваших будущих средств и используйте эту функцию, чтобы добиваться постановленных финансовых целей.
+        </p>
     - icon: budgetIcon
       title: Домашний бюджет
-      description: Создавайте семейный бюджет и контролируйте его выполнение*.
+      description: >
+        <p>
+          Возьмите под контроль свои финансы. Создайте бюджет для различных расходов, таких как продукты, развлечения и транспорт, и отслеживайте свои расходы в режиме реального времени.
+        </p>
+        <p>
+          Определите области, в которых вы можете перерасходовать средства, и внесите коррективы, чтобы достичь целей экономии.
+        </p>
     - icon: securityIcon
       title: Безопасность и надежность
-      description: Ваши финансы в безопасности. С 256-битным шифрованием мы защитить вашу информацию, как если бы она была нашей собственной.
+      description: >
+        <p>
+          Безопасность – важнейший аспект нашего сервиса.
+          Мы гарантируем, что ваша финансовая информация защищена с помощью передовых мер безопасности, таких как брандмауэры и регулярные проверки безопасности, для предотвращения несанкционированного доступа к вашим данным.
+        </p>
 en:
   jumbotron:
-    title: Online Money Management
+    title: Manage Money Easily with
     subTitle: An online program that will help you achieve financial success.
     rocket:
       title: Quick start
-      text: Are you already using another home bookkeeping service? <br/> Upload your data and continue to keep records
+      text: Effortlessly organize your finances with our user-friendly personal finance management tool. Sign up now and take control of your money!
   features:
     - icon: cashFlowIcon
       title: Cash Flows
-      description: Cash flows allow you to group income and expenses.
+      description: >
+        <p>
+          Track and analyze the outcome of a long-term group of transactions.
+        </p>
+        <p>
+          For example, if you own rental property, you can use the cash flow to see the income from rent and expenses for maintaining the property all in one place.
+          This can help you assess the financial performance of your rental properties and make informed decisions about your investments.
+        </p>
     - icon: projectsIcon
       title: Projects
-      description: Manage as many projects as you need. <br/> Create personal or shared projects for all family members.
+      description: >
+        <p>
+          The 'project' is a special place where you can keep track of all the financial details for your household or a specific work project.
+        </p>
+        <p>
+          Each project is totally separate from the others, so you can focus on one thing at a time.
+          You can also invite other people, like your partner or family members, to help you manage the finances for a project.
+        </p>
     - icon: multiUserIcon
       title: Multiple users
-      description: Manage finances with other family members. Give viewing and/or editing access rights only to certain accounts or projects.
+      description: >
+        <p>
+          Collaborate and manage finances with other family members or trusted individuals. Grant viewing and/or editing access to specific accounts or projects within your account to other users.
+        </p>
+        <p>
+          For example, grant your partner view-only access to your checking account. Delegate financial responsibilities and collaborate on financial goals with others while maintaining control over your personal financial information.
+        </p>
     - icon: detailsIcon
       title: Detailed tracking
-      description: Using the directory of counterparties, multi-level categories and tags, choose the level of tracking detail you need.
+      description: >
+        <p>
+          Use a directory of counterparties, multi-level categories, and tags to choose the level of detail that works best for you.
+        </p>
+        <p>
+          For example, you can use the directory of counterparties to keep track of all your transactions with a specific vendor or service provider.
+          You can use multi-level categories, such as subcategories of the 'Activities' category, like 'Gym memberships' or 'Personal training sessions', to organize your transactions.
+          And you can use tags to add extra information or notes to your transactions.
+        </p>
     - icon: multiCurrencyIcon
       title: Multicurrency
       description: >
-        Use as many currencies as you need. Create your own currencies: shares, stocks, etc.
+        <p>
+          Manage your finances in multiple currencies with ease. Our service allows you to use traditional fiat currencies as well as other financial assets like crypto, shares, and more.
+        </p>
+        <p>
+          You can switch between them easily and see the comprehensive view of your financial situation.
+        </p>
     - icon: planningIcon
       title: Planning
-      description: Plan future one-time and regular (weekly, monthly, etc.) income and expenses and already today you can estimate how much money you will have.
+      description: >
+        <p>
+          Plan ahead for your finances by creating and managing one-time and regular financial transactions.
+        </p>
+        <p>
+          Get an estimate of your future funds and use this feature to aid in budgeting, goal-setting and financial planning.
+        </p>
     - icon: budgetIcon
       title: Budget
-      description: Create a family budget and control its execution*.
+      description: >
+        <p>
+          Take control of your finances. Create a budget for various expenses, such as groceries, entertainment, and transportation, and track your spending against it in real-time.
+        </p>
+        <p>
+          Identify areas where you may be overspending and make adjustments to reach your saving goals.
+        </p>
     - icon: securityIcon
       title: Safety & security
-      description: Your finances, safe and secure. With 256-bit encryption we protect your info as if it’s our own.
+      description: >
+        <p>
+          Safety and Security is a crucial aspect of our service.
+          We ensure that your financial information is protected with advanced security measures, such as firewalls and regular security audits, to prevent unauthorized access to your data.
+        </p>
 de:
   jumbotron:
-    title: Online-Geldverwaltung
+    title: Verwalten Sie Geld einfach mit
     subTitle: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
     rocket:
       title: Schnellstart
-      text: Nutzen Sie bereits einen anderen Hausbuchhaltungsservice? <br/> Laden Sie Ihre Daten hoch und führen Sie weiterhin Aufzeichnungen
+      text: Organisieren Sie mühelos Ihre Finanzen mit unserem benutzerfreundlichen persönlichen Finanzverwaltungstool. Melden Sie sich jetzt an und übernehmen Sie die Kontrolle über Ihr Geld!
   features:
     - icon: cashFlowIcon
       title: Cashflows
-      description: Cashflows ermöglichen es Ihnen, Einnahmen und Ausgaben zu gruppieren.
+      description: >
+        <p>
+          Verfolgen und analysieren Sie das Ergebnis einer langfristigen Gruppe von Transaktionen.
+        </p>
+        <p>
+          Wenn Sie beispielsweise eine Mietimmobilie besitzen, können Sie anhand des Cashflows die Mieteinnahmen und Ausgaben für die Instandhaltung der Immobilie an einem Ort anzeigen.
+          Dies kann Ihnen helfen, die finanzielle Leistung Ihrer Mietobjekte zu beurteilen und fundierte Entscheidungen über Ihre Investitionen zu treffen.
+        </p>
     - icon: projectsIcon
       title: Projekte
-      description: Verwalten Sie so viele Projekte, wie Sie benötigen. <br/> Erstellen Sie persönliche oder gemeinsame Projekte für alle Familienmitglieder.
+      description: >
+        <p>
+          Das „Projekt“ ist ein besonderer Ort, an dem Sie alle finanziellen Details für Ihren Haushalt oder ein bestimmtes Arbeitsprojekt verfolgen können.
+        </p>
+        <p>
+          Jedes Projekt ist vollständig von den anderen getrennt, sodass Sie sich jeweils auf eine Sache konzentrieren können.
+          Sie können auch andere Personen wie Ihren Partner oder Familienmitglieder einladen, Ihnen bei der Verwaltung der Finanzen für ein Projekt zu helfen.
+        </p>
     - icon: multiUserIcon
       title: Mehrere Benutzer
-      description: Verwalten Sie die Finanzen mit anderen Familienmitgliedern. Gewähren Sie nur bestimmten Konten oder Projekten Zugriffsrechte zum Anzeigen und/oder Bearbeiten.
+      description: >
+        <p>
+          Arbeiten Sie mit anderen Familienmitgliedern oder vertrauenswürdigen Personen zusammen und verwalten Sie Finanzen. Gewähren Sie anderen Benutzern Anzeige- und/oder Bearbeitungszugriff auf bestimmte Konten oder Projekte innerhalb Ihres Kontos.
+        </p>
+        <p>
+          Gewähren Sie Ihrem Partner beispielsweise nur Lesezugriff auf Ihr Girokonto. Delegieren Sie finanzielle Verantwortlichkeiten und arbeiten Sie mit anderen an finanziellen Zielen zusammen, während Sie die Kontrolle über Ihre persönlichen Finanzinformationen behalten.
+        </p>
     - icon: detailsIcon
       title: Detaillierte Verfolgung
-      description: Wählen Sie mithilfe des Kontrahentenverzeichnisses, der mehrstufigen Kategorien und Tags die gewünschte Detailverfolgungsebene aus.
+      description: >
+        <p>
+          Verwenden Sie ein Verzeichnis von Kontrahenten, mehrstufige Kategorien und Tags, um die Detailebene auszuwählen, die für Sie am besten geeignet ist.
+        </p>
+        <p>
+          Beispielsweise können Sie das Kontrahentenverzeichnis verwenden, um alle Ihre Transaktionen mit einem bestimmten Anbieter oder Dienstleister zu verfolgen.
+          Sie können mehrstufige Kategorien verwenden, z. B. Unterkategorien der Kategorie „Aktivitäten“, wie z. B. „Mitgliedschaft im Fitnessstudio“ oder „Persönliche Trainingseinheiten“, um Ihre Transaktionen zu organisieren.
+          Und Sie können Tags verwenden, um Ihren Transaktionen zusätzliche Informationen oder Notizen hinzuzufügen.
+        </p>
     - icon: multiCurrencyIcon
       title: Mehrwährung
       description: >
-        Use as many currencies as you need. Create your own currencies: shares, etc.
+        <p>
+          Planen Sie Ihre Finanzen im Voraus, indem Sie einmalige und regelmäßige Finanztransaktionen erstellen und verwalten.
+        </p>
+        <p>
+          Erhalten Sie eine Schätzung Ihrer zukünftigen Mittel und verwenden Sie diese Funktion, um bei der Budgetierung, Zielsetzung und Finanzplanung zu helfen.
+        </p>
     - icon: planningIcon
       title: Planung
       description: Planen Sie zukünftig einmalige und regelmäßige (wöchentlich, monatlich etc.) Einnahmen und Ausgaben und können Sie schon heute abschätzen, wie viel Geld Sie haben werden.
     - icon: budgetIcon
       title: Budget
-      description: Erstellen Sie ein Familienbudget und kontrollieren Sie dessen Ausführung*.
+      description: >
+        <p>
+          Übernehmen Sie die Kontrolle über Ihre Finanzen. Erstellen Sie ein Budget für verschiedene Ausgaben wie Lebensmittel, Unterhaltung und Transport und verfolgen Sie Ihre Ausgaben damit in Echtzeit.
+        </p>
+        <p>
+          Identifizieren Sie Bereiche, in denen Sie möglicherweise zu viel ausgeben, und nehmen Sie Anpassungen vor, um Ihre Sparziele zu erreichen.
+        </p>
     - icon: securityIcon
       title: Sicherheit
-      description: Ihre Finanzen, sicher und geschützt. Mit 256-Bit-Verschlüsselung schützen wir Ihre Daten, als wären es unsere eigenen.
+      description: >
+        <p>
+          Sicherheit ist ein entscheidender Aspekt unseres Service.
+          Wir stellen sicher, dass Ihre Finanzinformationen mit fortschrittlichen Sicherheitsmaßnahmen wie Firewalls und regelmäßigen Sicherheitsaudits geschützt sind, um unbefugten Zugriff auf Ihre Daten zu verhindern.
+        </p>

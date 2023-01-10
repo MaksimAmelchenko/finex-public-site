@@ -79,7 +79,7 @@
   }
 
   &__description {
-    @include typography.subtitle2;
+    @include typography.body1;
   }
 }
 
@@ -136,7 +136,7 @@
   }
 
   &__description {
-    @include typography.subtitle2;
+    @include typography.body1;
     font-weight: 300;
   }
 }

@@ -42,7 +42,7 @@ export function Features({ features, className }: IFeaturesProps) {
     <section className={className}>
       <Container className={styles.features}>
         {features.map(({ icon, title, description }, index) => (
-          <FeatureCard icon={iconMap[icon]} title={title} description={description} key={index} />
+          <FeatureCard icon={iconMap[icon]} title={title} description={description} iconAlt={icon} key={index} />
         ))}
       </Container>
     </section>
