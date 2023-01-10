@@ -26,9 +26,11 @@ module.exports = {
     'Get started for free with 14 day trial period': 'Get started for free with 14 day trial period',
   },
   Seo: {
-    'FINEX | Budget Tracker & Planner | Online Money Management':
-      'FINEX | Budget Tracker & Planner | Online Money Management',
-    'Take charge of your finances with FINEX online budget planner_ Understand your spending and come to a successful financial future_':
-      'Take charge of your finances with FINEX online budget planner. Understand your spending and come to a successful financial future.',
+    'FINEX | Budget Tracker & Planner | Personal Finance Management Online':
+      'FINEX | Budget Tracker & Planner | Personal Finance Management Online',
+    'Online personal finance management tool FINEX helps you easily organize and track your spending, create a budget, and reach your financial goals_':
+      'Our online personal finance management tool helps you easily organize and track your spending, create a budget, and reach your financial goals.',
+    'personal finance, finance management, budgeting, financial goals, money management, cash flow management, debt management, expense tracking, financial planning':
+      'personal finance, finance management, budgeting, financial goals, money management, cash flow management, debt management, expense tracking, financial planning',
   },
 };

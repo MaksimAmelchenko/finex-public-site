@@ -7,16 +7,23 @@ interface ISeoProps {
   title?: string;
   lang: string;
   description?: string;
+  keywords?: string;
   meta?: any[];
 }
 
-export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JSX.Element {
+export function Seo({ title, lang, description, keywords, meta = [] }: ISeoProps): JSX.Element {
   const t = useT('Seo');
-  const defaultTitle = t('FINEX | Budget Tracker & Planner | Online Money Management');
+  const defaultTitle = t('FINEX | Budget Tracker & Planner | Personal Finance Management Online');
   const metaDescription =
     description ||
     t(
-      'Take charge of your finances with FINEX online budget planner. Understand your spending and come to a successful financial future.'
+      'Online personal finance management tool FINEX helps you easily organize and track your spending, create a budget, and reach your financial goals.'
+    );
+
+  const metaKeywords =
+    keywords ||
+    t(
+      'personal finance, finance management, budgeting, financial goals, money management, cash flow management, debt management, expense tracking, financial planning'
     );
 
   return (
@@ -34,6 +41,10 @@ export function Seo({ title, lang, description = '', meta = [] }: ISeoProps): JS
         {
           property: 'og:title',
           content: title,
+        },
+        {
+          property: 'keywords',
+          content: metaKeywords,
         },
         {
           property: 'og:description',
