@@ -31,8 +31,7 @@ export function Jumbotron({ title, subTitle, rocket, className }: IJumbotronProp
       <Container>
         <div className={clsx(styles.jumbotron__header, styles.header)}>
           <h1 className={styles.header__title}>
-            {title}
-            <span className={styles.header__logotype}>FINEX</span>
+            {title} <span className={styles.header__logotype}>FINEX</span>
           </h1>
           <p className={styles.header__description}>{subTitle}</p>
         </div>
