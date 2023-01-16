@@ -19,7 +19,7 @@ server {
     add_header Cache-Control "public";
   }
 
-  location ~* \.(?:css|js)$ {
+  location ~* \.(?:css|js|woff2)$ {
     expires max;
     add_header Cache-Control "public";
   }
