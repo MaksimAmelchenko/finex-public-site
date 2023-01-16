@@ -38,7 +38,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-image',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        excludes: [
+          //
+          '**/legal/**',
+          '**/pricing/',
+          '**/404.html',
+        ],
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
