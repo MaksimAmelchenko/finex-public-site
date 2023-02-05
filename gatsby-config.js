@@ -37,6 +37,16 @@ module.exports = {
         trackingIds: ['G-ZB37ZJ6SVJ'],
       },
     },
+    {
+      resolve: 'gatsby-plugin-yandex-metrika',
+      options: {
+        trackingId: 29763990,
+        webvisor: true,
+        trackHash: false,
+        afterBody: false,
+        defer: true,
+      },
+    },
     'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-sitemap',
