@@ -1,7 +1,7 @@
 ru:
   jumbotron:
     title: Управление финансами с
-    subTitle: Онлайн программа, которая поможет вам добиться финансового успеха
+    supportingText: С легкостью организуйте свои финансы с помощью нашего удобного инструмента управления личными финансами. Зарегистрируйтесь сейчас и добейтесь финансового успеха!
     rocket:
       title: Быстрый старт
       text: С легкостью организуйте свои финансы с помощью нашего удобного инструмента управления личными финансами. Зарегистрируйтесь сейчас и добейтесь финансового успеха!
@@ -12,6 +12,7 @@ ru:
         <p>
           Отслеживайте и анализируйте результат групп транзакций.
         </p>
+        <br/>
         <p>
           Например, если вы владеете арендуемой недвижимостью, вы можете использовать денежный поток, чтобы увидеть доходы от аренды и расходы на содержание собственности в одном месте.
           Это может помочь вам оценить финансовые показатели вашей сдаваемой в аренду недвижимости и принять обоснованное решение о ваших инвестициях.
@@ -22,6 +23,7 @@ ru:
         <p>
           «Проект» — это специальное место, где вы можете отслеживать все финансы вашей семьи или вашего рабочего проекта.
         </p>
+        <br/>
         <p>
           Каждый проект полностью отделен от других, поэтому вы можете сосредоточиться только на нем.
           Вы также можете пригласить других людей, например вашего партнера или членов семьи, чтобы помочь вам управлять финансами проекта.
@@ -32,6 +34,7 @@ ru:
         <p>
            Сотрудничайте и управляйте финансами с другими членами семьи или доверенными лицами. Предоставьте другим пользователям доступ к просмотру и/или редактированию определенного счета или проекта.
         </p>
+        <br/>
         <p>
            Например, предоставьте вашему партнеру доступ только для просмотра вашего расчетного счета. Делегируйте финансовые обязанности и сотрудничайте в достижении финансовых целей с другими, сохраняя при этом контроль над своей личной финансовой информацией.
         </p>
@@ -41,6 +44,7 @@ ru:
         <p>
            Используйте каталог контрагентов, многоуровневые категории и теги, чтобы выбрать уровень детализации, который лучше всего подходит для вас.
         </p>
+        <br/>
         <p>
            Например, вы можете использовать справочник контрагентов, чтобы отслеживать все ваши транзакции с конкретным магазином или поставщиком услуг.
            Вы можете использовать многоуровневые категории. Например для категории «Спорт и активность» добавить подкатегории «Членство в тренажерном зале» или «Персональные тренировки» для организации ваших транзакций.
@@ -52,6 +56,7 @@ ru:
         <p>
           С легкостью управляйте своими финансами в нескольких валютах. Наш сервис позволяет вам использовать традиционные фиатные валюты, а также другие финансовые активы, такие как криптовалюта, акции и многое другое.
         </p>
+        <br/>
         <p>
           Вы можете легко переключаться между ними и иметь полное представление о своем финансовом положении.
         </p>
@@ -61,6 +66,7 @@ ru:
         <p>
           Заранее планируйте свои финансы, создавая и управляя разовыми и регулярными финансовыми транзакциями.
         </p>
+        <br/>
         <p>
           Получите оценку ваших будущих средств и используйте эту функцию, чтобы добиваться постановленных финансовых целей.
         </p>
@@ -70,6 +76,7 @@ ru:
         <p>
           Возьмите под контроль свои финансы. Создайте бюджет для различных расходов, таких как продукты, развлечения и транспорт, и отслеживайте свои расходы в режиме реального времени.
         </p>
+        <br/>
         <p>
           Определите области, в которых вы можете перерасходовать средства, и внесите коррективы, чтобы достичь целей экономии.
         </p>
@@ -80,13 +87,33 @@ ru:
           Безопасность – важнейший аспект нашего сервиса.
           Мы гарантируем, что ваша финансовая информация защищена с помощью передовых мер безопасности, таких как брандмауэры и регулярные проверки безопасности, для предотвращения несанкционированного доступа к вашим данным.
         </p>
+  cta:
+    title: Начните с 14-дневной бесплатной версии
+    supportingText: Присоединяйтесь к 1600+ пользователям, уже идущим по пути к финансовому успеху вместе с FINEX
+    buttons:
+      - title: Узнать больше
+        link: /how-it-works/
+        variant: secondaryGray
+      - title: Начать
+        link: https://app.finex.io/sign-up?locale=ru
+        variant: primary
+  pricing:
+    title: Цена
+    supportingText: Простое и прозрачное ценообразование. Попробуйте бесплатно в течение 14 дней.
+    plans:
+      - title: Ежемесячная подписка
+        description: >
+          &nbsp
+        price: 129 &#8381;/месяц
+      - title: Годовая подписка
+        description: >
+          Сэкономьте <strong>20%</strong> с годовой подпиской
+        price: 1238 &#8381;/год
+        isPopular: true
 en:
   jumbotron:
     title: Manage Money Easily with
-    subTitle: An online program that will help you achieve financial success.
-    rocket:
-      title: Quick start
-      text: Effortlessly organize your finances with our user-friendly personal finance management tool. Sign up now and achieve financial success!
+    supportingText: Effortlessly organize your finances with our user-friendly personal finance management tool. Sign up now and achieve financial success!
   features:
     - icon: cashFlowIcon
       title: Cash Flows
@@ -94,6 +121,7 @@ en:
         <p>
           Track and analyze the outcome of a long-term group of transactions.
         </p>
+        <br/>
         <p>
           For example, if you own rental property, you can use the cash flow to see the income from rent and expenses for maintaining the property all in one place.
           This can help you assess the financial performance of your rental properties and make informed decisions about your investments.
@@ -104,6 +132,7 @@ en:
         <p>
           The 'project' is a special place where you can keep track of all the financial details for your household or a specific work project.
         </p>
+        <br/>
         <p>
           Each project is totally separate from the others, so you can focus on one thing at a time.
           You can also invite other people, like your partner or family members, to help you manage the finances for a project.
@@ -114,6 +143,7 @@ en:
         <p>
           Collaborate and manage finances with other family members or trusted individuals. Grant viewing and/or editing access to specific accounts or projects within your account to other users.
         </p>
+        <br/>
         <p>
           For example, grant your partner view-only access to your checking account. Delegate financial responsibilities and collaborate on financial goals with others while maintaining control over your personal financial information.
         </p>
@@ -123,6 +153,7 @@ en:
         <p>
           Use a directory of counterparties, multi-level categories, and tags to choose the level of detail that works best for you.
         </p>
+        <br/>
         <p>
           For example, you can use the directory of counterparties to keep track of all your transactions with a specific vendor or service provider.
           You can use multi-level categories, such as subcategories of the 'Activities' category, like 'Gym memberships' or 'Personal training sessions', to organize your transactions.
@@ -134,6 +165,7 @@ en:
         <p>
           Manage your finances in multiple currencies with ease. Our service allows you to use traditional fiat currencies as well as other financial assets like crypto, shares, and more.
         </p>
+        <br/>
         <p>
           You can switch between them easily and see the comprehensive view of your financial situation.
         </p>
@@ -143,6 +175,7 @@ en:
         <p>
           Plan ahead for your finances by creating and managing one-time and regular financial transactions.
         </p>
+        <br/>
         <p>
           Get an estimate of your future funds and use this feature to aid in budgeting, goal-setting and financial planning.
         </p>
@@ -152,6 +185,7 @@ en:
         <p>
           Take control of your finances. Create a budget for various expenses, such as groceries, entertainment, and transportation, and track your spending against it in real-time.
         </p>
+        <br/>
         <p>
           Identify areas where you may be overspending and make adjustments to reach your saving goals.
         </p>
@@ -162,13 +196,33 @@ en:
           Safety and Security is a crucial aspect of our service.
           We ensure that your financial information is protected with advanced security measures, such as firewalls and regular security audits, to prevent unauthorized access to your data.
         </p>
+  cta:
+    title: Start your 14-day free trial
+    supportingText: Join 1,600+ people already on the path to financial success with FINEX
+    buttons:
+      - title: Learn more
+        link: /how-it-works/
+        variant: secondaryGray
+      - title: Get started
+        link: https://app.finex.io/sign-up?locale=en
+        variant: primary
+  pricing:
+    title: Simple pricing
+    supportingText: Simple, transparent pricing. Try free for 14 days.
+    plans:
+      - title: Monthly Subscription
+        description: >
+          &nbsp
+        price: 2,90€/mth
+      - title: Annual Subscription
+        description: >
+          Save <strong>20%</strong> with an annual subscription
+        price: 27,80€/year
+        isPopular: true
 de:
   jumbotron:
     title: Verwalten Sie Geld einfach mit
-    subTitle: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
-    rocket:
-      title: Schnellstart
-      text: Organisieren Sie mühelos Ihre Finanzen mit unserem benutzerfreundlichen persönlichen Finanzverwaltungstool. Melden Sie sich jetzt an und übernehmen Sie die Kontrolle über Ihr Geld!
+    supportingText: Organisieren Sie mühelos Ihre Finanzen mit unserem benutzerfreundlichen persönlichen Finanzverwaltungstool. Melden Sie sich jetzt an und übernehmen Sie die Kontrolle über Ihr Geld!
   features:
     - icon: cashFlowIcon
       title: Cashflows
@@ -176,6 +230,7 @@ de:
         <p>
           Verfolgen und analysieren Sie das Ergebnis einer langfristigen Gruppe von Transaktionen.
         </p>
+        <br/>
         <p>
           Wenn Sie beispielsweise eine Mietimmobilie besitzen, können Sie anhand des Cashflows die Mieteinnahmen und Ausgaben für die Instandhaltung der Immobilie an einem Ort anzeigen.
           Dies kann Ihnen helfen, die finanzielle Leistung Ihrer Mietobjekte zu beurteilen und fundierte Entscheidungen über Ihre Investitionen zu treffen.
@@ -186,6 +241,7 @@ de:
         <p>
           Das „Projekt“ ist ein besonderer Ort, an dem Sie alle finanziellen Details für Ihren Haushalt oder ein bestimmtes Arbeitsprojekt verfolgen können.
         </p>
+        <br/>
         <p>
           Jedes Projekt ist vollständig von den anderen getrennt, sodass Sie sich jeweils auf eine Sache konzentrieren können.
           Sie können auch andere Personen wie Ihren Partner oder Familienmitglieder einladen, Ihnen bei der Verwaltung der Finanzen für ein Projekt zu helfen.
@@ -196,6 +252,7 @@ de:
         <p>
           Arbeiten Sie mit anderen Familienmitgliedern oder vertrauenswürdigen Personen zusammen und verwalten Sie Finanzen. Gewähren Sie anderen Benutzern Anzeige- und/oder Bearbeitungszugriff auf bestimmte Konten oder Projekte innerhalb Ihres Kontos.
         </p>
+        <br/>
         <p>
           Gewähren Sie Ihrem Partner beispielsweise nur Lesezugriff auf Ihr Girokonto. Delegieren Sie finanzielle Verantwortlichkeiten und arbeiten Sie mit anderen an finanziellen Zielen zusammen, während Sie die Kontrolle über Ihre persönlichen Finanzinformationen behalten.
         </p>
@@ -205,6 +262,7 @@ de:
         <p>
           Verwenden Sie ein Verzeichnis von Kontrahenten, mehrstufige Kategorien und Tags, um die Detailebene auszuwählen, die für Sie am besten geeignet ist.
         </p>
+        <br/>
         <p>
           Beispielsweise können Sie das Kontrahentenverzeichnis verwenden, um alle Ihre Transaktionen mit einem bestimmten Anbieter oder Dienstleister zu verfolgen.
           Sie können mehrstufige Kategorien verwenden, z. B. Unterkategorien der Kategorie „Aktivitäten“, wie z. B. „Mitgliedschaft im Fitnessstudio“ oder „Persönliche Trainingseinheiten“, um Ihre Transaktionen zu organisieren.
@@ -216,6 +274,7 @@ de:
         <p>
           Planen Sie Ihre Finanzen im Voraus, indem Sie einmalige und regelmäßige Finanztransaktionen erstellen und verwalten.
         </p>
+        <br/>
         <p>
           Erhalten Sie eine Schätzung Ihrer zukünftigen Mittel und verwenden Sie diese Funktion, um bei der Budgetierung, Zielsetzung und Finanzplanung zu helfen.
         </p>
@@ -228,6 +287,7 @@ de:
         <p>
           Übernehmen Sie die Kontrolle über Ihre Finanzen. Erstellen Sie ein Budget für verschiedene Ausgaben wie Lebensmittel, Unterhaltung und Transport und verfolgen Sie Ihre Ausgaben damit in Echtzeit.
         </p>
+        <br/>
         <p>
           Identifizieren Sie Bereiche, in denen Sie möglicherweise zu viel ausgeben, und nehmen Sie Anpassungen vor, um Ihre Sparziele zu erreichen.
         </p>
@@ -238,3 +298,26 @@ de:
           Sicherheit ist ein entscheidender Aspekt unseres Service.
           Wir stellen sicher, dass Ihre Finanzinformationen mit fortschrittlichen Sicherheitsmaßnahmen wie Firewalls und regelmäßigen Sicherheitsaudits geschützt sind, um unbefugten Zugriff auf Ihre Daten zu verhindern.
         </p>
+  cta:
+    title: Starten Sie Ihre 14-tägige kostenlose Testversion
+    supportingText: Schließen Sie sich mit FINEX mehr als 1.600 Menschen an, die bereits auf dem Weg zum finanziellen Erfolg sind
+    buttons:
+      - title: Erfahren Sie mehr
+        link: /how-it-works/
+        variant: secondaryGray
+      - title: Loslegen
+        link: https://app.finex.io/sign-up?locale=de
+        variant: primary
+  pricing:
+    title: Einfache Preisgestaltung
+    supportingText: Einfache, transparente Preisgestaltung. 14 Tage kostenlos testen.
+    plans:
+      - title: Monatliches Abo
+        description: >
+          &nbsp
+        price: 2,90€/Monat
+      - title: Jahresabonnement
+        description: >
+          Sparen Sie <strong>20%</strong> mit einem Jahresabonnement
+        price: 27,80€/Jahr
+        isPopular: true

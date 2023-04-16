@@ -1,6 +1,7 @@
 exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
   const config = getConfig();
 
+  /*
   for (const { test, use } of config.module.rules) {
     if (String(test).includes('.svg')) {
       for (const rule of use) {
@@ -10,6 +11,7 @@ exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
       }
     }
   }
+  */
 
   actions.replaceWebpackConfig(config);
 };

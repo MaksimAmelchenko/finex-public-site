@@ -33,10 +33,11 @@ export function HowItWorks(): JSX.Element {
   return (
     <>
       <Seo title={t('Описание')} lang={locale} />
-      <Header variant="light" />
+      <Header />
       <Container>
         <h1 className={styles.header}>{t('Как работает FINEX')}</h1>
         <div className={styles.howItWorks}>
+          {/*
           <aside className={styles.howItWorks__aside}>
             <article className={styles.feedback}>
               <div className={styles.feedback__logo}>
@@ -49,6 +50,7 @@ export function HowItWorks(): JSX.Element {
               </div>
             </article>
           </aside>
+          */}
           <main className={styles.main}>
             <section className={clsx(styles.main__topics)}>
               {topics.map(({ title, content }, index) => (

@@ -6,17 +6,18 @@ import { Header as HeaderBase, INavItem } from '../../components/Header/Header';
 import * as dataI18n from './data.yaml';
 
 interface IData {
-  nav: INavItem[];
+  navigation: INavItem[];
+  actions: INavItem[];
+  mobileActions: INavItem[];
 }
 
-interface IHeaderProps {
-  variant?: 'default' | 'light';
+interface HeaderProps {
   className?: string;
 }
 
-export function Header({ variant = 'default', className }: IHeaderProps): JSX.Element {
+export function Header({ className }: HeaderProps): JSX.Element {
   const { locale } = useLocalization();
-  const { nav }: IData = dataI18n[locale];
+  const { navigation, actions, mobileActions }: IData = dataI18n[locale];
 
-  return <HeaderBase navItems={nav} variant={variant} className={className} />;
+  return <HeaderBase navigation={navigation} actions={actions} mobileActions={mobileActions} className={className} />;
 }

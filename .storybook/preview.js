@@ -28,8 +28,7 @@ export const parameters = {
   },
 };
 
-import 'normalize.css';
-import '../src/styles/global.css';
+import '../src/styles/global.scss';
 
 // import { initializeI18n } from './src/lib/i18n';
 //

@@ -1,4 +1,4 @@
-// const cfg = require('config');
+const { getCSSModuleLocalIdent } = require('./getCSSModuleLocalIdent');
 
 module.exports = async ({ config }) => {
   // config.externals = config.externals || {};
@@ -7,20 +7,29 @@ module.exports = async ({ config }) => {
   // config.resolve.extensions.push('.ts', '.tsx');
 
   // Update svg rules from existing webpack rule
+  // remove svg rules from existing webpack rule
   const assetRule = config.module.rules.find(({ test }) => test.test('.svg'));
-  assetRule.exclude = /\.inline\.svg$/;
+  assetRule.exclude = /\.svg$/;
 
   // Add SVGR Loader
   config.module.rules.push({
-    test: /\.inline\.svg$/,
+    test: /\.svg$/,
     use: [
       {
         loader: '@svgr/webpack',
         options: {
           svgoConfig: {
-            plugins: {
-              removeViewBox: false,
-            },
+            plugins: [
+              {
+                name: 'preset-default',
+                params: {
+                  overrides: {
+                    removeViewBox: false,
+                    cleanupIds: false,
+                  },
+                },
+              },
+            ],
           },
         },
       },
@@ -34,7 +43,11 @@ module.exports = async ({ config }) => {
       {
         loader: 'css-loader',
         options: {
-          modules: true,
+          importLoaders: 1,
+          sourceMap: true,
+          modules: {
+            getLocalIdent: getCSSModuleLocalIdent,
+          },
         },
       },
       'sass-loader',

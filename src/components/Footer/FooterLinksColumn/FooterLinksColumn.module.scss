@@ -1,0 +1,56 @@
+@use 'src/styles/typography';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  &__heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    text-transform: uppercase;
+
+    color: var(--color-gray-300);
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    // reset ul
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    //reset li
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+  }
+
+  &__link {
+    color: var(--color-gray-200);
+
+    &:hover {
+      color: var(--color-gray-300);
+    }
+
+    &:active,
+    &:focus {
+      color: var(--color-gray-200);
+    }
+
+    &:disabled,
+    &[disabled] {
+      color: var(--color-gray-700);
+    }
+  }
+}

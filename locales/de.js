@@ -5,10 +5,6 @@ module.exports = {
     'Privacy Policy': 'Privacy Policy',
     'Terms of Use': 'Terms of Use',
   },
-  Home: {
-    'Узнать больше': 'Finde mehr heraus',
-    'Начать пользоваться': 'Beginnen Sie mit der Verwendung',
-  },
   HowItWork: {
     Описание: 'Wie es geht',
     'Как работает FINEX': 'So funktioniert FINEX',
@@ -16,14 +12,12 @@ module.exports = {
     'Напишите нам': 'Kontaktiere uns',
   },
   Jumbotron: {
-    'Посмотреть как это работает': 'Sehen, wie es funktioniert',
+    Demo: 'Demo',
+    'Sign up': 'Registrieren',
   },
   PriceCard: {
-    'until cancelled': 'until cancelled',
-  },
-  Pricing: {
-    'FINEX Pricing': 'FINEX Pricing',
-    'Get started for free with 14 day trial period': 'Get started for free with 14 day trial period',
+    'Get started': 'Loslegen',
+    'Most popular!': 'Am beliebtesten!',
   },
   Seo: {
     'FINEX | Budget Tracker & Planner | Personal Finance Management Online':

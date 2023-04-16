@@ -1,0 +1,99 @@
+ru:
+  supportingText: Онлайн программа, которая поможет вам добиться финансового успеха
+  footerText: Домашняя бухгалтерия FINEX
+  columns:
+    - title: Помощь
+      links:
+        - title: Как это работает
+          href: /how-it-works/
+        - title: Поддержка
+          href: https://t.me/finex_support
+        - title: Сообщество пользователей
+          href: https://finex.userecho.com/
+    - title: Юридическая информация
+      links:
+        - title: Пользовательское соглашение
+          href: /legal/agreement/
+          rel: nofollow
+        - title: Политика конфиденциальности
+          href: /legal/privacy/
+          rel: nofollow
+        - title: Правила использования
+          href: /legal/terms/
+          rel: nofollow
+  socialNetworks:
+    - title: Telegram
+      platform: telegram
+      href: https://t.me/finex_ru
+    - title: Twitter
+      platform: twitter
+      href: https://twitter.com/finex_ru
+    - title: GitHub
+      platform: github
+      href: https://github.com/MaksimAmelchenko/finex-monorepo
+en:
+  supportingText: An online program that will help you achieve financial success.
+  footerText: Online money management FINEX
+  columns:
+    - title: Help
+      links:
+        - title: How it works
+          href: /how-it-works/
+        - title: Support
+          href: https://t.me/finex_support
+        - title: User community
+          href: https://finex.userecho.com/
+    - title: Legal
+      links:
+        - title: Agreement
+          href: /legal/agreement/
+          rel: nofollow
+        - title: Privacy Policy
+          href: /legal/privacy/
+          rel: nofollow
+        - title: Terms of Use
+          href: /legal/terms/
+          rel: nofollow
+  socialNetworks:
+    - title: Telegram
+      platform: telegram
+      href: https://t.me/finex_en
+    - title: Twitter
+      platform: twitter
+      href: https://twitter.com/finex_en
+    - title: GitHub
+      platform: github
+      href: https://github.com/MaksimAmelchenko/finex-monorepo
+de:
+  supportingText: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
+  footerText: Online Geldverwaltung FINEX
+  columns:
+    - title: Hilfe
+      links:
+        - title: Wie es funktioniert
+          href: /how-it-works/
+        - title: Unterstützung
+          href: https://t.me/finex_support
+        - title: Benutzer-Community
+          href: https://finex.userecho.com/
+    - title: Rechtliches
+      links:
+        - title: Vereinbarung
+          href: /legal/agreement/
+          rel: nofollow
+        - title: Datenschutz
+          href: /legal/privacy/
+          rel: nofollow
+        - title: Nutzungsbedingungen
+          href: /legal/terms/
+          rel: nofollow
+  socialNetworks:
+    - title: Telegram
+      platform: telegram
+      href: https://t.me/finex_de
+    - title: Twitter
+      platform: twitter
+      href: https://twitter.com/finex_de
+    - title: GitHub
+      platform: github
+      href: https://github.com/MaksimAmelchenko/finex-monorepo

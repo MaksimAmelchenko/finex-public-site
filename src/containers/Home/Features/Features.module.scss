@@ -1,11 +1,14 @@
 @use 'src/styles/media';
 
-.features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 32px;
-  grid-row-gap: 70px;
-  @include media.phone {
-    grid-template-columns: 100%;
+.root {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3.2rem;
+    grid-row-gap: 70px;
+
+    @include media.only('sm') {
+      grid-template-columns: 100%;
+    }
   }
 }

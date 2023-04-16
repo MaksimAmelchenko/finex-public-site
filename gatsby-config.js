@@ -1,4 +1,7 @@
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     siteUrl: 'https://finex.io',
   },
@@ -23,7 +26,7 @@ module.exports = {
               params: {
                 overrides: {
                   removeViewBox: false,
-                  cleanupIDs: false,
+                  cleanupIds: false,
                 },
               },
             },
@@ -54,7 +57,6 @@ module.exports = {
         excludes: [
           //
           '**/legal/**',
-          '**/pricing/',
           '**/404.html',
         ],
       },
@@ -62,13 +64,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'FINEX.io',
+        name: 'FINEX',
         short_name: 'FINEX',
         start_url: '/?source=pwa',
-        background_color: '#005eaf',
-        theme_color: '#005eaf',
+        background_color: '#6172F3',
+        theme_color: '#6172F3',
         display: 'standalone',
         icon: 'src/images/icon.png',
+        include_favicon: false,
       },
     },
     'gatsby-plugin-sharp',

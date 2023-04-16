@@ -1,0 +1,68 @@
+@use '~inter-ui/variable' with (
+  $inter-font-display: swap,
+  $inter-font-path: '~inter-ui/Inter (web)'
+);
+
+@use './colors';
+@use './media';
+@use './typography';
+
+@import '~normalize.css';
+
+@include variable.normal;
+
+html {
+  font-family: 'Inter', 'system-ui', sans-serif;
+  font-size: 62.5%; /* 62.5% of 16px = 10px */
+  -webkit-tap-highlight-color: transparent;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', 'system-ui', sans-serif;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  @include typography.textMD;
+  color: var(--color-gray-900);
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*:not(img):not(video):not(svg),
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+// a.link {
+//   color: #0066bf;
+//   text-decoration: none;
+//   border-bottom: 1px dashed;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}

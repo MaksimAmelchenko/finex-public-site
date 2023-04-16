@@ -1,39 +1,71 @@
-@use 'src/styles/colors';
 @use 'src/styles/media';
 @use 'src/styles/typography';
 
-.feature {
-  position: relative;
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   width: 100%;
-  padding: 56px 40px 40px;
-  box-shadow: 0 5px 75px rgba(43, 55, 79, 0.1);
-  border-radius: 5px;
-  background: colors.$white;
-  color: colors.$black;
 
-  @include media.phone {
-    padding: 60px 20px 30px;
+  @include media.only('sm') {
+    gap: 1.6rem;
   }
 
   &__icon {
-    position: absolute;
-    top: 0;
-    left: 32px;
-    width: 100px;
-    height: 100px;
-    transform: translateY(-50%);
-    @include media.phone {
-      left: 50%;
-      transform: translate(-50%, -50%);
+  }
+
+  &__textAndSupportingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+
+    @include media.only('sm') {
+      gap: 0.4rem;
     }
   }
 
-  &__title {
-    @include typography.h2;
-    margin-bottom: 25px;
+  &__text {
+    @include typography.textXLSemibold;
+    color: var(--color-gray-900);
+
+    @include media.only('sm') {
+      @include typography.textLGSemibold;
+    }
   }
 
-  &__description {
-    @include typography.body1;
+  &__supportingText {
+    @include typography.textMD;
+    color: var(--color-gray-600);
+    text-align: center;
+  }
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.8rem solid var(--color-primary-50);
+  border-radius: 2.8rem;
+  width: 5.6rem;
+  height: 5.6rem;
+
+  background: var(--color-primary-100);
+  color: var(--color-primary-600);
+
+  @include media.only('sm') {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    @include media.only('sm') {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 }

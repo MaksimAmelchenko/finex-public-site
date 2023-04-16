@@ -1,162 +1,129 @@
-@use 'src/styles/colors';
 @use 'src/styles/media';
 @use 'src/styles/typography';
 
-.jumbotron {
+.root {
   position: relative;
-  overflow: hidden;
-  background: radial-gradient(49.21% 49.21% at 54.84% 50.94%, #2287df 0%, #005eaf 100%);
-  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  gap: 6.4rem;
+  padding: 6.4rem 0 9.6rem;
 
-  @include media.phone {
-    padding-bottom: 50px;
-  }
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
 
-  &__header {
-    margin-top: 50px;
-    @include media.tablet {
-      margin-top: 0;
-    }
-  }
-
-  &__quick-start {
-    margin-top: 50px;
-    width: 50%;
-    @include media.phone {
-      margin-top: 25px;
-      width: 100%;
-    }
-  }
-
-  &__callToAction {
-    margin-top: 70px;
-    width: fit-content;
-    @include media.phone {
-      margin-top: 50px;
-      width: 100%;
-    }
-  }
-
-  &__mobile-image {
-    display: none;
-
-    @include media.phone {
-      display: block;
+    @include media.only('sm') {
+      grid-template-columns: 1fr;
+      gap: 6.4rem;
     }
   }
 
   &__images {
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    left: calc(50% + 6rem);
+    position: relative;
+    min-height: 44rem;
 
-    @include media.phone {
+    @include media.only('sm') {
       display: none;
     }
   }
+
+  &__mobileImages {
+    display: none;
+
+    @include media.only('sm') {
+      display: block;
+    }
+  }
 }
 
-.header {
+.hero {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  color: colors.$white;
+  gap: 4.8rem;
 
-  &__title {
-    @include typography.h1;
-    text-transform: uppercase;
+  @include media.only('sm') {
+    gap: 3.2rem;
+  }
+
+  &__headingAndSupportingText {
+  }
+
+  &__actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+    @include media.only('sm') {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__button {
+    @include media.only('sm') {
+      width: 100%;
+      min-width: auto;
+    }
+  }
+}
+
+.headingAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  @include media.only('sm') {
+    gap: 1.6rem;
+  }
+
+  &__header {
+    @include typography.displayXLSemibold;
+    color: var(--color-gray-900);
+
+    @include media.only('sm') {
+      @include typography.displaySMSemibold;
+    }
   }
 
   &__logotype {
-    background: colors.$orange;
-    border-radius: 3px;
-    padding: 0 10px;
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
     font-weight: bold;
+    background: var(--color-orange-500);
+    color: var(--color-white);
   }
 
-  &__description {
-    @include typography.body1;
-  }
-}
+  &__supportingText {
+    @include typography.textXL;
+    color: var(--color-gray-600);
 
-.rocket {
-  &__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: linear-gradient(0deg, rgba(34, 135, 223, 0.3) 24.45%, rgba(0, 94, 175, 0.3) 73.66%);
-    box-shadow: -15px -10px 25px rgb(187 224 255 / 10%), 5px 5px 25px rgb(0 52 97 / 10%);
-    width: 130px;
-    height: 130px;
-  }
-}
-
-.quick-start {
-  display: flex;
-
-  @include media.phone {
-    flex-direction: column;
-  }
-
-  &__rocket {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-
-    @include media.phone {
-      margin: 0 0 30px;
+    @include media.only('sm') {
+      @include typography.textLG;
     }
   }
-
-  &__text {
-    display: flex;
-    flex: 1 0;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 18px 0;
-    color: colors.$white;
-
-    @include media.phone {
-      flex: auto;
-      row-gap: 26px;
-      padding: 0;
-      text-align: center;
-    }
-  }
-
-  &__title {
-    @include typography.h3;
-    text-transform: uppercase;
-  }
-
-  &__description {
-    @include typography.body1;
-    font-weight: 300;
-  }
-}
-
-.mobile-image {
-  position: relative;
-  width: 100%;
 }
 
 .images {
   position: relative;
-  margin-top: 8rem;
-  width: 100%;
+  height: 40rem;
 
   &__report {
     position: absolute;
-    top: 40px;
+    top: 8rem;
+    box-shadow: 0 1.6rem 4.8rem rgba(0, 0, 0, 0.5);
+    width: 72rem;
   }
 
   &__dashboard {
     position: absolute;
     top: 0;
-    left: 15%;
-    filter: drop-shadow(0px 2px 55px rgba(29, 39, 60, 0.5));
+    left: 25%;
+    box-shadow: 0 1.6rem 4.8rem rgba(0, 0, 0, 0.5);
+    width: 72rem;
   }
 }

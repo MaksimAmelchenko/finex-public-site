@@ -35,7 +35,7 @@ export function Agreement(): JSX.Element {
           },
         ]}
       />
-      <Header variant="light" />
+      <Header />
       <Container className={styles.content}>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </Container>

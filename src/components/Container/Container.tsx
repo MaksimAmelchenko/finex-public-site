@@ -1,13 +1,13 @@
-import React, { FC } from 'react';
+import React from 'react';
 import clsx from 'clsx';
 
 import styles from './Container.module.scss';
 
-interface IContainerProps {
+interface ContainerProps {
   className?: string;
   children: React.ReactNode;
 }
 
-export const Container: FC<IContainerProps> = ({ className, children }) => {
-  return <div className={clsx(styles.container, className)}> {children} </div>;
-};
+export function Container({ className, children }: ContainerProps): JSX.Element {
+  return <div className={clsx(styles.root, className)}> {children} </div>;
+}

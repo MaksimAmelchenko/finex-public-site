@@ -1,38 +1,70 @@
 ru:
-  nav:
+  navigation:
     - title: Как это работает
       link: /how-it-works/
     - title: Цена
-      link: /pricing/
+      link: /#pricing
     #    - title: Сообщество
     #      link: https://finex.userecho.com
+  actions:
     - title: Вход
       link: https://app.finex.io/sing-in
+      buttonVariant: tertiaryGray
     - title: Регистрация
       link: https://app.finex.io/sign-up
+      buttonVariant: primary
+  mobileActions:
+    - title: Регистрация
+      link: https://app.finex.io/sign-up
+      buttonVariant: primary
+    - title: Вход
+      link: https://app.finex.io/sing-in
+      buttonVariant: secondaryGray
 en:
-  nav:
+  navigation:
+    []
     #    - title: How it works
     #      link: /how-it-works/
     #    - title: Pricing
     #      link: /pricing/
     #    - title: Community
     #      link: https://finex.userecho.com
-    - title: Sign In
+  actions:
+    - title: Log in
       link: https://app.finex.io/sing-in?locale=en
-    - title: Sign Up
+      buttonVariant: tertiaryGray
+    - title: Sign up
       link: https://app.finex.io/sign-up?locale=en
+      buttonVariant: primary
+  mobileActions:
+    - title: Sign up
+      link: https://app.finex.io/sign-up
+      buttonVariant: primary
+    - title: Log in
+      link: https://app.finex.io/sing-in
+      buttonVariant: secondaryGray
 #      params:
 #        - rel: 'nofollow'
 de:
-  nav:
+  navigation:
+    []
     #    - title: Wie es funktioniert
     #      link: /how-it-works
     #    - title: Pricing
     #      link: /pricing/
     #    - title: Gemeinschaft
     #      link: https://finex.userecho.com
+  actions:
     - title: Einloggen
       link: https://app.finex.io/sing-in?locale=de
+      buttonVariant: tertiaryGray
     - title: Registrieren
       link: https://app.finex.io/sign-up?locale=de
+      buttonVariant: primary
+  mobileActions:
+    - title: Registrieren
+      link: https://app.finex.io/sign-up
+      buttonVariant: primary
+    - title: Einloggen
+      link: https://app.finex.io/sing-in
+      buttonVariant: secondaryGray

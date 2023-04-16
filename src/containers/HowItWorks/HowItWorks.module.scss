@@ -1,15 +1,14 @@
-@use 'src/styles/colors';
 @use 'src/styles/media';
 @use 'src/styles/typography';
 
 .header {
-  @include typography.h1;
-  padding-top: 100px;
   margin-bottom: 4rem;
+  @include typography.displayMD;
 
-  @include media.tablet() {
-    padding-top: 80px;
+  @include media.only('sm') {
+    @include typography.displaySM;
     margin-bottom: 2rem;
+    padding-top: 50px;
   }
 }
 
@@ -17,16 +16,21 @@
   display: flex;
   margin-bottom: 60px;
 
-  @include media.tablet() {
+  p {
+    padding: revert;
+    margin: revert;
+  }
+
+  @include media.only('md') {
     flex-direction: column-reverse;
     margin-bottom: 0;
   }
 
   &__aside {
     width: 256px;
-    margin-right: 32px;
+    margin-right: 3.2rem;
     flex-shrink: 0;
-    @include media.tablet() {
+    @include media.only('md') {
       margin: 2rem 0;
       width: 100%;
     }

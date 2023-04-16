@@ -39,36 +39,48 @@ export function Seo({ title, lang, description, keywords, meta = [] }: ISeoProps
           content: metaDescription,
         },
         {
-          property: 'og:title',
-          content: title,
-        },
-        {
           property: 'keywords',
           content: metaKeywords,
         },
         {
-          property: 'og:description',
-          content: metaDescription,
+          name: 'image',
+          content: '/icons/icon-512x512.png',
         },
         {
           property: 'og:type',
           content: 'website',
         },
         {
+          property: 'og:title',
+          content: title,
+        },
+        {
+          property: 'og:description',
+          content: metaDescription,
+        },
+        {
           name: 'twitter:card',
           content: 'summary',
         },
-        // {
-        //   name: 'twitter:creator',
-        //   content: site.siteMetadata?.social?.twitter || '',
-        // },
         {
           name: 'twitter:title',
           content: title,
         },
         {
+          name: 'twitter:url',
+          content: `https://finex.io/${lang === 'ru' ? '' : lang + '/'}`,
+        },
+        {
           name: 'twitter:description',
           content: metaDescription,
+        },
+        {
+          name: 'twitter:image',
+          content: '/icons/icon-512x512.png',
+        },
+        {
+          name: 'twitter:creator',
+          content: `@finex_${lang}`,
         },
       ].concat(meta)}
     />

@@ -1,5 +1,4 @@
-require('normalize.css');
-require('./src/styles/global.css');
+require('./src/styles/global.scss');
 
 const { initializeI18n } = require('./src/lib/i18n');
 

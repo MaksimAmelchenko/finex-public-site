@@ -1,3 +1,4 @@
+@use 'src/styles/media';
 @use 'src/styles/typography';
 
 .page {
@@ -6,5 +7,16 @@
 
 .content {
   margin-top: 8rem;
-  @include typography.body2;
+
+  @include typography.textSM;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    padding: revert;
+    margin: revert;
+  }
 }

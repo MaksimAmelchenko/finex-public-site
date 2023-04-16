@@ -1,45 +1,155 @@
-@use 'src/styles/colors';
 @use 'src/styles/media';
-
-.header {
-  color: colors.$orange;
-  @include media.phone {
-    color: #25a8fe;
-    font-size: 8px;
-  }
-}
+@use 'src/styles/typography';
 
 .main {
   &__jumbotron {
-    padding-top: 60px;
-  }
-
-  &__features {
-    margin-top: -60px;
-    @include media.phone {
-      margin-top: 4.8rem;
-    }
-  }
-
-  &__buttons {
-    margin: 100px 0 100px;
-    @include media.phone {
-      margin: 70px 0 100px;
-    }
+    padding-top: 6rem;
   }
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  column-gap: 90px;
+.ctaSection {
+  padding: 9.6rem 0;
 
-  @include media.phone {
+  @include media.only('sm') {
+    padding: 6.4rem 0;
+  }
+
+  &__content {
+    display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    align-items: center;
+    padding: 6.4rem;
+    gap: 3.2rem;
+    border-radius: 1.6rem;
+    background: var(--color-primary-800);
+
+    @include media.only('sm') {
+      padding: 4rem 2.4rem;
+      gap: 3.2rem;
+    }
+  }
+
+  &__headingAndSupportingText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    @include media.only('sm') {
+      gap: 1.6rem;
+    }
+  }
+
+  &__heading {
+    @include typography.displayMDSemibold;
+    color: var(--color-white);
+    text-align: center;
+
+    @include media.only('sm') {
+      @include typography.displaySMSemibold;
+    }
+  }
+
+  &__supportingText {
+    @include typography.textXL;
+    color: var(--color-primary-200);
+    text-align: center;
+    text-wrap: balance;
+
+    @include media.only('sm') {
+      @include typography.textLG;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+    @include media.only('sm') {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
   }
 
   &__button {
-    //margin: 0 45px;
+    @include media.only('sm') {
+      width: 100%;
+      min-width: auto;
+    }
+  }
+
+  @include media.only('sm') {
+    padding: 6.4rem 0;
+  }
+}
+
+.pricingSection {
+  padding: 9.6rem 0;
+  background-color: var(--color-gray-50);
+
+  @include media.only('sm') {
+    padding: 6.4rem 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+
+    gap: 3.2rem;
+
+    @include media.only('sm') {
+      flex-direction: column;
+      align-items: center;
+      gap: 4.8rem;
+    }
+  }
+
+  &__headingAndSupportingText {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: clamp(30rem, 40%, 45rem);
+
+    @include media.only('sm') {
+      width: 100%;
+      max-width: 100%;
+      gap: 1.6rem;
+    }
+  }
+
+  &__heading {
+    @include typography.displayMDSemibold;
+
+    @include media.only('sm') {
+      @include typography.displaySMSemibold;
+      text-align: center;
+    }
+  }
+
+  &__supportingText {
+    @include typography.textLG;
+    color: var(--color-gray-600);
+
+    @include media.only('sm') {
+      @include typography.textLG;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-content: end;
+    flex: 1 0 0;
+    width: 0;
+    gap: 3.2rem;
+
+    @include media.only('sm') {
+      grid-template-columns: 1fr;
+      width: 100%;
+      gap: 4.8rem;
+    }
   }
 }

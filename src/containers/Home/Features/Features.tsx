@@ -2,29 +2,29 @@ import React from 'react';
 
 import { Container } from '../../../components/Container/Container';
 import { FeatureCard } from './FeatureCard/FeatureCard';
-import { TUrl } from '../../../types';
 
-import budgetIconSvg from './assets/budget-icon.svg';
-import cashFlowIconSvg from './assets/cash-flow-icon.svg';
-import detailsIconSvg from './assets/details-icon.svg';
-import multiCurrencyIconSvg from './assets/multi-currency-icon.svg';
-import multiUserIconSvg from './assets/multi-user-icon.svg';
-import planningIconSvg from './assets/planning.svg';
-import projectsIconSvg from './assets/projects-icon.svg';
-import securityIconSvg from './assets/security-icon.svg';
+import { ReactComponent as Coins02Icon } from '../../../components/Icons/coins-02.svg';
+import { ReactComponent as CoinsStacked01Icon } from '../../../components/Icons/coins-stacked-01.svg';
+import { ReactComponent as DataFlow03Icon } from '../../../components/Icons/dataflow-03.svg';
+import { ReactComponent as FolderIcon } from '../../../components/Icons/folder.svg';
+import { ReactComponent as PiggyBank01Icon } from '../../../components/Icons/piggy-bank-01.svg';
+import { ReactComponent as Shield01Icon } from '../../../components/Icons/shield-01.svg';
+import { ReactComponent as Tag01Icon } from '../../../components/Icons/tag-01.svg';
+import { ReactComponent as Users01Icon } from '../../../components/Icons/users-01.svg';
 
-const iconMap: Record<string, TUrl> = {
-  budgetIcon: budgetIconSvg,
-  cashFlowIcon: cashFlowIconSvg,
-  detailsIcon: detailsIconSvg,
-  multiCurrencyIcon: multiCurrencyIconSvg,
-  multiUserIcon: multiUserIconSvg,
-  planningIcon: planningIconSvg,
-  projectsIcon: projectsIconSvg,
-  securityIcon: securityIconSvg,
+const iconMap: Record<string, React.ReactNode> = {
+  budgetIcon: <PiggyBank01Icon />,
+  cashFlowIcon: <DataFlow03Icon />,
+  detailsIcon: <Tag01Icon />,
+  multiCurrencyIcon: <Coins02Icon />,
+  multiUserIcon: <Users01Icon />,
+  planningIcon: <CoinsStacked01Icon />,
+  projectsIcon: <FolderIcon />,
+  securityIcon: <Shield01Icon />,
 };
 
 import styles from './Features.module.scss';
+import clsx from 'clsx';
 
 export interface IFeature {
   icon: string;
@@ -39,8 +39,8 @@ interface IFeaturesProps {
 
 export function Features({ features, className }: IFeaturesProps) {
   return (
-    <section className={className}>
-      <Container className={styles.features}>
+    <section className={clsx(styles.root, className)}>
+      <Container className={styles.root__container}>
         {features.map(({ icon, title, description }, index) => (
           <FeatureCard icon={iconMap[icon]} title={title} description={description} iconAlt={icon} key={index} />
         ))}
