@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './src/styles/global.scss';
 
 import { initializeI18n } from './src/lib/i18n';
@@ -14,3 +16,9 @@ initializeI18n(
   },
   'ru'
 );
+
+export function onClientEntry() {
+  window.GDPRCookiesGoogleAnalyticsAdded = false;
+  window.GDPRCookiesGoogleAnalyticsInitialized = false;
+  window.GDPRCookiesYandexMetrikaInitialized = false;
+}

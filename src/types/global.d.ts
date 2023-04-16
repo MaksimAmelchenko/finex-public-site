@@ -1,3 +1,12 @@
+declare interface Window {
+  gtag: any;
+  ym: any;
+  GDPRCookiesGoogleAnalyticsAdded: boolean;
+  GDPRCookiesGoogleAnalyticsInitialized: boolean;
+  GDPRCookiesYandexMetrikaInitialized: boolean;
+  dataLayer: any[];
+}
+
 declare module '*.yaml' {
   const content: any;
   export default content;

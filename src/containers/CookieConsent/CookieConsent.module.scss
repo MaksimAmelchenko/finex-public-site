@@ -1,0 +1,8 @@
+@use 'src/styles/shadow';
+@use 'src/styles/typography';
+
+.root {
+  position: fixed;
+  bottom: 2.4rem;
+  width: 100%;
+}
