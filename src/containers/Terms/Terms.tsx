@@ -24,7 +24,7 @@ export function Terms(): JSX.Element {
   useScrollToTop();
 
   return (
-    <div className={styles.page}>
+    <div className={styles.root}>
       <Seo
         title={title}
         lang={locale}
@@ -36,7 +36,8 @@ export function Terms(): JSX.Element {
         ]}
       />
       <Header />
-      <Container className={styles.content}>
+      <Container className={styles.root__content}>
+        <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </Container>
       <Footer />

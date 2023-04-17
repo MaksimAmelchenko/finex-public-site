@@ -1,22 +1,25 @@
 @use 'src/styles/media';
 @use 'src/styles/typography';
 
-.page {
+.root {
   overflow: hidden;
-}
 
-.content {
-  margin-top: 8rem;
+  &__content {
+    margin-top: 8rem;
 
-  @include typography.textSM;
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    padding: revert;
-    margin: revert;
+    h1 {
+      margin: 2.4rem 0;
+      @include typography.displayMD;
+    }
+
+    h2 {
+      margin: 2.4rem 0;
+      @include typography.displaySM;
+    }
+
+    p {
+      margin: 1.6rem 0;
+      @include typography.textMD;
+    }
   }
 }
