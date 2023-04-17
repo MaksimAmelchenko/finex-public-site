@@ -1,15 +1,15 @@
 module.exports = {
-  Footer: {
-    'Online money management FINEX': 'Online money management FINEX',
-    Agreement: 'Agreement',
-    'Privacy Policy': 'Privacy Policy',
-    'Terms of Use': 'Terms of Use',
+  CookieConsent: {
+    'We use cookies to improve your experience and for marketing_':
+      'Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und für Marketingzwecke.',
+    'Learn more in our ': 'Erfahren Sie mehr in unserer ',
+    'Cookie Policy': 'Cookie-Richtlinie',
+    Decline: 'Ablehnen',
+    Allow: 'Erlauben',
   },
   HowItWork: {
     Описание: 'Wie es geht',
     'Как работает FINEX': 'So funktioniert FINEX',
-    'Остались вопросы?': 'Haben Sie irgendwelche Fragen?',
-    'Напишите нам': 'Kontaktiere uns',
   },
   Jumbotron: {
     Demo: 'Demo',

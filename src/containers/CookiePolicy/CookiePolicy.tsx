@@ -15,9 +15,9 @@ interface IPage {
   content: THtml;
 }
 
-import styles from './Terms.module.scss';
+import styles from './CookiePolicy.module.scss';
 
-export function Terms(): JSX.Element {
+export function CookiePolicy(): JSX.Element {
   const { locale, defaultLang } = useLocalization();
   const { title, content }: IPage = dataI18n[locale] || dataI18n[defaultLang];
 
