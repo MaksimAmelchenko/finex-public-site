@@ -56,6 +56,17 @@ export function Footer({ className }: IFooterProps) {
               <div className={styles.root__logoAndSupportingText}>
                 <img src={logoSvg} className={styles.root__logo} alt="Logotype" />
                 <div className={styles.root__supportingText}>{supportingText}</div>
+
+                {locale === 'ru' && (
+                  <div className={styles.root__contacts}>
+                    <div>ИП Амельченко Максим Николаевич</div>
+                    <div>ОГРНИП: 312222328900051</div>
+                    <div>ИНН: 222405072950</div>
+                    <div>
+                      E-mail: <a href="mailto:info@finex.io">info@finex.io</a>
+                    </div>
+                  </div>
+                )}
               </div>
 
               <div className={styles.root__links}>
