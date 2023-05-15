@@ -49,6 +49,7 @@ export function Button({
     [styles[`root_variant_${variant}`]],
     destructive && styles.root_destructive,
     fullSize && styles.root_fullSize,
+    isDisabled && 'disabled',
     className
   );
 

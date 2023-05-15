@@ -110,20 +110,20 @@
 
 .images {
   position: relative;
-  height: 40rem;
+  height: 64rem;
 
   &__report {
     position: absolute;
     top: 8rem;
     box-shadow: 0 1.6rem 4.8rem rgba(0, 0, 0, 0.5);
-    width: 72rem;
+    width: 108rem;
   }
 
   &__dashboard {
     position: absolute;
     top: 0;
-    left: 25%;
+    left: calc(8rem + 4vw);
     box-shadow: 0 1.6rem 4.8rem rgba(0, 0, 0, 0.5);
-    width: 72rem;
+    width: 108rem;
   }
 }
