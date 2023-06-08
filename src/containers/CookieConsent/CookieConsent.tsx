@@ -11,7 +11,7 @@ export function CookieConsent(): JSX.Element {
     query {
       site {
         siteMetadata {
-          googleAnalytics {
+          googleTagManager {
             trackingId
           }
           yandexMetrika {
@@ -21,12 +21,12 @@ export function CookieConsent(): JSX.Element {
       }
     }
   `);
-  const { googleAnalytics, yandexMetrika } = data.site.siteMetadata;
+  const { googleTagManager, yandexMetrika } = data.site.siteMetadata;
 
   return (
     <div className={styles.root}>
       <Container>
-        <CookieConsentBase googleAnalytics={googleAnalytics} yandexMetrika={yandexMetrika} />
+        <CookieConsentBase googleTagManager={googleTagManager} yandexMetrika={yandexMetrika} />
       </Container>
     </div>
   );

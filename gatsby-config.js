@@ -4,8 +4,8 @@ module.exports = {
   },
   siteMetadata: {
     siteUrl: 'https://finex.io',
-    googleAnalytics: {
-      trackingId: 'G-ZB37ZJ6SVJ',
+    googleTagManager: {
+      trackingId: 'GTM-PX8XHX8',
     },
     yandexMetrika: {
       trackingId: '29763990',

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useLocalization } from 'gatsby-theme-i18n';
 
 import { Button } from '../Button/Button';
-import { initializeAndTrackGoogleAnalytics } from '../../lib/google-analytics';
 import { initializeAndTrackYandexMetrika } from '../../lib/yandex-metrika';
+import { initializeGoogleTagManager } from '../../lib/google-tag-manager';
 import { useT } from '../../lib/i18n';
 
 import { ReactComponent as Flag05Icon } from '../Icons/flag-05.svg';
@@ -11,7 +11,7 @@ import { ReactComponent as Flag05Icon } from '../Icons/flag-05.svg';
 import styles from './CookieConsent.module.scss';
 
 export interface CookieConsentProps {
-  googleAnalytics: {
+  googleTagManager: {
     trackingId: string;
   };
   yandexMetrika: {
@@ -19,7 +19,7 @@ export interface CookieConsentProps {
   };
 }
 
-export function CookieConsent({ googleAnalytics, yandexMetrika }: CookieConsentProps): JSX.Element | null {
+export function CookieConsent({ googleTagManager, yandexMetrika }: CookieConsentProps): JSX.Element | null {
   const t = useT('CookieConsent');
   const { locale } = useLocalization();
 
@@ -31,7 +31,7 @@ export function CookieConsent({ googleAnalytics, yandexMetrika }: CookieConsentP
       setShow(true);
     } else {
       if (consentCookie === 'accepted') {
-        initializeAndTrackGoogleAnalytics({ trackingId: googleAnalytics.trackingId });
+        initializeGoogleTagManager({ trackingId: googleTagManager.trackingId });
         if (locale === 'ru') {
           initializeAndTrackYandexMetrika({ trackingId: yandexMetrika.trackingId });
         }
@@ -41,7 +41,7 @@ export function CookieConsent({ googleAnalytics, yandexMetrika }: CookieConsentP
 
   const handleAcceptCookies = () => {
     localStorage.setItem('gdpr_cookie_consent', 'accepted');
-    initializeAndTrackGoogleAnalytics({ trackingId: googleAnalytics.trackingId });
+    initializeGoogleTagManager({ trackingId: googleTagManager.trackingId });
     if (locale === 'ru') {
       initializeAndTrackYandexMetrika({ trackingId: yandexMetrika.trackingId });
     }

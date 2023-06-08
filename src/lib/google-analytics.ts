@@ -7,7 +7,7 @@ function addGoogleAnalytics({ trackingId }: IOptions) {
     if (window.GDPRCookiesGoogleAnalyticsAdded) return resolve(true);
 
     const head = document.getElementsByTagName('head')[0];
-    const script = document.createElement(`script`);
+    const script = document.createElement('script');
     script.type = `text/javascript`;
     script.onload = () => {
       window.GDPRCookiesGoogleAnalyticsAdded = true;

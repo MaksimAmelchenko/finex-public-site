@@ -4,6 +4,7 @@ declare interface Window {
   GDPRCookiesGoogleAnalyticsAdded: boolean;
   GDPRCookiesGoogleAnalyticsInitialized: boolean;
   GDPRCookiesYandexMetrikaInitialized: boolean;
+  GDPRCookiesGoogleTagManagerAdded: boolean;
   dataLayer: any[];
 }
 
