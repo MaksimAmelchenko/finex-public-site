@@ -10,7 +10,6 @@
     "noImplicitThis": true,
     "strictNullChecks": true,
     "isolatedModules": true,
-    "suppressImplicitAnyIndexErrors": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
