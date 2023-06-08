@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   CookieConsent: {
     'We use cookies to improve your experience and for marketing_':
       'Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und für Marketingzwecke.',

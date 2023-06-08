@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import * as fs from 'node:fs';
 import * as ts from 'typescript';
 import { scanNodes } from './scan-nodes';
 import { NodeArray } from 'typescript';

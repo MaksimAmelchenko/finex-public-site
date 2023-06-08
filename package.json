@@ -15,7 +15,7 @@
     "build": "gatsby build && [ $GIT_TAG ] && version=$GIT_TAG:$GIT_HASH || version=$npm_package_version:$GIT_HASH && printf $version > ./public/version",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "generate-translations": "ts-node -P i18n/tsconfig.json i18n/scanForI18N.ts && prettier --write './locales/*.js'",
+    "generate-translations": "ts-node -P i18n/tsconfig.json i18n/scanForI18N.ts && prettier --write './locales/*.ts'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install"
