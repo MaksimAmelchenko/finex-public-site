@@ -13,7 +13,7 @@ exports.wrapRootElement = ({ element }) => {
       en,
       de,
     },
-    'ru'
+    'en'
   );
 
   return element;

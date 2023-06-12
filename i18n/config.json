@@ -1,13 +1,5 @@
 [
   {
-    "code": "ru",
-    "hrefLang": "ru",
-    "name": "Russian",
-    "localName": "Ru",
-    "langDir": "ltr",
-    "dateFormat": "DD.MM.YYYY"
-  },
-  {
     "code": "en",
     "hrefLang": "en",
     "name": "English",
@@ -20,6 +12,14 @@
     "hrefLang": "de",
     "name": "German",
     "localName": "De",
+    "langDir": "ltr",
+    "dateFormat": "DD.MM.YYYY"
+  },
+  {
+    "code": "ru",
+    "hrefLang": "ru",
+    "name": "Russian",
+    "localName": "Ru",
     "langDir": "ltr",
     "dateFormat": "DD.MM.YYYY"
   }

@@ -6,8 +6,8 @@ const fs = require('fs');
 const outDir = 'locales';
 const defaultScanDir = 'src';
 const fileExtensions = ['ts', 'tsx'];
-const locales = ['ru', 'en', 'de'];
-const originalLocale = 'ru';
+const locales = ['en', 'ru', 'de'];
+const originalLocale = 'en';
 
 const path = process.argv.length > 2 && process.argv[2] ? process.argv[2] : defaultScanDir;
 

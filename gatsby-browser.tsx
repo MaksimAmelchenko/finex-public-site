@@ -14,7 +14,7 @@ initializeI18n(
     en,
     de,
   },
-  'ru'
+  'en'
 );
 
 export function onClientEntry() {
