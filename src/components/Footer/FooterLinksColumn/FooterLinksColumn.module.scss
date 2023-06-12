@@ -36,21 +36,23 @@
     text-indent: 0;
   }
 
-  &__link {
+  a.root__link,
+  button.root__link {
     color: var(--color-gray-200);
+    @include typography.textMDSemibold;
 
     &:hover {
-      color: var(--color-gray-300);
+      color: var(--color-white);
     }
 
     &:active,
     &:focus {
-      color: var(--color-gray-200);
+      color: var(--color-white);
     }
 
     &:disabled,
     &[disabled] {
-      color: var(--color-gray-700);
+      color: var(--color-gray-600);
     }
   }
 }
