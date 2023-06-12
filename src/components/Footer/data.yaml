@@ -21,6 +21,13 @@ ru:
         - title: Правила использования
           href: /legal/terms/
           rel: nofollow
+        - title: 'Политика в отношении файлов cookie'
+          href: /legal/cookies-policy/
+          rel: nofollow
+        - id: cookieConsentSettings
+          title: Настройка Cookie
+          href: #
+          rel: nofollow
   socialNetworks:
     - title: Telegram
       platform: telegram
@@ -54,6 +61,13 @@ en:
         - title: Terms of Use
           href: /legal/terms/
           rel: nofollow
+        - title: 'Cookie Policy'
+          href: /legal/cookies-policy/
+          rel: nofollow
+        - id: cookieConsentSettings
+          title: Cookie Settings
+          href: #
+          rel: nofollow
   socialNetworks:
     - title: Telegram
       platform: telegram
@@ -86,6 +100,13 @@ de:
           rel: nofollow
         - title: Nutzungsbedingungen
           href: /legal/terms/
+          rel: nofollow
+        - title: Cookie-Richtlinie
+          href: /legal/cookies-policy/
+          rel: nofollow
+        - id: cookieConsentSettings
+          title: Privatsphäre-Einstellungen
+          href: #
           rel: nofollow
   socialNetworks:
     - title: Telegram

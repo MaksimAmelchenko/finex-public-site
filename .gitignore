@@ -5,3 +5,4 @@ public
 .DS_Store
 *.sw[po]
 build
+.env.production
