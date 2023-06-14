@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import { useLocalization } from 'gatsby-theme-i18n';
 
@@ -46,6 +46,22 @@ interface IData {
 export function Footer({ className }: IFooterProps) {
   const { locale } = useLocalization();
   const { supportingText, footerText, columns, socialNetworks }: IData = dataI18n[locale];
+  const [showCookieConsent, setShowCookieConsent] = useState(false);
+  const [showOptionsCookieConsent, setShowOptionsCookieConsent] = useState(false);
+
+  useEffect(() => {
+    if (!localStorage.getItem('consentMode')) {
+      setShowCookieConsent(true);
+    }
+  }, []);
+
+  const handleClick = (id: string, event: React.MouseEvent) => {
+    switch (id) {
+      case 'cookieConsentSettings':
+        setShowOptionsCookieConsent(true);
+        setShowCookieConsent(true);
+    }
+  };
 
   return (
     <>
@@ -71,7 +87,7 @@ export function Footer({ className }: IFooterProps) {
 
               <div className={styles.root__links}>
                 {columns.map(({ title, links }, index) => (
-                  <FooterLinksColumn heading={title} links={links} key={index} />
+                  <FooterLinksColumn heading={title} links={links} key={index} onClick={handleClick} />
                 ))}
               </div>
             </div>
@@ -102,7 +118,13 @@ export function Footer({ className }: IFooterProps) {
         </section>
       </footer>
 
-      <CookieConsent />
+      {showCookieConsent && (
+        <CookieConsent
+          consentTypes={['analytics_storage', 'ad_storage']}
+          showOptions={showOptionsCookieConsent}
+          onClose={() => setShowCookieConsent(false)}
+        />
+      )}
     </>
   );
 }

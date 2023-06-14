@@ -6,8 +6,8 @@ const fs = require('fs');
 const outDir = 'locales';
 const defaultScanDir = 'src';
 const fileExtensions = ['ts', 'tsx'];
-const locales = ['ru', 'en', 'de'];
-const originalLocale = 'ru';
+const locales = ['en', 'ru', 'de'];
+const originalLocale = 'en';
 
 const path = process.argv.length > 2 && process.argv[2] ? process.argv[2] : defaultScanDir;
 
@@ -24,8 +24,8 @@ for (let locale of locales) {
   let newPhrasesCount = 0;
   let previousResult = {};
   const localeResult = {};
-  if (fs.existsSync(`${outDir}/${locale}.js`)) {
-    previousResult = require(`../${outDir}/${locale}.js`);
+  if (fs.existsSync(`${outDir}/${locale}.ts`)) {
+    previousResult = require(`../${outDir}/${locale}.ts`).default;
   }
   // 1. add new translations
   for (let namespace in scanResult) {
@@ -55,8 +55,8 @@ for (let locale of locales) {
       return acc;
     }, {});
 
-  fs.writeFileSync(`${outDir}/${locale}.js`, `module.exports = ` + JSON.stringify(result, null, 2));
-  console.log(`Translation file saved: ${outDir}/${locale}.js`);
+  fs.writeFileSync(`${outDir}/${locale}.ts`, `export default ` + JSON.stringify(result, null, 2));
+  console.log(`Translation file saved: ${outDir}/${locale}.ts`);
   if (newPhrasesCount) {
     console.log(`\x1b[37m\x1b[44mNew ${newPhrasesCount} phrases for ${locale}\x1b[0m`);
   }

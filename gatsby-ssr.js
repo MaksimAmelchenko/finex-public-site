@@ -2,9 +2,9 @@ require('./src/styles/global.scss');
 
 const { initializeI18n } = require('./src/lib/i18n');
 
-const ru = require('./locales/ru');
-const en = require('./locales/en');
-const de = require('./locales/de');
+const en = require('./locales/en').default;
+const ru = require('./locales/ru').default;
+const de = require('./locales/de').default;
 
 exports.wrapRootElement = ({ element }) => {
   initializeI18n(
@@ -13,7 +13,7 @@ exports.wrapRootElement = ({ element }) => {
       en,
       de,
     },
-    'ru'
+    'en'
   );
 
   return element;

@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+import * as fs from 'node:fs';
 import { scanFile } from './scan-file';
 
 export function scanDir(path: string, fileExtensions: string[]) {

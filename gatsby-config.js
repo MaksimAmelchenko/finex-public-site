@@ -1,15 +1,13 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   flags: {
     DEV_SSR: true,
   },
   siteMetadata: {
     siteUrl: 'https://finex.io',
-    googleAnalytics: {
-      trackingId: 'G-ZB37ZJ6SVJ',
-    },
-    yandexMetrika: {
-      trackingId: '29763990',
-    },
   },
   plugins: [
     {
@@ -85,7 +83,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-i18n',
       options: {
-        defaultLang: 'ru',
+        defaultLang: 'en',
         configPath: require.resolve('./i18n/config.json'),
       },
     },
