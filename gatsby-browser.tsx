@@ -16,9 +16,3 @@ initializeI18n(
   },
   'en'
 );
-
-export function onClientEntry() {
-  window.GDPRCookiesGoogleAnalyticsAdded = false;
-  window.GDPRCookiesGoogleAnalyticsInitialized = false;
-  window.GDPRCookiesYandexMetrikaInitialized = false;
-}
