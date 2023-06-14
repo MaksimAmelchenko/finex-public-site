@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import clsx from 'clsx';
 
 import { BaseCheckbox } from '../BaseCheckbox/BaseCheckbox';
 
 import styles from './CheckboxGroupItem.module.scss';
-import clsx from 'clsx';
 
 export interface CheckboxGroupItemProps {
   selected: boolean;

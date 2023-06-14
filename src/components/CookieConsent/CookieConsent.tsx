@@ -98,13 +98,14 @@ export function CookieConsent(props: CookieConsentProps): JSX.Element | null {
     };
 
     window.gtag('consent', 'update', consent);
+    window.gtag('event', 'consent-update');
     localStorage.setItem('consentMode', JSON.stringify(consent));
-
     onClose();
   };
 
   const handleAcceptSelectionClick = () => {
     window.gtag('consent', 'update', consentMode);
+    window.gtag('event', 'consent-update');
     localStorage.setItem('consentMode', JSON.stringify(consentMode));
     onClose();
   };

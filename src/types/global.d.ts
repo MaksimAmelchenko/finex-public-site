@@ -1,10 +1,6 @@
 declare interface Window {
   gtag: any;
   ym: any;
-  GDPRCookiesGoogleAnalyticsAdded: boolean;
-  GDPRCookiesGoogleAnalyticsInitialized: boolean;
-  GDPRCookiesYandexMetrikaInitialized: boolean;
-  GDPRCookiesGoogleTagManagerAdded: boolean;
   dataLayer: any[];
 }
 

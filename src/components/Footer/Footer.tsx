@@ -50,7 +50,7 @@ export function Footer({ className }: IFooterProps) {
   const [showOptionsCookieConsent, setShowOptionsCookieConsent] = useState(false);
 
   useEffect(() => {
-    if (!Boolean(window.localStorage && window.localStorage.getItem('consentMode'))) {
+    if (!localStorage.getItem('consentMode')) {
       setShowCookieConsent(true);
     }
   }, []);
