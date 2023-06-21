@@ -1202,7 +1202,7 @@ en:
             </p>
             <p>
               <em
-                >_____________________________________________ (insert a description
+                >_____________ (insert a description
                 of the goods/services that are subject to the respective
                 withdrawal)</em
               >
@@ -1210,29 +1210,29 @@ en:
             <ul>
               <li>
                 <em
-                  >Ordered on: _____________________________________________ (insert
+                  >Ordered on: _____________ (insert
                   the date)</em
                 >
               </li>
               <li>
                 <em
-                  >Received on: _____________________________________________
+                  >Received on: _____________
                   (insert the date)</em
                 >
               </li>
               <li>
                 <em
                   >Name of
-                  consumer(s):_____________________________________________</em
+                  consumer(s):_____________</em
                 >
               </li>
               <li>
                 <em
                   >Address of
-                  consumer(s):_____________________________________________</em
+                  consumer(s):_____________</em
                 >
               </li>
-              <li><em>Date: _____________________________________________</em></li>
+              <li><em>Date: _____________</em></li>
             </ul>
             <p><em>(sign if this form is notified on paper)</em></p>
             <h4>Owner (or We)</h4>
@@ -2678,7 +2678,7 @@ de:
 
             <p>
               <em
-                >_____________________________________________ (Beschreibung der
+                >_____________ (Beschreibung der
                 Waren/Dienstleistungen, die Gegenstand des Widerrufs sind)</em
               >
             </p>
@@ -2686,29 +2686,29 @@ de:
             <ul>
               <li>
                 <em
-                  >Bestellt am: _____________________________________________ (Datum
+                  >Bestellt am: _____________ (Datum
                   einfügen)</em
                 >
               </li>
               <li>
                 <em
-                  >Erhalten am: _____________________________________________ (Datum
+                  >Erhalten am: _____________ (Datum
                   einfügen)</em
                 >
               </li>
               <li>
                 <em
                   >Name des/der
-                  Verbraucher(s):_____________________________________________</em
+                  Verbraucher(s):_____________</em
                 >
               </li>
               <li>
                 <em
                   >Adresse des/der
-                  Verbraucher(s):_____________________________________________</em
+                  Verbraucher(s):_____________</em
                 >
               </li>
-              <li><em>Datum: _____________________________________________</em></li>
+              <li><em>Datum: _____________</em></li>
             </ul>
 
             <p>
