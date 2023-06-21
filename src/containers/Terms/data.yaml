@@ -1,4 +1,2778 @@
 en:
+  title: Terms and Conditions of <strong>finex.io</strong>
+  content: >
+    <div class="iubenda_legal_document">
+      <div class="iub_header">
+        <p>These Terms govern</p>
+        <ul>
+          <li>the use of this Application, and,</li>
+          <li>any other related Agreement or legal relationship with the Owner</li>
+        </ul>
+        <p>
+          in a legally binding way. Capitalised words are defined in the relevant
+          dedicated section of this document.
+        </p>
+        <br />
+        <p>The User must read this document carefully.</p>
+      </div>
+      <p>This Application is provided by:</p>
+      <p>Maksim Amelchenko<br />Harscampstraße 49<br />52062 Aachen, Germany</p>
+      <p><b>Owner contact email:</b> <a href="mailto:info@finex.io">info@finex.io</a></p>
+      <p>"This Application" refers to</p>
+      <ul>
+        <li>
+          this website, including its subdomains and any other website through which
+          the Owner makes its Service available;
+        </li>
+      </ul>
+      <ul>
+        <li>the Application Program Interfaces (API);</li>
+      </ul>
+      <ul>
+        <li>the Service;</li>
+      </ul>
+      <p>The following documents are incorporated by reference into these Terms:</p>
+      <h2 id="what-the-user-should-know-at-a-glance">
+        What the User should know at a glance
+      </h2>
+      <ul>
+        <li>The right of withdrawal only applies to European Consumers.</li>
+      </ul>
+      <ul>
+        <li>
+          This Application uses automatic renewal for Product subscriptions.
+          Information about the a) renewal period, b) termination details and c)
+          termination notice can be found in the relevant section of these Terms.
+        </li>
+      </ul>
+      <hr />
+      <h2 id="terms-of-use">TERMS OF USE</h2>
+      <p>
+        Unless otherwise specified, the terms of use detailed in this section apply
+        generally when using this Application.
+      </p>
+      <p>
+        Single or additional conditions of use or access may apply in specific
+        scenarios and in such cases are additionally indicated within this document.
+      </p>
+      <p>
+        By using this Application, Users confirm to meet the following requirements:
+      </p>
+      <ul>
+        <li>Users must qualify as Consumers;</li>
+      </ul>
+      <h3 id="account-registration">Account registration</h3>
+      <p>
+        To use the Service Users must register or create a User account, providing
+        all required data or information in a complete and truthful manner.<br />Failure
+        to do so will cause unavailability of the Service.
+      </p>
+      <p>
+        Users are responsible for keeping their login credentials confidential and
+        safe. For this reason, Users are also required to choose passwords that meet
+        the highest standards of strength permitted by this Application.
+      </p>
+      <p>
+        By registering, Users agree to be fully responsible for all activities that
+        occur under their username and password.<br />Users are required to
+        immediately and unambiguously inform the Owner via the contact details
+        indicated in this document, if they think their personal information,
+        including but not limited to User accounts, access credentials or personal
+        data, have been violated, unduly disclosed or stolen.
+      </p>
+      <h4 id="account-termination">Account termination</h4>
+      <p>
+        Users can terminate their account and stop using the Service at any time by
+        doing the following:
+      </p>
+      <ul>
+        <li>
+          By using the tools provided for account termination on this Application.
+        </li>
+      </ul>
+      <h4 id="account-suspension-and-deletion">Account suspension and deletion</h4>
+      <p>
+        The Owner reserves the right, at its sole discretion, to suspend or delete
+        at any time and without notice, User accounts which it deems inappropriate,
+        offencive or in violation of these Terms.
+      </p>
+      <p>
+        The suspension or deletion of User accounts shall not entitle Users to any
+        claims for compensation, damages or reimbursement.
+      </p>
+      <p>
+        The suspension or deletion of accounts due to causes attributable to the
+        User does not exempt the User from paying any applicable fees or prices.
+      </p>
+      <h3 id="content-on-this_application">Content on this Application</h3>
+      <p>
+        Unless where otherwise specified or clearly recognisable, all content
+        available on this Application is owned or provided by the Owner or its
+        licensors.
+      </p>
+      <p>
+        The Owner undertakes its utmost effort to ensure that the content provided
+        on this Application infringes no applicable legal provisions or third-party
+        rights. However, it may not always be possible to achieve such a result.<br />In
+        such cases, without prejudice to any legal prerogatives of Users to enforce
+        their rights, Users are kindly asked to preferably report related complaints
+        using the contact details provided in this document.
+      </p>
+      <h4 id="rights-regarding-content-on-this_application-all-rights-reserved">
+        Rights regarding content on this Application - All rights reserved
+      </h4>
+      <p>
+        The Owner holds and reserves all intellectual property rights for any such
+        content.
+      </p>
+      <p>
+        Users may not therefore use such content in any way that is not necessary or
+        implicit in the proper use of the Service.
+      </p>
+      <p>
+        In particular, but without limitation, Users may not copy, download, share
+        (beyond the limits set forth below), modify, translate, transform, publish,
+        transmit, sell, sublicence, edit, transfer/assign to third parties or create
+        derivative works from the content available on this Application, nor allow
+        any third party to do so through the User or their device, even without the
+        User's knowledge.
+      </p>
+      <p>
+        Where explicitly stated on this Application, the User may download, copy
+        and/or share some content available through this Application for its sole
+        personal and non-commercial use and provided that the copyright attributions
+        and all the other attributions requested by the Owner are correctly
+        implemented.
+      </p>
+      <p>
+        Any applicable statutory limitation or exception to copyright shall stay
+        unaffected.
+      </p>
+      <h3 id="access-to-external-resources">Access to external resources</h3>
+      <p>
+        Through this Application Users may have access to external resources
+        provided by third parties. Users acknowledge and accept that the Owner has
+        no control over such resources and is therefore not responsible for their
+        content and availability.
+      </p>
+      <p>
+        Conditions applicable to any resources provided by third parties, including
+        those applicable to any possible grant of rights in content, result from
+        each such third parties’ terms and conditions or, in the absence of those,
+        applicable statutory law.
+      </p>
+      <h3 id="acceptable-use">Acceptable use</h3>
+      <p>
+        This Application and the Service may only be used within the scope of what
+        they are provided for, under these Terms and applicable law.
+      </p>
+      <p>
+        Users are solely responsible for making sure that their use of this
+        Application and/or the Service violates no applicable law, regulations or
+        third-party rights.
+      </p>
+      <p>
+        Therefore,
+        <strong
+          >the Owner reserves the right to take any appropriate measure to protect
+          its legitimate interests including by denying Users access to this
+          Application or the Service, terminating contracts, reporting any
+          misconduct performed through this Application or the Service to the
+          competent authorities – such as judicial or administrative authorities -
+          whenever Users engage or are suspected to engage in any of the following
+          activities:</strong
+        >
+      </p>
+      <ul>
+        <li>violate laws, regulations and/or these Terms;</li>
+        <li>infringe any third-party rights;</li>
+        <li>considerably impair the Owner’s legitimate interests;</li>
+        <li>offend the Owner or any third party.</li>
+      </ul>
+      <h3 id="tell-a-friend">“Tell-a-friend”</h3>
+      <p>
+        This Application gives Users the opportunity to receive advantages if, as a
+        result of their recommendation, any new User purchases a Product offered on
+        this Application.<br />In order to take advantage of this offer, Users may
+        invite others to purchase the Products on this Application by sending them a
+        tell-a-friend code provided by the Owner. Such codes can only be redeemed
+        once.<br />If upon purchase of the Products on this Application any of the
+        persons invited redeems a tell-a-friend code, the inviting User shall
+        receive the advantage or benefit (such as: a price reduction, an additional
+        service feature, an upgrade etc.) specified on this Application.<br />Tell-a-friend
+        codes may be limited to specific Products among those offered on this
+        Application.
+      </p>
+      <p>
+        The Owner reserves the right to end the offer at any time at its own
+        discretion.
+      </p>
+      <p>
+        While no general limitation applies to the number of persons that can be
+        invited, the amount of advantage or benefit that each inviting User can
+        receive, may be limited.
+      </p>
+      <h3 id="software-license">Software license</h3>
+      <p>
+        Any intellectual or industrial property rights, and any other exclusive
+        rights on software or technical applications embedded in or related to this
+        Application are held by the Owner and/or its licensors.
+      </p>
+      <p>
+        Subject to Users’ compliance with and notwithstanding any divergent
+        provision of these Terms, the Owner merely grants Users a revocable,
+        non-exclusive, non-sublicensable and non-transferable license to use the
+        software and/or any other technical means embedded in the Service within the
+        scope and for the purposes of this Application and the Service offered.
+      </p>
+      <p>
+        This license does not grant Users any rights to access, usage or disclosure
+        of the original source code. All techniques, algorithms, and procedures
+        contained in the software and any documentation thereto related is the
+        Owner’s or its licensors’ sole property.
+      </p>
+      <p>
+        All rights and license grants to Users shall immediately terminate upon any
+        termination or expiration of the Agreement.
+      </p>
+      <h3 id="api-usage-terms">API usage terms</h3>
+      <p>
+        Users may access their data relating to this Application via the Application
+        Program Interface (API). Any use of the API, including use of the API
+        through a third-party product/service that accesses this Application, is
+        bound by these Terms and, in addition, by the following specific terms:
+      </p>
+      <ul>
+        <li>
+          the User expressly understands and agrees that the Owner bears no
+          responsibility and shall not be held liable for any damages or losses
+          resulting from the User’s use of the API or their use of any third-party
+          products/services that access data through the API.
+        </li>
+      </ul>
+      <h2 id="terms-and-conditions-of-sale">TERMS AND CONDITIONS OF SALE</h2>
+      <h3 id="paid-products">Paid Products</h3>
+      <p>
+        Some of the Products provided on this Application, as part of the Service,
+        are provided on the basis of payment.
+      </p>
+      <p>
+        The fees, duration and conditions applicable to the purchase of such
+        Products are described below and in the dedicated sections of this
+        Application.
+      </p>
+      <p>
+        To purchase Products, the User must register or log into this Application.
+      </p>
+      <h3 id="product-description">Product description</h3>
+      <p>
+        Prices, descriptions or availability of Products are outlined in the
+        respective sections of this Application and are subject to change without
+        notice.
+      </p>
+      <p>
+        While Products on this Application are presented with the greatest accuracy
+        technically possible, representation on this Application through any means
+        (including, as the case may be, graphic material, images, colours, sounds)
+        is for reference only and implies no warranty as to the characteristics of
+        the purchased Product.
+      </p>
+      <p>
+        The characteristics of the chosen Product will be outlined during the
+        purchasing process.
+      </p>
+      <h3 id="purchasing-process">Purchasing process</h3>
+      <p>
+        Any steps taken from choosing a Product to order submission form part of the
+        purchasing process.
+      </p>
+      <p>The purchasing process includes these steps:</p>
+      <ul>
+        <li>
+          Users must choose the desired Product and verify their purchase selection.
+        </li>
+        <li>
+          After having reviewed the information displayed in the purchase selection,
+          Users may place the order by submitting it.
+        </li>
+      </ul>
+      <h3 id="order-submission">Order submission</h3>
+      <p>When the User submits an order, the following applies:</p>
+      <ul>
+        <li>
+          The submission of an order determines contract conclusion and therefore
+          creates for the User the obligation to pay the price, taxes and possible
+          further fees and expenses, as specified on the order page.
+        </li>
+        <li>
+          In case the purchased Product requires an action from the User, such as
+          the provision of personal information or data, specifications or special
+          wishes, the order submission creates an obligation for the User to
+          cooperate accordingly.
+        </li>
+        <li>
+          Upon submission of the order, Users will receive a receipt confirming that
+          the order has been received.
+        </li>
+      </ul>
+      <p>
+        All notifications related to the described purchasing process shall be sent
+        to the email address provided by the User for such purposes.
+      </p>
+      <h3 id="prices">Prices</h3>
+      <p>
+        Users are informed during the purchasing process and before order
+        submission, about any fees, taxes and costs (including, if any, delivery
+        costs) that they will be charged.
+      </p>
+      <p>Prices on this Application are displayed:</p>
+      <ul>
+        <li>including all applicable fees, taxes and costs.</li>
+      </ul>
+      <h3 id="methods-of-payment">Methods of payment</h3>
+      <p>
+        Information related to accepted payment methods are made available during
+        the purchasing process.
+      </p>
+      <p>
+        Some payment methods may only be available subject to additional conditions
+        or fees. In such cases related information can be found in the dedicated
+        section of this Application.
+      </p>
+      <p>
+        All payments are independently processed through third-party services.
+        Therefore, this Application does not collect any payment information – such
+        as credit card details – but only receives a notification once the payment
+        has been successfully completed.
+      </p>
+      <p>
+        If a payment through the available methods fails or is refused by the
+        payment service provider, the Owner shall be under no obligation to fulfil
+        the purchase order. If a payment fails or is refused, the Owner reserves the
+        right to claim any related expenses or damages from the User.
+      </p>
+      <h3 id="authorization-for-future-paypal-payment">
+        Authorization for future PayPal payment
+      </h3>
+      <p>
+        If Users authorise the PayPal feature which allows future purchases, this
+        Application will store an identification code linked to the Users’ PayPal
+        account. This will authorise this Application to automatically process
+        payments for future purchases or recurring instalments of past purchases.
+      </p>
+      <p>
+        This authorisation can be revoked at any time, either by contacting the
+        Owner or by changing the user settings offered by PayPal.
+      </p>
+      <h3 id="retention-of-usage-rights">Retention of usage rights</h3>
+      <p>
+        Users do not acquire any rights to use the purchased Product until the total
+        purchase price is received by the Owner.
+      </p>
+      <h3 id="delivery">Delivery</h3>
+      <h4 id="performance-of-services">Performance of services</h4>
+      <p>
+        The purchased service shall be performed or made available within the
+        timeframe specified on this Application or as communicated before the order
+        submission.
+      </p>
+      <h3 id="contract-duration">Contract duration</h3>
+      <h4 id="trial-period">Trial period</h4>
+      <p>
+        Users have the option to test this Application or selected Products during a
+        limited and non-renewable trial period, at no cost. Some features or
+        functions of this Application may not be available to Users during the trial
+        period.<br />Further conditions applicable to the trial period, including
+        its duration, will be specified on this Application.
+      </p>
+      <p>
+        The trial period shall end automatically and shall not convert into any paid
+        Product unless the User actively purchases such paid Product.
+      </p>
+      <h4 id="subscriptions">Subscriptions</h4>
+      <p>
+        Subscriptions allow Users to receive a Product continuously or regularly
+        over time. Details regarding the type of subscription and termination are
+        outlined below.
+      </p>
+      <h4 id="fixed-term-subscriptions">Fixed-term subscriptions</h4>
+      <p>
+        Paid fixed-term subscriptions start on the day the payment is received by
+        the Owner and last for the subscription period chosen by the User or
+        otherwise specified during the purchasing process.
+      </p>
+      <p>
+        Once the subscription period expires, the Product shall no longer be
+        accessible.
+      </p>
+      <h4 id="automatic-renewal-of-fixed-term-subscriptions">
+        Automatic renewal of fixed-term subscriptions
+      </h4>
+      <p>
+        <strong
+          >Subscriptions are automatically renewed through the payment method that
+          the User chose during purchase.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >The renewed subscription will last for a period equal to the original
+          term.</strong
+        >
+      </p>
+      <h5 id="termination">Termination</h5>
+      <p>
+        <strong
+          >Recurring subscriptions may be terminated at any time by sending a clear
+          and unambiguous termination notice to the Owner using the contact details
+          provided in this document, or — if applicable — by using the corresponding
+          controls inside this Application.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >If the notice of termination is received by the Owner before the
+          subscription renews, the termination shall take effect as soon as the
+          current period is completed.</strong
+        >
+      </p>
+      <h2 id="user-rights">User rights</h2>
+      <h3 id="right-of-withdrawal">Right of withdrawal</h3>
+      <p>
+        Unless exceptions apply, the User may be eligible to withdraw from the
+        contract within the period specified below (generally 14 days), for any
+        reason and without justification. Users can learn more about the withdrawal
+        conditions within this section.
+      </p>
+      <h4 id="who-the-right-of-withdrawal-applies-to">
+        Who the right of withdrawal applies to
+      </h4>
+      <p>
+        Unless any applicable exception is mentioned below, Users who are European
+        Consumers are granted a statutory cancellation right under EU rules, to
+        withdraw from contracts entered into online (distance contracts) within the
+        specified period applicable to their case, for any reason and without
+        justification.
+      </p>
+      <p>
+        Users that do not fit this qualification, cannot benefit from the rights
+        described in this section.
+      </p>
+      <h4 id="exercising-the-right-of-withdrawal">
+        Exercising the right of withdrawal
+      </h4>
+      <p>
+        To exercise their right of withdrawal, Users must send to the Owner an
+        unequivocal statement of their intention to withdraw from the contract.
+      </p>
+      <p>
+        To this end, Users may use the model withdrawal form available from within
+        the “definitions” section of this document. Users are, however, free to
+        express their intention to withdraw from the contract by making an
+        unequivocal statement in any other suitable way. In order to meet the
+        deadline within which they can exercise such right, Users must send the
+        withdrawal notice before the withdrawal period expires.
+      </p>
+      <p>When does the withdrawal period expire?</p>
+      <ul>
+        <li>
+          <strong>Regarding the purchase of a service</strong>, the withdrawal
+          period expires 14 days after the day that the contract is entered into,
+          unless the User has waived the withdrawal right.
+        </li>
+      </ul>
+      <h4 id="effects-of-withdrawal">Effects of withdrawal</h4>
+      <p>
+        Users who correctly withdraw from a contract will be reimbursed by the Owner
+        for all payments made to the Owner, including, if any, those covering the
+        costs of delivery.
+      </p>
+      <p>
+        However, any additional costs resulting from the choice of a particular
+        delivery method other than the least expensive type of standard delivery
+        offered by the Owner, will not be reimbursed.
+      </p>
+      <p>
+        Such reimbursement shall be made without undue delay and, in any event, no
+        later than 14 days from the day on which the Owner is informed of the User’s
+        decision to withdraw from the contract. Unless otherwise agreed with the
+        User, reimbursements will be made using the same means of payment as used to
+        process the initial transaction. In any event, the User shall not incur any
+        costs or fees as a result of such reimbursement.
+      </p>
+      <h5 id="on-the-purchase-of-services">…on the purchase of services</h5>
+      <p>
+        Where a User exercises the right of withdrawal after having requested that
+        the service be performed before the withdrawal period expires, the User
+        shall pay to the Owner an amount which is in proportion to the part of
+        service provided.
+      </p>
+      <p>
+        Such payment shall be calculated based on the fee contractually agreed upon,
+        and be proportional to the part of service provided until the time the User
+        withdraws, compared with the full coverage of the contract.
+      </p>
+      <h3 id="uk-user-rights">UK User rights</h3>
+      <h4 id="right-to-cancel">Right to cancel</h4>
+      <p>
+        Unless exceptions apply, Users who are Consumers in the United Kingdom have
+        a legal right of cancellation under UK law and may be eligible to withdraw
+        from contracts made online (distance contracts) within the period specified
+        below (generally 14 days), for any reason and without justification.
+      </p>
+      <p>
+        Users that do not qualify as Consumers, cannot benefit from the rights
+        described in this section. Users can learn more about the cancellation
+        conditions within this section.
+      </p>
+      <h5 id="exercising-the-right-to-cancel">Exercising the right to cancel</h5>
+      <p>
+        To exercise their right to cancel, Users must send to the Owner an
+        unequivocal statement of their intention to withdraw from the contract. To
+        this end, Users may use the model withdrawal form available from within the
+        “definitions” section of this document. Users are, however, free to express
+        their intention to withdraw from the contract by making an unequivocal
+        statement in any other suitable way. In order to meet the deadline within
+        which they can exercise such right, Users must send the withdrawal notice
+        before the cancellation period expires. When does the cancellation period
+        expire?
+      </p>
+      <ul>
+        <li>
+          <strong>Regarding the purchase of a service</strong>, the cancellation
+          period expires 14 days after the day that the contract is entered into,
+          unless the User has waived the right to cancel.
+        </li>
+      </ul>
+      <h5 id="effects-of-cancellation">Effects of cancellation</h5>
+      <p>
+        Users who correctly withdraw from a contract will be reimbursed by the Owner
+        for all payments made to the Owner, including, if any, those covering the
+        costs of delivery.
+      </p>
+      <p>
+        However, any additional costs resulting from the choice of a particular
+        delivery method other than the least expensive type of standard delivery
+        offered by the Owner, will not be reimbursed.
+      </p>
+      <p>
+        Such reimbursement shall be made without undue delay and, in any event, no
+        later than 14 days from the day on which the Owner is informed of the User’s
+        decision to withdraw from the contract. Unless otherwise agreed with the
+        User, reimbursements will be made using the same means of payment as used to
+        process the initial transaction. In any event, the User shall not incur any
+        costs or fees as a result of such reimbursement.
+      </p>
+      <h6 id="on-the-purchase-of-services">…on the purchase of services</h6>
+      <p>
+        Where a User exercises the right to cancel after having requested that the
+        service be performed before the cancellation period expires, the User shall
+        pay to the Owner an amount which is in proportion to the part of service
+        provided.
+      </p>
+      <p>
+        Such payment shall be calculated based on the fee contractually agreed upon,
+        and be proportional to the part of service provided until the time the User
+        withdraws, compared with the full coverage of the contract.
+      </p>
+      <h3 id="brazilian-user-rights">Brazilian User rights</h3>
+      <h4 id="right-of-regret">Right of Regret</h4>
+      <p>
+        Unless an applicable exception is stated below, Users who are Consumers in
+        Brazil have a legal right of regret under Brazilian law. This means that the
+        Consumer has the right to withdraw from contracts made online (distance
+        contracts or any contract signed away from business premises) within seven
+        (7) days of the date the contract was entered into or the receipt of the
+        product or service, for any reason and without justification. Users that do
+        not qualify as Consumers, cannot benefit from the rights described in this
+        section. The right of regret may be exercised by the Consumer via contact
+        channels listed at the beginning of this Document and in accordance with the
+        guidelines in this Section.
+      </p>
+      <h5 id="exercising-the-right-of-regret">Exercising the right of regret</h5>
+      <p>
+        To exercise their right of regret, Users must send to the Owner an
+        unequivocal statement of their intention to withdraw from the contract. To
+        this end, Users may use the model withdrawal form available from within the
+        “definitions” section of this document. Users are, however, free to express
+        their intention to withdraw from the contract by making an unequivocal
+        statement in any other suitable way. In order to meet the deadline within
+        which they can exercise such right, Users must send the regret notice before
+        the regret period expires. When does the regret period expire?
+      </p>
+      <ul>
+        <li>
+          <strong>Regarding the purchase of a service</strong>, the regret period
+          expires seven (7) days after the day that the contract is entered into and
+          only if the service has not yet been provided.
+        </li>
+      </ul>
+      <h5 id="effects-of-regret">Effects of regret</h5>
+      <p>
+        Users who correctly withdraw from a contract will be reimbursed by the Owner
+        for all payments made to the Owner, including, if any, those covering the
+        costs of delivery.
+      </p>
+      <p>
+        However, any additional costs resulting from the choice of a particular
+        delivery method other than the least expensive type of standard delivery
+        offered by the Owner, will not be reimbursed.
+      </p>
+      <p>
+        Such reimbursement shall be made without undue delay and, in any event, no
+        later than 14 days from the day on which the Owner is informed of the User’s
+        decision to withdraw from the contract or the actual return of the product,
+        whichever occurs later. Unless otherwise agreed with the User,
+        reimbursements will be made using the same means of payment as used to
+        process the initial transaction. In any event, the User shall not incur any
+        costs or fees as a result of such reimbursement.
+      </p>
+      <h6 id="on-the-purchase-of-services">…on the purchase of services</h6>
+      <p>
+        Where a User exercises the right of regret after having requested that the
+        service be performed before the regret period expires, the User shall pay to
+        the Owner an amount which is in proportion to the part of the service
+        provided.
+      </p>
+      <p>
+        Such payment shall be calculated based on the fee contractually agreed upon,
+        and be proportional to the part of service provided until the time the User
+        withdraws.
+      </p>
+      <h2 id="guarantees">Guarantees</h2>
+      <h3 id="legal-guarantee-of-conformity-for-services-for-consumers-in-brazil">
+        Legal guarantee of conformity for services for Consumers in Brazil
+      </h3>
+      <p>
+        The legal guarantee applicable to services sold by this Application complies
+        with the following terms, according to the Consumer Protection Code:
+      </p>
+      <ul>
+        <li>
+          non-durable services shall have a thirty-day (30 day) guarantee; and
+        </li>
+        <li>durable services shall have a ninety-day (90 day) guarantee.</li>
+      </ul>
+      <p>The warranty period starts from the end of the performance of services.</p>
+      <p>
+        The warranty is not applicable in cases of service misuse, natural events or
+        if it has been subjected to any maintenance other than that provided by this
+        Application. <br />The warranty may be claimed through the contact channels
+        provided by this Application. If applicable, the Owner shall bear the costs
+        of shipping any goods for technical assessment. <br />The Owner, at its own
+        discretion, may also offer a contractual warranty in addition to the legal
+        warranty. <br />The regulations applicable to contractual warranties can be
+        found in the specifications provided by this Application. If no such
+        information is provided, only the statutory provisions shall apply.
+      </p>
+      <h2 id="liability-and-indemnification">Liability and indemnification</h2>
+      <p>
+        Unless otherwise explicitly stated or agreed with Users, the Owner’s
+        liability for damages in connection with the execution of the Agreement
+        shall be excluded, limited and/or reduced to the maximum extent permitted by
+        applicable law.
+      </p>
+      <h4 id="indemnification">Indemnification</h4>
+      <p>
+        The User agrees to indemnify and hold the Owner and its subsidiaries,
+        affiliates, officers, directors, agents, co-branders, partners and employees
+        harmless from and against any claim or demand ⁠— including but not limited
+        to lawyer's fees and costs ⁠— made by any third party due to or in relation
+        with any culpable use of or connection to the Service, violation of these
+        Terms, infringement of any third-party rights or statutory provision by the
+        User or its affiliates, officers, directors, agents, co-branders, partners
+        and employees to the extent allowed by applicable law.
+      </p>
+      <h4 id="limitation-of-liability">Limitation of liability</h4>
+      <p>
+        Unless otherwise explicitly stated and without prejudice to applicable
+        statutory product liability provisions, Users shall have no right to claim
+        damages against the Owner (or any natural or legal person acting on its
+        behalf).
+      </p>
+      <p>
+        This does not apply to damages to life, health or physical integrity,
+        damages resulting from the breach of an essential contractual obligation
+        such as any obligation strictly necessary to achieve the purpose of the
+        contract, and/or damages resulting from intent or gross negligence, as long
+        as this Application has been appropriately and correctly used by the User.
+      </p>
+      <p>
+        Unless damages have been caused by way of intent or gross negligence, or
+        they affect life, health or physical integrity, the Owner shall only be
+        liable to the extent of typical and foreseeable damages at the moment the
+        contract was entered into.
+      </p>
+      <p>
+        In particular, within the limits stated above, the Owner shall not be liable
+        for:
+      </p>
+      <ul>
+        <li>
+          any losses that are not the direct consequence of a breach of the Terms by
+          the Owner;
+        </li>
+      </ul>
+      <ul>
+        <li>
+          any loss of business opportunities and any other loss, even indirect, that
+          may be incurred by the User (such as, but not limited to, trading losses,
+          loss of revenue, income, profits or anticipated savings, loss of contracts
+          or business relationships, loss of reputation or goodwill, etc.);
+        </li>
+      </ul>
+      <ul>
+        <li>
+          damages or losses resulting from interruptions or malfunctions of this
+          Application due to acts of force majeure, or unforeseen and unforeseeable
+          events and, in any case, independent of the will and beyond the control of
+          the Owner, such as, but not limited to, failures or disruptions of
+          telephone or electrical lines, the Internet and / or other means of
+          transmission, unavailability of websites, strikes, natural disasters,
+          viruses and cyber attacks, interruptions in the delivery of products,
+          third-party services or applications;
+        </li>
+      </ul>
+      <ul>
+        <li>
+          any damage, prejudice or loss occurring due to viruses or other malware
+          contained in or connected to files available for download from the
+          internet or via this Application. Users are responsible for implementing
+          sufficient security measures – such as anti-viruses and firewalls to
+          prevent any such infection or attack and for securing backup copies of all
+          data or information exchanged via or uploaded to this Application.
+        </li>
+      </ul>
+      <h3 id="australian-users">Australian Users</h3>
+      <h4 id="limitation-of-liability">Limitation of liability</h4>
+      <p>
+        Nothing in these Terms excludes, restricts or modifies any guarantee,
+        condition, warranty, right or remedy which the User may have under the
+        Competition and Consumer Act 2010 (Cth) or any similar State and Territory
+        legislation and which cannot be excluded, restricted or modified
+        (non-excludable right). To the fullest extent permitted by law, our
+        liability to the User, including liability for a breach of a non-excludable
+        right and liability which is not otherwise excluded under these Terms of
+        Use, is limited, at the Owner’s sole discretion, to the re-performance of
+        the services or the payment of the cost of having the services supplied
+        again.
+      </p>
+      <h3 id="us-users">US Users</h3>
+      <h4 id="disclaimer-of-warranties">Disclaimer of Warranties</h4>
+      <p>
+        <strong
+          >This Application is provided strictly on an “as is” and “as available”
+          basis. Use of the Service is at Users’ own risk. To the maximum extent
+          permitted by applicable law, the Owner expressly disclaims all conditions,
+          representations, and warranties — whether express, implied, statutory or
+          otherwise, including, but not limited to, any implied warranty of
+          merchantability, fitness for a particular purpose, or non-infringement of
+          third-party rights. No advice or information, whether oral or written,
+          obtained by user from owner or through the Service will create any
+          warranty not expressly stated herein.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Without limiting the foregoing, the Owner, its subsidiaries, affiliates,
+          licensors, officers, directors, agents, co-branders, partners, suppliers
+          and employees do not warrant that the content is accurate, reliable or
+          correct; that the Service will meet Users’ requirements; that the Service
+          will be available at any particular time or location, uninterrupted or
+          secure; that any defects or errors will be corrected; or that the Service
+          is free of viruses or other harmful components. Any content downloaded or
+          otherwise obtained through the use of the Service is downloaded at users
+          own risk and users shall be solely responsible for any damage to Users’
+          computer system or mobile device or loss of data that results from such
+          download or Users’ use of the Service.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >The Owner does not warrant, endorse, guarantee, or assume responsibility
+          for any product or service advertised or offered by a third party through
+          the Service or any hyperlinked website or service, and the Owner shall not
+          be a party to or in any way monitor any transaction between Users and
+          third-party providers of products or services.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >The Service may become inaccessible or it may not function properly with
+          Users’ web browser, mobile device, and/or operating system. The owner
+          cannot be held liable for any perceived or actual damages arising from
+          Service content, operation, or use of this Service.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Federal law, some states, and other jurisdictions, do not allow the
+          exclusion and limitations of certain implied warranties. The above
+          exclusions may not apply to Users. This Agreement gives Users specific
+          legal rights, and Users may also have other rights which vary from state
+          to state. The disclaimers and exclusions under this agreement shall not
+          apply to the extent prohibited by applicable law.</strong
+        >
+      </p>
+      <h4 id="limitations-of-liability">Limitations of liability</h4>
+      <p>
+        <strong
+          >To the maximum extent permitted by applicable law, in no event shall the
+          Owner, and its subsidiaries, affiliates, officers, directors, agents,
+          co-branders, partners, suppliers and employees be liable for</strong
+        >
+      </p>
+      <ul>
+        <li>
+          <strong
+            >any indirect, punitive, incidental, special, consequential or exemplary
+            damages, including without limitation damages for loss of profits,
+            goodwill, use, data or other intangible losses, arising out of or
+            relating to the use of, or inability to use, the Service; and</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any damage, loss or injury resulting from hacking, tampering or other
+            unauthorised access or use of the Service or User account or the
+            information contained therein;</strong
+          >
+        </li>
+        <li><strong>any errors, mistakes, or inaccuracies of content;</strong></li>
+        <li>
+          <strong
+            >personal injury or property damage, of any nature whatsoever, resulting
+            from User access to or use of the Service;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any unauthorised access to or use of the Owner’s secure servers and/or
+            any and all personal information stored therein;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any interruption or cessation of transmission to or from the
+            Service;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any bugs, viruses, trojan horses, or the like that may be transmitted
+            to or through the Service;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any errors or omissions in any content or for any loss or damage
+            incurred as a result of the use of any content posted, emailed,
+            transmitted, or otherwise made available through the Service;
+            and/or</strong
+          >
+        </li>
+        <li>
+          <strong
+            >the defamatory, offensive, or illegal conduct of any User or third
+            party. In no event shall the Owner, and its subsidiaries, affiliates,
+            officers, directors, agents, co-branders, partners, suppliers and
+            employees be liable for any claims, proceedings, liabilities,
+            obligations, damages, losses or costs in an amount exceeding the amount
+            paid by User to the Owner hereunder in the preceding 12 months, or the
+            period of duration of this agreement between the Owner and User,
+            whichever is shorter.</strong
+          >
+        </li>
+      </ul>
+      <p>
+        <strong
+          >This limitation of liability section shall apply to the fullest extent
+          permitted by law in the applicable jurisdiction whether the alleged
+          liability is based on contract, tort, negligence, strict liability, or any
+          other basis, even if company has been advised of the possibility of such
+          damage.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Some jurisdictions do not allow the exclusion or limitation of incidental
+          or consequential damages, therefore the above limitations or exclusions
+          may not apply to User. The terms give User specific legal rights, and User
+          may also have other rights which vary from jurisdiction to jurisdiction.
+          The disclaimers, exclusions, and limitations of liability under the terms
+          shall not apply to the extent prohibited by applicable law.</strong
+        >
+      </p>
+      <h4 id="indemnification">Indemnification</h4>
+      <p>
+        <strong
+          >The User agrees to defend, indemnify and hold the Owner and its
+          subsidiaries, affiliates, officers, directors, agents, co-branders,
+          partners, suppliers and employees harmless from and against any and all
+          claims or demands, damages, obligations, losses, liabilities, costs or
+          debt, and expenses, including, but not limited to, legal fees and
+          expenses, arising from</strong
+        >
+      </p>
+      <ul>
+        <li>
+          <strong
+            >User’s use of and access to the Service, including any data or content
+            transmitted or received by User;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >User’s violation of these terms, including, but not limited to, User’s
+            breach of any of the representations and warranties set forth in these
+            terms;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >User’s violation of any third-party rights, including, but not limited
+            to, any right of privacy or intellectual property rights;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >User’s violation of any statutory law, rule, or regulation;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >any content that is submitted from User’s account, including third
+            party access with User’s unique username, password or other security
+            measure, if applicable, including, but not limited to, misleading,
+            false, or inaccurate information;</strong
+          >
+        </li>
+        <li><strong>User’s willful misconduct; or</strong></li>
+        <li>
+          <strong
+            >statutory provision by User or its affiliates, officers, directors,
+            agents, co-branders, partners, suppliers and employees to the extent
+            allowed by applicable law.</strong
+          >
+        </li>
+      </ul>
+      <h2 id="common-provisions">Common provisions</h2>
+      <h3 id="no-waiver">No Waiver</h3>
+      <p>
+        The Owner’s failure to assert any right or provision under these Terms shall
+        not constitute a waiver of any such right or provision. No waiver shall be
+        considered a further or continuing waiver of such term or any other term.
+      </p>
+      <h3 id="service-interruption">Service interruption</h3>
+      <p>
+        To ensure the best possible service level, the Owner reserves the right to
+        interrupt the Service for maintenance, system updates or any other changes,
+        informing the Users appropriately.
+      </p>
+      <p>
+        Within the limits of law, the Owner may also decide to suspend or
+        discontinue the Service altogether. If the Service is discontinued, the
+        Owner will cooperate with Users to enable them to withdraw Personal Data or
+        information and will respect Users' rights relating to continued product use
+        and/or compensation, as provided for by applicable law.
+      </p>
+      <p>
+        Additionally, the Service might not be available due to reasons outside the
+        Owner’s reasonable control, such as “force majeure” events( infrastructural
+        breakdowns or blackouts etc.).
+      </p>
+      <h3 id="service-reselling">Service reselling</h3>
+      <p>
+        Users may not reproduce, duplicate, copy, sell, resell or exploit any
+        portion of this Application and of its Service without the Owner’s express
+        prior written permission, granted either directly or through a legitimate
+        reselling program.
+      </p>
+      <h3 id="privacy-policy">Privacy policy</h3>
+      <p>
+        To learn more about the use of their Personal Data, Users may refer to the
+        privacy policy of this Application.
+      </p>
+      <h3 id="intellectual-property-rights">Intellectual property rights</h3>
+      <p>
+        Without prejudice to any more specific provision of these Terms, any
+        intellectual property rights, such as copyrights, trademark rights, patent
+        rights and design rights related to this Application are the exclusive
+        property of the Owner or its licensors and are subject to the protection
+        granted by applicable laws or international treaties relating to
+        intellectual property.
+      </p>
+      <p>
+        All trademarks — nominal or figurative — and all other marks, trade names,
+        service marks, word marks, illustrations, images, or logos appearing in
+        connection with this Application are, and remain, the exclusive property of
+        the Owner or its licensors and are subject to the protection granted by
+        applicable laws or international treaties related to intellectual property.
+      </p>
+      <h3 id="changes-to-these-terms">Changes to these Terms</h3>
+      <p>
+        The Owner reserves the right to amend or otherwise modify these Terms at any
+        time. In such cases, the Owner will appropriately inform the User of these
+        changes.
+      </p>
+      <p>
+        Such changes will only affect the relationship with the User from the date
+        communicated to Users onwards.
+      </p>
+      <p>
+        The continued use of the Service will signify the User’s acceptance of the
+        revised Terms. If Users do not wish to be bound by the changes, they must
+        stop using the Service and may terminate the Agreement.
+      </p>
+      <p>
+        The applicable previous version will govern the relationship prior to the
+        User's acceptance. The User can obtain any previous version from the Owner.
+      </p>
+      <p>
+        If legally required, the Owner will notify Users in advance of when the
+        modified Terms will take effect.
+      </p>
+      <h4 id="exception-for-consumers-in-france">
+        Exception for Consumers in France
+      </h4>
+      <p>
+        Regardless of the above, any change of these Terms shall be communicated in
+        writing no later than one month prior to becoming effective. Should
+        Consumers in France not accept the modified Terms, they shall have the right
+        to terminate the Agreement without any penalty nor right to claim
+        compensation up to four months following the day on which the modified Terms
+        have become effective.
+      </p>
+      <h3 id="assignment-of-contract">Assignment of contract</h3>
+      <p>
+        The Owner reserves the right to transfer, assign, dispose of by novation, or
+        subcontract any or all rights or obligations under these Terms, taking the
+        User’s legitimate interests into account.Provisions regarding changes of
+        these Terms will apply accordingly.
+      </p>
+      <p>
+        Users may not assign or transfer their rights or obligations under these
+        Terms in any way, without the written permission of the Owner.
+      </p>
+      <h3 id="contacts">Contacts</h3>
+      <p>
+        All communications relating to the use of this Application must be sent
+        using the contact information stated in this document.
+      </p>
+      <h3 id="severability">Severability</h3>
+      <p>
+        Should any provision of these Terms be deemed or become invalid or
+        unenforceable under applicable law, the invalidity or unenforceability of
+        such provision shall not affect the validity of the remaining provisions,
+        which shall remain in full force and effect.
+      </p>
+      <h4 id="us-users">US Users</h4>
+      <p>
+        Any such invalid or unenforceable provision will be interpreted, construed
+        and reformed to the extent reasonably required to render it valid,
+        enforceable and consistent with its original intent.These Terms constitute
+        the entire Agreement between Users and the Owner with respect to the subject
+        matter hereof, and supersede all other communications, including but not
+        limited to all prior agreements, between the parties with respect to such
+        subject matter.These Terms will be enforced to the fullest extent permitted
+        by law.
+      </p>
+      <h4 id="eu-users">EU Users</h4>
+      <p>
+        Should any provision of these Terms be or be deemed void, invalid or
+        unenforceable, the parties shall do their best to find, in an amicable way,
+        an agreement on valid and enforceable provisions thereby substituting the
+        void, invalid or unenforceable parts.<br />In case of failure to do so, the
+        void, invalid or unenforceable provisions shall be replaced by the
+        applicable statutory provisions, if so permitted or stated under the
+        applicable law.
+      </p>
+      <p>
+        Without prejudice to the above, the nullity, invalidity or the impossibility
+        to enforce a particular provision of these Terms shall not nullify the
+        entire Agreement, unless the severed provisions are essential to the
+        Agreement, or of such importance that the parties would not have entered
+        into the contract if they had known that the provision would not be valid,
+        or in cases where the remaining provisions would translate into an
+        unacceptable hardship on any of the parties.
+      </p>
+      <h3 id="governing-law">Governing law</h3>
+      <p>
+        These Terms are governed by the law of the place where the Owner is based,
+        as disclosed in the relevant section of this document, without regard to
+        conflict of laws principles.
+      </p>
+      <h4 id="prevalence-of-national-law">Prevalence of national law</h4>
+      <p>
+        However, regardless of the above, if the law of the country that the User is
+        located in provides for a higher applicable consumer protection standard,
+        such higher standards shall prevail.
+      </p>
+      <h4 id="exception-for-consumers-in-brazil">
+        Exception for Consumers in Brazil
+      </h4>
+      <p>
+        If the User qualifies as a Consumer in Brazil and the product and/or service
+        is commercialised in Brazil, Brazilian law will apply.
+      </p>
+      <h3 id="venue-of-jurisdiction">Venue of jurisdiction</h3>
+      <p>
+        The exclusive competence to decide on any controversy resulting from or
+        connected to these Terms lies with the courts of the place where the Owner
+        is based, as displayed in the relevant section of this document.
+      </p>
+      <h4 id="exception-for-consumers-in-europe">
+        Exception for Consumers in Europe
+      </h4>
+      <p>
+        The above does not apply to any Users that qualify as European Consumers,
+        nor to Consumers based in the United Kingdom, Switzerland, Norway or
+        Iceland.
+      </p>
+      <h4 id="exception-for-consumers-in-brazil">
+        Exception for Consumers in Brazil
+      </h4>
+      <p>The above does not apply to Users in Brazil that qualify as Consumers.</p>
+      <h2 id="dispute-resolution">Dispute resolution</h2>
+      <h3 id="amicable-dispute-resolution">Amicable dispute resolution</h3>
+      <p>
+        Users may bring any disputes to the Owner who will try to resolve them
+        amicably.
+      </p>
+      <p>
+        While Users' right to take legal action shall always remain unaffected, in
+        the event of any controversy regarding the use of this Application or the
+        Service, Users are kindly asked to contact the Owner at the contact details
+        provided in this document.
+      </p>
+      <p>
+        The User may submit the complaint including a brief description and if
+        applicable, the details of the related order, purchase, or account, to the
+        Owner’s email address specified in this document.
+      </p>
+      <p>
+        The Owner will process the complaint without undue delay and within 2 days
+        of receiving it.
+      </p>
+      <h3 id="online-dispute-resolution-for-consumers">
+        Online dispute resolution for Consumers
+      </h3>
+      <p>
+        The European Commission has established an online platform for alternative
+        dispute resolutions that facilitates an out-of-court method for solving
+        disputes related to and stemming from online sale and service contracts.
+      </p>
+      <p>
+        As a result, any European Consumer or Consumer based in Norway, Iceland, or
+        Liechtenstein can use such platform for resolving disputes stemming from
+        contracts which have been entered into online. The platform is
+        <a href="http://ec.europa.eu/consumers/odr/"
+          >available at the following link</a
+        >.
+      </p>
+      <div class="one_line_col">
+        <div class="box_primary box_10 definitions expand">
+          <h2 class="expand-click w_icon_24 icon_ribbon">
+            Definitions and legal references
+          </h2>
+          <div class="expand-content">
+            <h4>This Application (or this Application)</h4>
+            <p>The property that enables the provision of the Service.</p>
+            <h4>Agreement</h4>
+            <p>
+              Any legally binding or contractual relationship between the Owner and
+              the User, governed by these Terms.
+            </p>
+            <h4>Brazilian (or Brazil)</h4>
+            <p>Applies where a User, regardless of nationality, is in Brazil.</p>
+            <h4>European (or Europe)</h4>
+            <p>Applies where a User, regardless of nationality, is in the EU.</p>
+            <h4>Example withdrawal form</h4>
+            <p><em>Addressed to:</em></p>
+            <p>
+              <em>Maksim Amelchenko<br /> Harscampstraße 49 <br /> 52062 Aachen, Germany</em
+              ><br /><em>info@finex.io</em>
+            </p>
+            <p>
+              <em
+                >I/We hereby give notice that I/we withdraw from my/our contract of
+                sale of the following goods/for the provision of the following
+                service:</em
+              >
+            </p>
+            <p>
+              <em
+                >_____________________________________________ (insert a description
+                of the goods/services that are subject to the respective
+                withdrawal)</em
+              >
+            </p>
+            <ul>
+              <li>
+                <em
+                  >Ordered on: _____________________________________________ (insert
+                  the date)</em
+                >
+              </li>
+              <li>
+                <em
+                  >Received on: _____________________________________________
+                  (insert the date)</em
+                >
+              </li>
+              <li>
+                <em
+                  >Name of
+                  consumer(s):_____________________________________________</em
+                >
+              </li>
+              <li>
+                <em
+                  >Address of
+                  consumer(s):_____________________________________________</em
+                >
+              </li>
+              <li><em>Date: _____________________________________________</em></li>
+            </ul>
+            <p><em>(sign if this form is notified on paper)</em></p>
+            <h4>Owner (or We)</h4>
+            <p>
+              Indicates the natural person(s) or legal entity that provides this
+              Application and/or the Service to Users.
+            </p>
+            <h4>Product</h4>
+            <p>
+              A good or service available for purchase through this Application,
+              such as e.g. physical goods, digital files, software, booking services
+              etc.
+            </p>
+            <p>The sale of Products may be part of the Service.</p>
+            <h4>Service</h4>
+            <p>
+              The service provided by this Application as described in these Terms
+              and on this Application.
+            </p>
+            <h4>Terms</h4>
+            <p>
+              All provisions applicable to the use of this Application and/or the
+              Service as described in this document, including any other related
+              documents or agreements, and as updated from time to time.
+            </p>
+            <h4>United Kingdom (or UK)</h4>
+            <p>
+              Applies where a User, regardless of nationality, is in the United
+              Kingdom.
+            </p>
+            <h4>User</h4>
+            <p>Any user of the Service, whether a human being or legal entity.</p>
+            <h4>User (or You)</h4>
+            <p>
+              Indicates any natural person or legal entity using this Application.
+            </p>
+            <h4>Consumer</h4>
+            <p>Consumer is any User qualifying as such under applicable law.</p>
+          </div>
+        </div>
+      </div>
+      <div class="iub_footer"><p>Latest update: 20 June 2023</p></div>
+    </div>
+
+de:
+  title: Allgemeine Geschäftsbedingungen von <strong>finex.io</strong>
+  content: >
+    <div class="iubenda_legal_document">
+      <div class="iub_header">
+        <p>Diese AGB sind anwendbar auf</p>
+        <ul>
+          <li>die Nutzung des Dienstes und den Zugriff auf diese Anwendung, und</li>
+          <li>
+            jede andere damit zusammenhängende Vereinbarung oder Rechtsbeziehung mit
+            dem Anbieter
+          </li>
+        </ul>
+        <p>
+          auf rechtsverbindliche Weise. Definierte Begriffe sind im entsprechenden
+          Abschnitt dieses Dokumentes aufgeführt.
+        </p>
+        <br />
+        <p>
+          Nutzer werden aufgefordert, dieses Dokument sorgfältig zur Kenntnis zu
+          nehmen.
+        </p>
+      </div>
+
+      <p>Diese Anwendung wird angeboten von:</p>
+
+      <p>Maksim Amelchenko <br />Harscampstraße 49 <br />52062 Aachen, Germany</p>
+
+      <p><b>E-Mail-Adresse des Anbieters:</b> <a href="mailto:info@finex.io">info@finex.io</a></p>
+
+      <p>„Diese Anwendung“ bezieht sich auf</p>
+      <ul>
+        <li>
+          diese Website, einschließlich ihrer Subdomains und jede andere Website,
+          über die der Anbieter den Dienst zur Verfügung stellt;
+        </li>
+      </ul>
+
+      <ul>
+        <li>die application program interfaces (API);</li>
+      </ul>
+
+      <ul>
+        <li>den Dienst;</li>
+      </ul>
+
+      <p>
+        Die folgenden Dokumente, auf die ausdrücklich verwiesen wird, sind
+        Bestandteil dieser AGB:
+      </p>
+
+      <h2 id="das-wichtigste-auf-einen-blick">Das Wichtigste auf einen Blick</h2>
+      <ul>
+        <li>Das Widerrufsrecht steht nur europäischen Verbrauchern zu.</li>
+      </ul>
+
+      <ul>
+        <li>
+          Diese Anwendung erneuert automatisch Produktabonnements. Informationen zum
+          a) Verlängerungszeitraum, b) der Kündigung und c) zum Kündigungsschreiben
+          finden Sie im entsprechenden Abschnitt dieser AGB.
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2 id="nutzungsbedingungen">NUTZUNGSBEDINGUNGEN</h2>
+      <p>
+        Sofern nicht anders angegeben, gelten bei dem Zugriff auf diese Anwendung
+        die in diesem Abschnitt aufgeführten Bedingungen.
+      </p>
+
+      <p>
+        Einzelne oder zusätzliche Nutzungs- oder Zugriffsbedingungen können unter
+        bestimmten Umständen anwendbar sein und werden in solchen Fällen in diesem
+        Dokument ausdrücklich benannt.
+      </p>
+
+      <p>
+        Durch Nutzen des Dienstes bestätigen Nutzer, die folgenden Bedingungen zu
+        erfüllen:
+      </p>
+      <ul>
+        <li>Nutzer müssen als Verbraucher handeln;</li>
+      </ul>
+
+      <h3 id="kontoerstellung">Kontoerstellung</h3>
+      <p>
+        Um den Dienst zu nutzen, müssen sich Nutzer anmelden oder ein Nutzerkonto
+        erstellen, indem sie alle dafür erforderlichen Daten oder Informationen
+        vollständig und wahrheitsgemäß angeben.<br />
+        Der Dienst steht nur angemeldeten Nutzern zur Verfügung.
+      </p>
+
+      <p>
+        Der Nutzer hat dafür Sorge zu tragen, dass die Zugangsdaten vertraulich und
+        sicher verwahrt werden. Aus diesem Grund muss der Nutzer auch ein Passwort
+        wählen, welches den höchsten über diese Anwendung möglichen
+        Sicherheitsanforderungen entspricht.
+      </p>
+
+      <p>
+        Bei der Anmeldung erklären sich Nutzer damit einverstanden, für alle
+        Handlungen, die in Verbindung mit ihrem Nutzernamen und Passwort erfolgen,
+        einzustehen.<br />
+        Die Nutzer sind verpflichtet, den Anbieter über die in diesem Dokument
+        angegebenen Kontaktdaten unverzüglich und unmissverständlich zu informieren,
+        wenn sie annehmen, dass ihre persönlichen Informationen, einschließlich
+        Nutzerkonten, Zugangsdaten oder personenbezogener Daten, verletzt,
+        unrechtmäßig offengelegt oder entwendet worden sind.
+      </p>
+      <h4 id="beendigung-des-nutzerkontos">Beendigung des Nutzerkontos</h4>
+      <p>Nutzerkonten können jederzeit folgendermaßen gelöscht werden:</p>
+      <ul>
+        <li>Mit der über diese Anwendung verfügbaren Kontolöschungsfunktion.</li>
+      </ul>
+
+      <h4 id="sperrung-und-loschung-des-nutzerkontos">
+        Sperrung und Löschung des Nutzerkontos
+      </h4>
+      <p>
+        Der Anbieter behält sich das Recht vor, Nutzerkonten, die er für
+        unangemessen oder beleidigend hält oder die nach seinem Dafürhalten gegen
+        diese AGB verstoßen, nach eigenem Ermessen jederzeit und ohne Vorankündigung
+        zu sperren oder zu löschen.
+      </p>
+
+      <p>
+        Aufgrund der Sperrung oder Löschung von Nutzerkonten entstehen dem Nutzer
+        keinerlei Schadenersatz-, Freistellungs- oder Erstattungsansprüche.
+      </p>
+
+      <p>
+        Die Sperrung oder Löschung von Konten aus Gründen, die der Nutzer zu
+        vertreten hat, befreit den Nutzer nicht von der Verpflichtung zur Zahlung
+        vereinbarter Gebühren oder Preise.
+      </p>
+      <h3 id="uber-this_application-verfugbare-inhalte">
+        Über diese Anwendung verfügbare Inhalte
+      </h3>
+      <p>
+        Sofern nicht anders angegeben oder deutlich erkennbar, sind alle über diese
+        Anwendung verfügbaren Inhalte Eigentum des Anbieters und werden vom Anbieter
+        oder seinen Lizenzgebern bereitgestellt.
+      </p>
+
+      <p>
+        Der Anbieter unternimmt alle Anstrengungen, um auszuschließen, dass die über
+        diese Anwendung bereitgestellten Inhalte gegen geltende Rechtsvorschriften
+        oder Rechte Dritter verstoßen. Es ist jedoch nicht immer möglich, dieses
+        Ergebnis zu erreichen.<br />
+        In solchen Fällen sind Nutzer gebeten, ihre Beschwerde vorzugsweise an die
+        in diesem Dokument angegebenen Kontaktdaten zu richten. Das Recht, etwaige
+        Ansprüche (außer)gerichtlich durchzusetzen, bleibt hiervon unberührt.
+      </p>
+      <h4 id="rechte-an-den-uber-this_application-verfugbaren-inhalten">
+        Rechte an den über diese Anwendung verfügbaren Inhalten
+      </h4>
+      <p>Sämtliche Rechte an den Inhalten sind dem Anbieter vorbehalten.</p>
+
+      <p>
+        Nutzer dürfen die Inhalte lediglich insoweit nutzen, wie dies für die
+        ordnungsgemäße Inanspruchnahme des Dienstes erforderlich oder – auch
+        implizit – vorgesehen ist.
+      </p>
+      <p>
+        Nutzern ist es insbesondere nicht gestattet, die Inhalte zu vervielfältigen,
+        herunterzuladen, über die nachstehend definierten Grenzen hinaus zu
+        verbreiten, zu bearbeiten, zu übersetzen, zu verändern, umzugestalten, zu
+        veröffentlichen, auf bzw. an Dritte zu übertragen, zu veräußern oder zu
+        lizenzieren, sowie es Dritten zu ermöglichen – und zwar auch ohne Wissen des
+        Nutzers – genannte Handlungen über das eigene Gerät vorzunehmen.
+      </p>
+
+      <p>
+        Soweit über diese Anwendung ausdrücklich darauf hingewiesen wird, darf der
+        Nutzer ausgewählte über diese Anwendung verfügbare Inhalte zu ausschließlich
+        persönlichen und nicht gewerblichen Zwecken herunterladen, vervielfältigen
+        und/oder verbreiten unter der Bedingung, dass die Urhebervermerke und
+        etwaigen anderen vom Anbieter verlangten Vermerke korrekt angebracht werden.
+      </p>
+
+      <p>Gesetzliche Schranken oder Ausnahmen bleiben hiervon unberührt.</p>
+      <h3 id="zugriff-auf-externe-ressourcen">Zugriff auf externe Ressourcen</h3>
+      <p>
+        Nutzer können u. U. über diese Anwendung auf externe Ressourcen zugreifen,
+        die von Dritten bereitgestellt werden. Die Nutzer erkennen an und
+        akzeptieren, dass der Anbieter keine Kontrolle über solche Ressourcen hat
+        und daher nicht für deren Inhalt und Verfügbarkeit verantwortlich ist.<br />
+        Die Bedingungen, unter denen solche von Dritten bereitgestellten Ressourcen
+        zur Verfügung stehen und unter denen Nutzungsrechte an solchen Inhalten ggf.
+        eingeräumt werden, ergeben sich aus den vertraglichen Bestimmungen jedes
+        Dritten oder, hilfsweise, aus den jeweils anwendbaren gesetzlichen
+        Vorschriften.
+      </p>
+      <h3 id="zulassige-nutzung">Zulässige Nutzung</h3>
+      <p>
+        Diese Anwendung und der Dienst dürfen nur bestimmungsgemäß und entsprechend
+        diesen AGB sowie entsprechend den jeweils anwendbaren gesetzlichen
+        Vorschriften genutzt werden.
+      </p>
+
+      <p>
+        Nutzer sind selbst dafür verantwortlich, dass ihr Zugriff auf diese
+        Anwendung und/oder ihre Nutzung des Dienstes keine gesetzlichen
+        Vorschriften, Verordnungen oder Rechte Dritter verletzt.
+      </p>
+      <p>
+        <strong
+          >Daher behält sich der Anbieter das Recht vor, alle geeigneten Maßnahmen
+          zum Schutz seiner berechtigten Interessen zu ergreifen, wie z. B. Nutzern
+          den Zugriff auf diese Anwendung oder den Dienst zu verweigern, Verträge zu
+          kündigen, über diese Anwendung oder den Dienst stattfindende, zu
+          beanstande Handlungen den zuständigen Behörden - wie Justiz- oder
+          Verwaltungsbehörden – anzuzeigen, sofern Nutzer nachweislich oder
+          vermutlich:</strong
+        >
+      </p>
+
+      <ul>
+        <li>
+          gegen gesetzliche Vorschriften, Verordnungen oder diese AGB verstoßen;
+          oder
+        </li>
+        <li>Rechte Dritter verletzen; oder</li>
+        <li>
+          die berechtigten Interessen des Anbieters erheblich beeinträchtigen; oder
+        </li>
+        <li>den Anbieter oder einen Dritten beleidigen.</li>
+      </ul>
+
+      <h3 id="freunde-einladen">"Freunde einladen"</h3>
+      <p>
+        Durch diese Anwendung haben Nutzer die Möglichkeit, Vorteile zu erhalten,
+        wenn aufgrund ihrer Empfehlung ein neuer Nutzer ein über diese Anwendung
+        angebotenes Produkt erwirbt. <br />
+        Zu diesem Zwecke können Nutzer Dritte zum Kauf von Produkten über diese
+        Anwendung einladen, indem sie ihnen einen der vom Anbieter ausgegebenen
+        „Freunde-einladen-Codes“ zusenden. Jeder Code kann dabei nur einmal
+        eingelöst werden.<br />
+        Löst eine der eingeladenen Personen beim Kauf eines Produktes über diese
+        Anwendung einen solchen Code ein, so erhält der einladende Nutzer den
+        entsprechenden Vorteil oder Nutzen (wie z.B.: einen Rabatt, eine zusätzliche
+        Funktion, ein Upgrade usw.). Hinsichtlich der Einzelheiten zu den
+        vorgesehenen Vorteilen wird auf diese Anwendung verwiesen. <br />
+        Freunde-einladen-Codes sind möglicherweise auf den Kauf bestimmter Produkte
+        beschränkt.
+      </p>
+
+      <p>
+        Der Anbieter behält sich das Recht vor, das Angebot zu jeder Zeit und nach
+        eigenem Ermessen zu beenden.
+      </p>
+      <p>
+        Die Anzahl der Personen, die eingeladen werden können, ist nicht
+        eingeschränkt. Die Höhe des Vorteils oder Nutzens, den jeder einladende
+        Nutzer erhalten kann, kann begrenzt werden.
+      </p>
+      <h3 id="software-lizenz">Software Lizenz</h3>
+      <p>
+        Alle Rechte an der Software oder den technischen Lösungen, auf denen diese
+        Anwendung basiert, bzw. die darin eingebettet, integriert oder damit
+        verbunden sind, stehen ausschließlich dem Anbieter und/oder seinen
+        Lizenzgebern zu.
+      </p>
+
+      <p>
+        Unter der Bedingung, dass der Nutzer sich an diese AGB hält und ungeachtet
+        etwaiger abweichender Bestimmungen dieser AGB, räumt der Anbieter dem Nutzer
+        lediglich ein frei widerrufbares, einfaches, nicht unterlizenzierbares und
+        nicht übertragbares Recht zur Nutzung der Software und/oder anderer in dem
+        Dienst integrierter Lösungen im Rahmen und für die Zwecke der
+        bestimmungsgemäßen Nutzung des angebotenen Dienstes ein.
+      </p>
+
+      <p>
+        Nutzern wird insbesondere kein Recht zum Zugriff auf den Quellcode oder auf
+        Nutzung oder Weitergabe des Quellcodes gewährt. Rechte an sämtlichen
+        Verfahren, Algorithmen und technischen Lösungen, die in der Software und
+        allen dazugehörigen Dokumentationen enthalten bzw. integriert sind, stehen
+        ausschließlich dem Anbieter oder seinen Lizenzgebern zu.
+      </p>
+
+      <p>
+        Alle Rechteeinräumungen und Lizenzerteilungen werden mit Beendigung der
+        Vereinbarung – gleich aus welchem Grunde – automatisch hinfällig.
+      </p>
+      <h3 id="api-nutzungsbedingungen">API Nutzungsbedingungen</h3>
+      <p>
+        Die Nutzer können über die API-Schnittstelle (API) auf ihre sich auf diese
+        Anwendung beziehenden Daten zugreifen. Jede Nutzung der API, einschließlich
+        der Nutzung der API durch ein(en) Produkt/Dienst eines Drittanbieters,
+        unterliegt diesen AGB und den folgenden zusätzlichen Bedingungen:
+      </p>
+
+      <ul>
+        <li>
+          Der Nutzer erkennt an und akzeptiert ausdrücklich, dass der Anbieter für
+          etwaige Schäden oder Verluste, die sich aus der Nutzung der API durch den
+          Nutzer oder dem Einsatz von Produkten/Diensten Dritter, die über die API
+          auf Daten zugreifen, ergeben, nicht haftet.
+        </li>
+      </ul>
+
+      <h2 id="verkaufsbedingungen">VERKAUFSBEDINGUNGEN</h2>
+      <h3 id="kostenpflichtige-produkte">Kostenpflichtige Produkte</h3>
+      <p>
+        Einige der über diese Anwendung im Rahmen des Dienstes erhältlichen Produkte
+        sind kostenpflichtig.
+      </p>
+
+      <p>
+        Preise, Laufzeiten und weitere Bedingungen, die auf den Kauf solcher
+        Produkte anwendbar sind, werden nachstehend beschrieben. Im Übrigen wird auf
+        diese Anwendung und auf die jeweils dafür vorgesehenen Abschnitte verwiesen.
+      </p>
+      <p>
+        Um einen Kauf zu tätigen, müssen Nutzer sich registrieren oder über ein
+        bereits bestehendes Nutzerkonto anmelden.
+      </p>
+      <h3 id="produktbeschreibung">Produktbeschreibung</h3>
+      <p>
+        Preise, Beschreibungen und Verfügbarkeit der Produkte sind in den
+        entsprechenden Bereichen über diese Anwendung einsehbar und können
+        unangekündigt geändert werden.
+      </p>
+
+      <p>
+        Obwohl Produkte über diese Anwendung mit der technisch größtmöglichen
+        Sorgfalt dargestellt werden, dienen Darstellungen jeglicher Art
+        (einschließlich graphischer Darstellungsformen, Bilder, Farben, Klänge)
+        lediglich als Referenz und stellen keine Garantie bezüglich der
+        Eigenschaften des erworbenen Produkts dar.
+      </p>
+
+      <p>
+        Die Merkmale des ausgewählten Produkts werden im Laufe des Kaufvorgangs
+        erläutert.
+      </p>
+      <h3 id="kaufvorgang">Kaufvorgang</h3>
+      <p>
+        Alle Schritte von der Auswahl eines Produkts bis hin zur Aufgabe der
+        Bestellung sind Teil des Kaufvorganges.
+      </p>
+
+      <p>Der Kaufvorgang umfasst folgende Schritte:</p>
+
+      <ul>
+        <li>
+          Der Nutzer sucht das gewünschte Produkt aus dem Sortiment aus und
+          überprüft die eigene Produktauswahl.
+        </li>
+        <li>
+          Nach Prüfung der Angaben der Produktauswahl kann der Nutzer die Bestellung
+          aufgeben, indem er sie dem Anbieter übermittelt.
+        </li>
+      </ul>
+
+      <h3 id="aufgabe-der-bestellung">Aufgabe der Bestellung</h3>
+      <p>Wenn der Nutzer eine Bestellung aufgibt, gilt Folgendes:</p>
+
+      <ul>
+        <li>
+          Mit Aufgabe der Bestellung kommt der Vertrag zustande. Die Aufgabe der
+          Bestellung begründet für den Nutzer daher die Verpflichtung zur Zahlung
+          des Kaufpreises, der Steuern und etwaig weiterer Gebühren und Auslagen
+          entsprechend der Angaben auf der Bestellseite.
+        </li>
+        <li>
+          Sind Angaben seitens des Nutzers erforderlich, wie persönliche
+          Informationen oder Daten, Spezifikationen oder Sonderwünsche, begründet
+          die Auftragserteilung eine Verpflichtung des Nutzers zur entsprechenden
+          Mitwirkung.
+        </li>
+        <li>
+          Nach Aufgabe der Bestellung erhalten Nutzer eine Eingangsbestätigung.
+        </li>
+      </ul>
+
+      <p>
+        Alle Benachrichtigungen im Zusammenhang mit dem beschriebenen Kaufvorgang
+        werden an die vom Nutzer zu diesem Zweck angegebene E-Mail-Adresse gesendet.
+      </p>
+      <h3 id="preise">Preise</h3>
+      <p>
+        Die Nutzer werden während des Kaufvorgangs und vor Aufgabe der Bestellung
+        über alle von ihnen zu tragenden Gebühren, Steuern und Kosten
+        (einschließlich etwaiger Versandkosten) informiert.
+      </p>
+
+      <p>Die Preise werden über diese Anwendung folgendermaßen angezeigt:</p>
+      <ul>
+        <li>inklusive aller anfallenden Gebühren, Steuern und Kosten.</li>
+      </ul>
+
+      <h3 id="zahlungsmethoden">Zahlungsmethoden</h3>
+      <p>
+        Informationen zu den akzeptierten Zahlungsmethoden werden während des
+        Kaufvorgangs zur Verfügung gestellt.
+      </p>
+
+      <p>
+        Einige Zahlungsmethoden sind möglicherweise nur gegen zusätzliche
+        Bedingungen oder Gebühren verfügbar. In diesen Fällen finden Sie die
+        relevanten Information im entsprechenden Abschnitt des Dienstes (diese
+        Anwendung).
+      </p>
+      <p>
+        Alle Zahlungen werden über Drittanbieter abgewickelt. Daher sammelt diese
+        Anwendung keine Zahlungsinformationen – wie z.B. Kreditkartendaten – sondern
+        erhält lediglich eine Benachrichtigung, wenn die Zahlung erfolgreich
+        abgeschlossen wurde.
+      </p>
+
+      <p>
+        Wenn die Zahlung über die verfügbaren Methoden fehlschlägt oder vom
+        Zahlungsdienstleister abgelehnt wird, ist der Anbieter nicht verpflichtet,
+        die Bestellung zu erfüllen. Wenn eine Zahlung fehlschlägt oder abgelehnt
+        wird, behält sich der Anbieter das Recht vor, alle damit verbundenen Kosten
+        oder Schadenersatz vom Nutzer zu fordern.
+      </p>
+      <h3 id="autorisierung-fur-zukunftige-paypal-zahlungen">
+        Autorisierung für zukünftige PayPal-Zahlungen
+      </h3>
+      <p>
+        Wenn Nutzer die PayPal-Funktion autorisieren, die zukünftige Einkäufe
+        ermöglicht, speichert diese Anwendung einen Identifikationscode, der mit dem
+        PayPal-Konto der Nutzer verknüpft ist. Dies berechtigt diese Anwendung,
+        Zahlungen für zukünftige Käufe oder wiederkehrende Raten vergangener Käufe
+        automatisch abzuwickeln.
+      </p>
+
+      <p>
+        Diese Berechtigung kann jederzeit widerrufen werden, entweder durch
+        Kontaktaufnahme mit dem Anbieter oder durch Änderung der Nutzereinstellungen
+        bei PayPal.
+      </p>
+      <h3 id="aufrechterhaltung-der-nutzungsrechte">
+        Aufrechterhaltung der Nutzungsrechte
+      </h3>
+      <p>
+        Die Nutzer erwerben bis zum Zahlungseingang des gesamten Kaufpreises beim
+        Anbieter keine Nutzungsrechte an dem gekauften Produkt.
+      </p>
+      <h3 id="lieferung">Lieferung</h3>
+      <h4 id="erbringung-von-dienstleistungen">Erbringung von Dienstleistungen</h4>
+      <p>
+        Die gekaufte Leistung ist innerhalb der über diese Anwendung genannten
+        Frist, oder wie vor der Auftragserteilung mitgeteilt, zu erbringen oder zur
+        Verfügung zu stellen.
+      </p>
+      <h3 id="vertragslaufzeit">Vertragslaufzeit</h3>
+      <h4 id="testphase">Testphase</h4>
+      <p>
+        Nutzer haben die Möglichkeit, diese Anwendung oder ausgewählte Produkte
+        während einer begrenzten und nicht verlängerbaren Testphase kostenlos zu
+        testen. Diese Anwendung stellt möglicherweise manche Funktionen Nutzern
+        während der Testphase nicht zur Verfügung.<br />
+        Weitere Bedingungen, die für die Testphase, einschließlich ihrer Dauer,
+        gelten, werden über diese Anwendung bereitgestellt.
+      </p>
+      <p>
+        Die Testphase endet automatisch und wird nicht in ein zahlungspflichtiges
+        Produkt umgewandelt, es sei denn, der Nutzer entscheidet sich aktiv für ein
+        solches bezahltes Produkt.
+      </p>
+      <h4 id="abonnements">Abonnements</h4>
+      <p>
+        Abonnements ermöglichen es den Nutzern, ein Produkt kontinuierlich oder
+        regelmäßig über einen bestimmten Zeitraum zu erhalten. Einzelheiten zur Art
+        des Abonnements und zur Kündigung sind im Folgenden aufgeführt.
+      </p>
+      <h4 id="abonnements-mit-fester-laufzeit">Abonnements mit fester Laufzeit</h4>
+      <p>
+        Bezahlte Abonnements mit fester Laufzeit beginnen am Tag des
+        Zahlungseingangs beim Anbieter und haben die vom Nutzer gewählte oder bei
+        Bestellung festgelegte Laufzeit.
+      </p>
+
+      <p>
+        Nach Ablauf der Abonnementlaufzeit ist das Produkt nicht mehr zugänglich.
+      </p>
+      <h4 id="automatische-erneuerung-von-abonnements-mit-fester-laufzeit">
+        Automatische Erneuerung von Abonnements mit fester Laufzeit\t
+      </h4>
+      <p>
+        <strong
+          >Abonnements werden automatisch erneuert, indem die vom Nutzer beim Kauf
+          gewählte Zahlungsmethode verwendet wird.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >Das erneuerte Abonnement gilt für die gleiche Laufzeit wie das
+          ursprüngliche.</strong
+        >
+      </p>
+      <h5 id="kundigung">Kündigung</h5>
+      <p>
+        <strong
+          >Abonnements können durch eine klare und unmissverständliche
+          Kündigungsmitteilung gegenüber dem Anbieter gekündigt werden. Hierzu haben
+          die Nutzer die in diesem Dokument angegebenen Kontaktdaten, oder – falls
+          möglich – die entsprechenden Bedienelemente, welche über diese Anwendung
+          zur Verfügung gestellt werden, zu verwenden.</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Geht das Kündigungsschreiben dem Anbieter zu, bevor das Abonnement
+          verlängert wird, wird die Kündigung mit Ablauf der aktuellen Laufzeit
+          wirksam.</strong
+        >
+      </p>
+
+      <h2 id="nutzerrechte">Nutzerrechte</h2>
+      <h3 id="widerrufsrecht">Widerrufsrecht</h3>
+      <p>
+        Sofern keine Ausnahmen vorliegen, kann der Nutzer den Vertrag innerhalb der
+        nachstehend genannten Frist (in der Regel 14 Tage) ohne Angabe von Gründen
+        widerrufen. In diesem Abschnitt erfahren Nutzer mehr über die
+        Widerrufsbedingungen.
+      </p>
+      <h4 id="fur-wen-das-widerrufsrecht-gilt">Für wen das Widerrufsrecht gilt</h4>
+      <p>
+        Nach EU-Recht haben europäische Verbraucher ein gesetzliches Widerrufsrecht
+        bei Verträgen, die online abgeschlossen werden (Fernabsatzverträge). Sie
+        können den Vertrag innerhalb der für ihren Fall anwendbaren Frist aus
+        beliebigen Gründen und ohne Rechtfertigung widerrufen. Dieses Widerrufsrecht
+        gilt, soweit im Folgenden keine Ausnahmen aufgeführt werden.
+      </p>
+
+      <p>
+        Für Nutzer, die nicht als europäische Verbraucher handeln, gelten die in
+        diesem Abschnitt dargelegten Rechte nicht.
+      </p>
+      <h4 id="ausubung-des-widerrufsrechts">Ausübung des Widerrufsrechts</h4>
+      <p>
+        Zur Ausübung seines Widerrufsrechts muss der Nutzer dem Anbieter eine
+        unmissverständliche Erklärung, aus der seine Widerrufsentscheidung
+        hervorgeht, übermitteln.
+      </p>
+
+      <p>
+        Zu diesem Zweck können die Nutzer das Muster-Widerrufsformular verwenden,
+        das sie im Abschnitt "Definitionen" dieses Dokuments finden. Es steht den
+        Nutzern jedoch frei, ihre Widerrufsentscheidung durch eine
+        unmissverständliche Erklärung auf andere, geeignete Weise zum Ausdruck zu
+        bringen. Um die Frist zur Ausübung dieses Rechts einzuhalten, muss der
+        Nutzer die Widerrufserklärung vor Ablauf der Widerrufsfrist übermitteln.
+      </p>
+
+      <p>Wann läuft die Widerrufsfrist ab?</p>
+      <ul>
+        <li>
+          <strong>Beim Kauf einer Dienstleistung</strong> endet die Widerrufsfrist
+          14 Tage nach Vertragsabschluss, es sei denn, der Nutzer hat auf das
+          Widerrufsrecht verzichtet.
+        </li>
+      </ul>
+
+      <h4 id="wirkungen-des-widerrufs">Wirkungen des Widerrufs</h4>
+      <p>
+        Nutzern, die einen Vertrag ordnungsgemäß widerrufen, werden alle an den
+        Anbieter geleisteten Zahlungen, gegebenenfalls einschließlich der
+        Lieferkosten zurückerstattet.
+      </p>
+
+      <p>
+        Der Anbieter ist jedoch nicht verpflichtet, zusätzliche Kosten zu erstatten,
+        wenn sich der Nutzer für eine andere Art der Lieferung als die vom Anbieter
+        angebotene günstigste Standardlieferung entschieden hat.
+      </p>
+
+      <p>
+        Die Rückerstattung erfolgt unverzüglich, spätestens jedoch 14 Tage nach dem
+        Tag, an dem der Anbieter über den Entschluss des Nutzers informiert wird,
+        den Vertrag zu widerrufen. Der Anbieter nimmt die Rückzahlung unter
+        Verwendung desselben Zahlungsmittels vor, das der Nutzer bei der
+        ursprünglichen Transaktion eingesetzt hat, es sei denn, mit dem Nutzer wurde
+        ausdrücklich etwas anderes vereinbart. In jedem Fall entstehen dem Nutzer
+        durch die Rückerstattung keine Kosten oder Gebühren.
+      </p>
+      <h5 id="bei-dienstleistungsvertragen">...bei Dienstleistungsverträgen</h5>
+      <p>
+        Übt ein Nutzer das Widerrufsrecht aus, nachdem er vor Ablauf der
+        Widerrufsfrist die Ausführung der Dienstleistung verlangt hat, so hat er dem
+        Anbieter einen Betrag zu zahlen, der verhältnismäßig dem Teil der erbrachten
+        Leistung entspricht.
+      </p>
+      <p>
+        Dieser Betrag wird auf Grundlage des vertraglich vereinbarten Gesamtpreises
+        berechnet und entspricht verhältnismäßig dem, was bis zu dem Zeitpunkt des
+        Widerrufs im Vergleich zum Gesamtumfang der vertraglich vereinbarten
+        Leistungen geleistet worden ist.
+      </p>
+      <h3 id="uk-user-rights">UK User rights</h3>
+      <h4 id="right-to-cancel">Right to cancel</h4>
+      <p>
+        Unless exceptions apply, Users who are Consumers in the United Kingdom have
+        a legal right of cancellation under UK law and may be eligible to withdraw
+        from contracts made online (distance contracts) within the period specified
+        below (generally 14 days), for any reason and without justification.
+      </p>
+
+      <p>
+        Users that do not qualify as Consumers, cannot benefit from the rights
+        described in this section. Users can learn more about the cancellation
+        conditions within this section.
+      </p>
+      <h5 id="exercising-the-right-to-cancel">Exercising the right to cancel</h5>
+      <p>
+        To exercise their right to cancel, Users must send to the Owner an
+        unequivocal statement of their intention to withdraw from the contract. To
+        this end, Users may use the model withdrawal form available from within the
+        “definitions” section of this document. Users are, however, free to express
+        their intention to withdraw from the contract by making an unequivocal
+        statement in any other suitable way. In order to meet the deadline within
+        which they can exercise such right, Users must send the withdrawal notice
+        before the cancellation period expires. When does the cancellation period
+        expire?
+      </p>
+      <ul>
+        <li>
+          <strong>Regarding the purchase of a service</strong>, the cancellation
+          period expires 14 days after the day that the contract is entered into,
+          unless the User has waived the right to cancel.
+        </li>
+      </ul>
+
+      <h5 id="effects-of-cancellation">Effects of cancellation</h5>
+      <p>
+        Users who correctly withdraw from a contract will be reimbursed by the Owner
+        for all payments made to the Owner, including, if any, those covering the
+        costs of delivery.
+      </p>
+
+      <p>
+        However, any additional costs resulting from the choice of a particular
+        delivery method other than the least expensive type of standard delivery
+        offered by the Owner, will not be reimbursed.
+      </p>
+
+      <p>
+        Such reimbursement shall be made without undue delay and, in any event, no
+        later than 14 days from the day on which the Owner is informed of the User’s
+        decision to withdraw from the contract. Unless otherwise agreed with the
+        User, reimbursements will be made using the same means of payment as used to
+        process the initial transaction. In any event, the User shall not incur any
+        costs or fees as a result of such reimbursement.
+      </p>
+      <h6 id="on-the-purchase-of-services">…on the purchase of services</h6>
+      <p>
+        Where a User exercises the right to cancel after having requested that the
+        service be performed before the cancellation period expires, the User shall
+        pay to the Owner an amount which is in proportion to the part of service
+        provided.
+      </p>
+      <p>
+        Such payment shall be calculated based on the fee contractually agreed upon,
+        and be proportional to the part of service provided until the time the User
+        withdraws, compared with the full coverage of the contract.
+      </p>
+      <h3 id="direitos-do-usuario-brasileiro">Direitos do Usuário brasileiro</h3>
+      <h4 id="direito-de-arrependimento">Direito de arrependimento</h4>
+      <p>
+        Salvo se for estipulada abaixo uma exceção aplicável, os Usuários
+        Consumidores no Brasil terão o direito legal de arrependimento de acordo com
+        a legislação brasileira. Isto significa que o Consumidor tem o direito de
+        rescindir os contratos online (contratos à distância ou celebrados fora do
+        estabelecimento comercial) por qualquer motivo e sem justificativa, no prazo
+        de 7 (sete) dias a contar da data da celebração do contrato ou do
+        recebimento do produto ou serviço. Usuários que não se qualificam como
+        Consumidores não podem se beneficiar dos direitos estabelecidos nesta seção.
+        O direito de arrependimento poderá ser exercido pelo Consumidor por meio dos
+        canais de contato indicados no início deste Documento e de acordo com as
+        orientações desta Seção.
+      </p>
+      <h5 id="exercicio-do-direito-de-arrependimento">
+        Exercício do direito de arrependimento
+      </h5>
+      <p>
+        Para exercer o direito de arrependimento, os Usuários devem enviar ao
+        Proprietário uma declaração inequívoca de sua intenção de rescindir o
+        contrato. Para tanto, os Usuários poderão utilizar o modelo de formulário de
+        rescisão disponível na seção “definições” deste documento. No entanto, os
+        usuários são livres para expressar sua vontade de rescindir o contrato
+        através de uma declaração inequívoca por qualquer via adequada. Para
+        respeitar o prazo estabelecido para o exercício de tal direito, os Usuários
+        devem enviar o aviso de arrependimento antes do fim do prazo. Quando termina
+        o prazo de arrependimento?
+      </p>
+      <ul>
+        <li>
+          <strong>Em relação à aquisição de um serviço</strong>, o prazo de
+          arrependimento é de 7 (sete) dias após a data da celebração do contrato, e
+          somente se o serviço ainda não tiver sido prestado.
+        </li>
+      </ul>
+
+      <h5 id="efeitos-do-arrependimento">Efeitos do arrependimento</h5>
+      <p>
+        Os Usuários que rescindirem corretamente um contrato serão reembolsados pelo
+        Proprietário por todos os pagamentos feitos ao Proprietário, incluindo, se
+        houver, aqueles que cobrem os custos de entrega.
+      </p>
+
+      <p>
+        No entanto, não serão reembolsados quaisquer custos adicionais resultantes
+        da escolha de um método de entrega específico que não seja o tipo de entrega
+        padrão mais barato oferecido pelo Proprietário.
+      </p>
+
+      <p>
+        Este reembolso será realizado sem demora injustificada e no prazo máximo de
+        14 (catorze) dias, a contar do dia em que o Proprietário foi informado da
+        decisão do Usuário de rescindir o contrato ou da devolução efetiva do
+        produto, o que ocorrer por último. Salvo se acordado de outra forma com o
+        Usuário, os reembolsos serão efetuados por meio do mesmo método de pagamento
+        utilizado para processar a transação inicial. O Usuário não incorrerá em
+        quaisquer custos ou taxas em razão de tal reembolso.
+      </p>
+      <h6 id="na-compra-de-servicos">…na compra de serviços</h6>
+      <p>
+        Quando o Usuário exerce o direito de arrependimento após a solicitação da
+        execução do serviço, mesmo antes do fim do período de arrependimento, o
+        Usuário deverá pagar ao Proprietário uma quantia que seja proporcional à
+        parte do serviço prestado.
+      </p>
+      <p>
+        Tal pagamento será calculado com base no valor contratualmente acordado, e
+        será proporcional à parte do serviço prestado até o momento em que o Usuário
+        cancelar o serviço.
+      </p>
+
+      <h2 id="garantien">Garantien</h2>
+      <h3
+        id="garantia-legal-de-conformidade-de-servicos-para-consumidores-no-brasil"
+      >
+        Garantia legal de conformidade de serviços para Consumidores no Brasil
+      </h3>
+      <p>
+        A garantia legal aplicada aos serviços comercializados por diese Anwendung
+        obedece aos seguintes termos, de acordo com o Código de Defesa do
+        Consumidor:
+      </p>
+
+      <ul>
+        <li>os serviços não duráveis terão garantia de 30 (trinta) dias; e</li>
+        <li>os serviços duráveis terão garantia de 90 (noventa) dias.</li>
+      </ul>
+
+      <p>O período de garantia se inicia ao final da prestação dos serviços.</p>
+
+      <p>
+        A garantia não é cabível em casos de uso indevido do serviço, eventos
+        naturais ou se o serviço tiver sido submetido a qualquer assistência técnica
+        diferente da fornecida por diese Anwendung. <br />
+        A garantia pode ser acionada através dos canais de contato fornecidos por
+        diese Anwendung. <br />
+        Caso necessário, o Proprietário arcará com os custos do envio de qualquer
+        produto para avaliação técnica. <br />
+        O Proprietário, a seu critério, também poderá fornecer uma garantia
+        contratual além da garantia legal. <br />
+        As normas aplicáveis às garantias contratuais podem ser encontradas nas
+        especificações fornecidas por diese Anwendung. Se tais informações não forem
+        fornecidas, apenas as disposições legais serão aplicadas.
+      </p>
+
+      <h2 id="haftung-und-entschadigung">Haftung und Entschädigung</h2>
+      <p>
+        Sofern nicht ausdrücklich anders angegeben oder mit den Nutzern vereinbart,
+        ist die Haftung des Anbieters für Schäden im Zusammenhang mit der
+        Durchführung des Vertrags ausgeschlossen, begrenzt und/oder eingeschränkt,
+        soweit dies nach geltendem Recht zulässig ist.
+      </p>
+      <h4 id="entschadigung">Entschädigung</h4>
+      <p>
+        Soweit dies nach dem jeweils geltenden Recht zulässig ist, verpflichtet sich
+        der Nutzer, den Anbieter und seine Tochtergesellschaften, verbundenen
+        Unternehmen, leitenden Angestellten, Direktoren, Vertreter, Co-Brander,
+        Partner und Mitarbeiter von jeglichen Ansprüchen oder Forderungen Dritter –
+        einschließlich, aber nicht beschränkt auf Anwaltskosten und -honorare –
+        freizustellen und schadlos zu halten, die aufgrund oder in Verbindung mit
+        einer strafbaren Nutzung oder Verbindung zum Dienst, einem Verstoß gegen
+        diese AGB, einer Verletzung von Rechten Dritter oder gesetzlichen
+        Bestimmungen durch den Nutzer oder seine verbundenen Unternehmen, leitenden
+        Angestellten, Direktoren, Vertreter, Co-Brander, Partner und Mitarbeiter
+        geltend gemacht werden.
+      </p>
+      <h4 id="haftungsbeschrankung">Haftungsbeschränkung</h4>
+      <p>
+        Sofern nicht ausdrücklich anders angegeben und unbeschadet der jeweils
+        geltenden gesetzlichen Produkthaftungsbestimmungen haben die Nutzer kein
+        Recht auf Schadenersatz gegen den Anbieter (oder eine in seinem Auftrag
+        handelnde natürliche oder juristische Person).
+      </p>
+
+      <p>
+        Dies gilt nicht für Schäden an Leben, Gesundheit oder körperlicher
+        Unversehrtheit sowie Schäden aufgrund der Verletzung einer wesentlichen
+        Vertragspflicht, wie z.B. einer zur Erreichung des Vertragszwecks unbedingt
+        erforderlichen Verpflichtung und/oder Schäden aufgrund von Vorsatz oder
+        grober Fahrlässigkeit, sofern diese Anwendung vom Nutzer ordnungsgemäß und
+        korrekt verwendet wurde.
+      </p>
+
+      <p>
+        Sofern Schäden nicht vorsätzlich oder grob fahrlässig verursacht wurden oder
+        Leben, Gesundheit oder körperliche Unversehrtheit beeinträchtigen, haftet
+        der Anbieter nur in Höhe der bei Vertragsschluss typischen und
+        vorhersehbaren Schäden.
+      </p>
+      <p>
+        Insbesondere haftet der Anbieter innerhalb der vorgenannten Grenzen nicht
+        für:
+      </p>
+      <ul>
+        <li>
+          jegliche Verluste, außer diese sind die direkte Folge eines Verstoßes des
+          Anbieters gegen die AGB;
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          jegliche Verluste von Geschäftsmöglichkeiten und jeden anderen Verlust,
+          auch indirekt, der dem Nutzer entstehen kann (wie z.B. Handelsverluste,
+          Umsatzeinbußen, Einkommensverluste, Gewinne oder erwartete Einsparungen,
+          Verlust von Verträgen oder Geschäftsbeziehungen, Verlust von Reputation
+          oder Goodwill, etc.);
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          Schäden oder Verluste, die aus Unterbrechungen oder Fehlfunktionen des
+          Dienstes (diese Anwendung) resultieren, wenn diese Unterbrechungen oder
+          Fehlfunktionen auf höhere Gewalt oder unvorhergesehene und unvorhersehbare
+          Ereignisse zurückzuführen sind und unabhängig vom Willen und außerhalb der
+          Kontrolle des Anbieters sind, wie z.B., aber nicht beschränkt auf,
+          Ausfälle oder Unterbrechungen von Telefon- oder Stromleitungen, dem
+          Internet und/oder anderen Übertragungsmitteln, Nichtverfügbarkeit von
+          Websites, Streiks, Naturkatastrophen, Viren und Cyberangriffen,
+          Unterbrechungen bei der Lieferung von Produkten, Diensten oder Anwendungen
+          Dritter;
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          alle Schäden, Beeinträchtigungen oder Verluste, die durch Viren oder
+          andere Malware verursacht werden, die in Dateien enthalten sind oder mit
+          Dateien verbunden sind, die zum Herunterladen aus dem Internet oder über
+          diese Anwendung verfügbar sind. Die Nutzer sind dafür verantwortlich,
+          ausreichende Sicherheitsmaßnahmen – wie Antivirenprogramme – und Firewalls
+          einzusetzen, um eine solche Infektion oder einen solchen Angriff zu
+          verhindern, und Sicherungskopien aller Daten oder Informationen, die über
+          diese Anwendung ausgetauscht oder hochgeladen werden, zu erstellen.
+        </li>
+      </ul>
+
+      <h3 id="nutzer-in-australien">Nutzer in Australien</h3>
+      <h4 id="haftungsbeschrankung">Haftungsbeschränkung</h4>
+      <p>
+        Gewährleistungsrechte, Bedingungen, Garantien, Rechte und Rechtsbehelfe, die
+        Nutzern aus dem Competition and Consumer Act 2010 (Cth) zustehen, bleiben
+        durch die Bestimmungen dieser AGB vollständig unberührt. Dasselbe gilt für
+        jegliche ähnliche, zwingend anwendbare Landes- oder Gebietsgesetze, die
+        Nutzern unabdingbare Rechte verleihen. Soweit gesetzlich zulässig ist unsere
+        Haftung gegenüber Nutzern – einschließlich der Haftung wegen Verletzung
+        eines unabdingbaren Rechts und jeglicher sonst nicht kraft dieser AGB
+        ausgeschlossener Haftung – nach billigem Ermessen des Anbieters auf
+        Nacherfüllung oder Ersatz der für die erneute Erbringung der Leistungen
+        entstehenden Kosten begrenzt.
+      </p>
+      <h3 id="nutzer-in-den-usa">Nutzer in den USA</h3>
+      <h4 id="gewahrleistungsausschluss">Gewährleistungsausschluss</h4>
+      <p>
+        <strong
+          >Diese Anwendung wird ausschließlich als "as is" und "as available" (im
+          vorgefundenen Zustand und wie verfügbar) bereitgestellt und verfügbar
+          gemacht. Die Nutzung des Dienstes erfolgt auf eigenes Risiko. Der Anbieter
+          schließt ausdrücklich alle Bedingungen, Zusicherungen und Garantien aus -
+          ob ausdrücklich, stillschweigend, gesetzlich oder anderweitig,
+          einschließlich jeder impliziten Garantie der Marktgängigkeit, der Eignung
+          für einen bestimmten Zweck oder der Nichtverletzung von Rechten Dritter
+          soweit gesetzlich zulässig. Etwaige Ratschläge oder Informationen, ob
+          mündlich oder schriftlich, die der Nutzer vom Anbieter oder über den
+          Dienst erhält, begründen keinerlei Garantien, sofern sie nicht
+          ausdrücklich angegeben sind.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >Unbeschadet des Vorstehenden übernehmen der Anbieter, seine
+          Tochtergesellschaften, verbundenen Unternehmen, Lizenzgeber, leitenden
+          Angestellten, Direktoren, Vertreter, Co-Brander, Partner, Lieferanten und
+          Mitarbeiter keine Garantie dafür, dass die Inhalte zuverlässig, genau und
+          richtig sind; dass der Dienst den Erwartungen der Nutzer entspricht; dass
+          der Dienst zu einer bestimmten Zeit oder an einem bestimmten Ort
+          ununterbrochen oder zuverlässig verfügbar ist; dass alle Mängel oder
+          Fehler korrigiert werden; oder dass der Dienst frei von Viren oder anderen
+          schädlichen Komponenten ist. Alle Inhalte, die heruntergeladen oder
+          anderweitig durch die Nutzung des Dienstes bezogen werden, werden auf
+          eigenes Risiko heruntergeladen. Allein die Nutzer sind verantwortlich für
+          Schäden am Computersystem oder mobilen Gerät des Nutzers oder für
+          Datenverluste, die durch einen solchen Download oder die Nutzung des
+          Dienstes durch den Nutzer entstehen.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >Der Anbieter übernimmt keine Garantie oder Verantwortung für Produkte
+          oder Dienstleistungen, die von Dritten über den Dienst oder über eine mit
+          einem Hyperlink verbundene Website oder einen Dienst beworben oder
+          angeboten werden, noch unterstützt er solche Produkte oder
+          Dienstleistungen. Transaktionen zwischen Nutzern und Drittanbietern von
+          Produkten oder Dienstleistungen werden vom Anbieter weder vermittelt, noch
+          überwacht.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >Der Dienst könnte unzugänglich werden oder mit dem Webbrowser, dem
+          Mobilgerät und/oder dem Betriebssystem des Nutzers nicht mehr richtig
+          funktionieren. Der Anbieter kann nicht für wahrgenommene oder tatsächliche
+          Schäden haftbar gemacht werden, die aus dem Inhalt, dem Betrieb oder der
+          Nutzung dieses Dienstes entstehen.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >Das Bundesrecht, einige Staaten und andere Rechtsordnungen lassen den
+          Ausschluss und die Einschränkung bestimmter Garantien nicht zu. Die oben
+          genannten Ausschlüsse gelten möglicherweise nicht für Nutzer. Diese
+          Vereinbarung gibt den Nutzern bestimmte Rechte, während ihm je nach
+          Rechtsordnung weitere Rechte zustehen könnten. Die Haftungsausschlüsse,
+          und -beschränkungen im Rahmen der Vereinbarung sind, sofern nach geltendem
+          Recht verboten, unwirksam.</strong
+        >
+      </p>
+      <h4 id="haftungsbeschrankung">Haftungsbeschränkung</h4>
+      <ul>
+        <li>
+          <p>
+            <strong
+              >Soweit gesetzlich zulässig, sind der Anbieter und seine
+              Tochtergesellschaften, verbundenen Unternehmen, leitenden
+              Angestellten, Direktoren, Vertreter, Co-Brander, Partner, Lieferanten
+              und Mitarbeiter in keinem Fall haftbar für</strong
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong
+              >jegliche indirekten, strafenden, zufälligen, besonderen, Folge- oder
+              exemplarischen Schäden, einschließlich, aber nicht beschränkt auf,
+              Schäden aus entgangenem Gewinn, Goodwill, Nutzung, Daten oder anderen
+              immateriellen Verlusten, die in Verbindung mit dem Dienst oder dessen
+              Unverfügbarkeit entstehen; und</strong
+            >
+          </p>
+        </li>
+        <li>
+          <strong
+            >jegliche Schäden und Verluste infolge von Hacken, der Manipulation oder
+            anderen unbefugten Zugriffen oder der Nutzung des Dienstes oder des
+            Nutzerkontos, sowie der darin enthaltenen Informationen;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >jegliche inhaltlichen Fehler, Irrtümer oder Ungenauigkeiten;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >Personen- oder Sachschäden jeglicher Art, die aus dem Zugriff auf den
+            Dienst oder dessen Nutzung durch den Nutzer entstehen;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >jeglichen unbefugten Zugriff auf die Sicherungsserver des Anbieters
+            und/oder die darin gespeicherten persönlichen Informationen;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >jegliche Unterbrechung oder Einstellung der Übertragung zum oder durch
+            den Dienst;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >jegliche Bugs, Viren, Trojaner o. ä., die an oder durch den Dienst
+            übertragen werden können;</strong
+          >
+        </li>
+        <li>
+          <strong>
+            jegliche inhaltlichen Fehler oder Auslassungen oder für jeglichen
+            Verlust oder Schaden, der durch die Nutzung von Inhalten entsteht, die
+            über den Dienst veröffentlicht, per E-Mail verschickt, übertragen oder
+            anderweitig verfügbar gemacht wurden; und/oder</strong
+          >
+        </li>
+        <li>
+          <strong>
+            das verleumderische, beleidigende oder illegale Verhalten eines Nutzers
+            oder eines Dritten. Etwaige Haftung des Anbieters, seiner
+            Tochtergesellschaften, verbundenen Unternehmen, leitenden Angestellten,
+            Direktoren, Vertreter, Co-Brander, Partner, Lieferanten und Mitarbeiter
+            für Ansprüche, Einkünfte, Verbindlichkeiten, Verpflichtungen, Schäden,
+            Verluste oder Kosten ist der Höhe nach auf den Betrag begrenzt, der nach
+            dieser Vereinbarung vom Nutzer an den Anbieter in den vorangegangenen 12
+            Monaten oder, falls geringer, über die gesamte Laufzeit dieser
+            Vereinbarung zwischen dem Anbieter und dem Nutzer, gezahlt
+            wurde.</strong
+          >
+        </li>
+      </ul>
+
+      <p>
+        <strong
+          >Diese Haftungsbeschränkung gilt im größtmöglichen nach der jeweils
+          einschlägigen Rechtsordnung zulässigen Umfang, unabhängig davon, ob der
+          behauptete Haftungsfall auf einem Vertrag, einer unerlaubten Handlung,
+          Fahrlässigkeit, verschuldensunabhängiger Haftung oder einer anderen
+          Grundlage beruht, selbst wenn der Anbieter auf die Möglichkeit eines
+          solchen Schadens hingewiesen wurde.</strong
+        >
+      </p>
+
+      <p>
+        <strong
+          >In einigen Rechtsordnungen ist der Ausschluss oder die Beschränkung von
+          zufälligen Schäden oder Folgeschäden nicht zulässig, weshalb die oben
+          genannten Einschränkungen oder Ausschlüsse möglicherweise nicht auf den
+          Nutzer zutreffen. Diese AGB verleihen dem Nutzer bestimmte Rechte, während
+          ihm je nach Rechtsordnung weitere Rechte zustehen könnten. Die
+          Haftungsausschlüsse, und -beschränkungen im Rahmen der AGB sind, sofern
+          nach geltendem Recht verboten, unwirksam.</strong
+        >
+      </p>
+      <h4 id="entschadigung">Entschädigung</h4>
+      <p>
+        <strong
+          >Der Nutzer verpflichtet sich, den Anbieter und seine
+          Tochtergesellschaften, verbundenen Unternehmen, leitenden Angestellten,
+          Direktoren, Vertreter, Co-Brander, Partner, Lieferanten und Mitarbeiter
+          schadlos zu halten von und gegen alle Ansprüche oder Forderungen, Schäden,
+          Verpflichtungen, Verluste, Verbindlichkeiten, Kosten oder Schulden und
+          Ausgaben, einschließlich, aber nicht beschränkt auf, Rechtskosten und
+          Auslagen, sich ergebend aus</strong
+        >
+      </p>
+
+      <ul>
+        <li>
+          <strong
+            >dem Zugriff auf den Dienst und der Nutzung des Dienstes durch den
+            Nutzer, einschließlich aller vom Nutzer übertragenen oder empfangenen
+            Daten oder Inhalte;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >dem Verstoß gegen diese AGB durch den Nutzer, einschließlich, aber
+            nicht beschränkt auf die Verletzung einer der in diesen AGB enthaltenen
+            Zusicherungen und Garantien durch den Nutzer;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >der Verletzung von Rechten Dritter durch den Nutzer, einschließlich,
+            aber nicht beschränkt auf Persönlichkeitsrechte oder geistige
+            Eigentumsrechte;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >dem Verstoß gegen gesetzliche Vorschriften, Regeln oder Verordnungen
+            durch den Nutzer;</strong
+          >
+        </li>
+        <li>
+          <strong
+            >jeglichem Inhalt, der aus dem Nutzerkonto übermittelt wird, auch im
+            Falle des Zugriffs durch Dritte mit dem Nutzernamen, Passwort oder
+            anderen Sicherheitsmaßnahmen des Nutzers - sofern vorhanden – und
+            einschließlich irreführender, falscher oder ungenauer
+            Informationen;</strong
+          >
+        </li>
+        <li><strong>dem mutmaßlichen Fehlverhalten des Nutzers; oder</strong></li>
+        <li>
+          <strong
+            >dem Verstoß gegen gesetzliche Bestimmung durch den Nutzer oder seine
+            verbundenen Unternehmen, leitenden Angestellten, Direktoren, Vertreter,
+            Co-Brander, Partner, Lieferanten und Mitarbeiter, soweit dies nach
+            geltendem Recht zulässig ist.</strong
+          >
+        </li>
+      </ul>
+
+      <h2 id="gemeinsame-bestimmungen">Gemeinsame Bestimmungen</h2>
+      <h3 id="keine-verzichtserklarung">Keine Verzichtserklärung</h3>
+      <p>
+        Unterlässt es der Anbieter, ein Recht aus diesen AGB geltend zu machen oder
+        eine Bestimmung aus diesen AGB durchzusetzen, stellt dies keinen Verzicht
+        auf ein solches Recht oder eine solche Bestimmung dar. Kein Verzicht gilt
+        als weiterer oder anhaltender Verzicht.
+      </p>
+      <h3 id="serviceunterbrechung">Serviceunterbrechung</h3>
+      <p>
+        Um einen bestmöglichen Service zu gewährleisten, behält sich der Anbieter
+        das Recht vor, den Dienst für Wartungen, Systemaktualisierungen oder andere
+        Änderungen zu unterbrechen. Er wird die Nutzer angemessen informieren.
+      </p>
+
+      <p>
+        Im Rahmen der gesetzlichen Bestimmungen kann der Anbieter den Dienst auch
+        ganz aussetzen oder beenden. Im Fall der Einstellung des Dienstes wird der
+        Anbieter Nutzern die Möglichkeit geben, personenbezogene Daten oder
+        Informationen gemäß jeweils geltendem Recht zu sichern und wird etwaig nach
+        dem jeweils anwendbarem Recht bestehtende Anprüche der Nutzer auf
+        Weiternutzung und/oder Schadensersatz berücksichtigen.
+      </p>
+
+      <p>
+        Darüber hinaus kann Dienst aus Gründen, die außerhalb der Kontrolle des
+        Anbieters liegen (sog. Gründe „höherer Gewalt“), nicht verfügbar sein (z. B.
+        Infrastrukturausfälle oder Stromausfälle usw.).
+      </p>
+      <h3 id="weiterverausserung">Weiterveräußerung</h3>
+      <p>
+        Nutzer dürfen ohne die ausdrückliche vorherige schriftliche Genehmigung des
+        Anbieters, die entweder direkt oder über ein rechtmäßiges Reseller-Programm
+        gewährt wird, diese Anwendung und den Dienst in keiner Art reproduzieren,
+        duplizieren, kopieren, verkaufen, weiterverkaufen oder ausschöpfen.
+      </p>
+      <h3 id="datenschutzerklarung">Datenschutzerklärung</h3>
+      <p>
+        Um mehr über die Nutzung ihrer personenbezogenen Daten zu erfahren, können
+        die Nutzer die Datenschutzerklärung des Dienstes (diese Anwendung) einsehen.
+      </p>
+      <h3 id="geistige-eigentumsrechte">Geistige Eigentumsrechte</h3>
+      <p>
+        Unbeschadet konkreterer Bestimmungen dieser AGB, sind alle geistigen
+        Eigentumsrechte, wie Urheberrechte, Markenrechte, Patentrechte und
+        Designrechte im Zusammenhang mit dem Dienst (diese Anwendung)
+        ausschließliches Eigentum des Anbieters oder seiner Lizenzgeber und
+        unterliegen dem Schutz des jeweils anwendbaren Rechts oder internationaler
+        Verträge in Bezug auf geistiges Eigentum.
+      </p>
+
+      <p>
+        Alle Marken-, Namens- oder Bildmarken – und alle anderen Marken,
+        Handelsnamen, Dienstleistungsmarken, Wortmarken, Illustrationen, Bilder oder
+        Logos – die im Zusammenhang mit dem Dienst (diese Anwendung) erscheinen,
+        sind und bleiben ausschließliches Eigentum des Anbieters oder seiner
+        Lizenzgeber und unterliegen dem Schutz anwendbaren Rechts oder
+        internationaler Verträge in Bezug auf geistiges Eigentum.
+      </p>
+      <h3 id="anderungen-dieser-agb">Änderungen dieser AGB</h3>
+      <p>
+        Der Anbieter behält sich das Recht vor, diese AGB jederzeit zu ändern oder
+        anderweitig zu modifizieren. In diesem Fall wird der Anbieter den Nutzer
+        angemessen über diese Änderungen informieren.
+      </p>
+
+      <p>
+        Solche Änderungen gelten erst ab dem jeweils dem Nutzer mitgeteilten
+        Zeitpunkt auf die Vertragsbeziehung aus.
+      </p>
+
+      <p>
+        Mit der weiteren Nutzung des Dienstes akzeptiert der Nutzer die geänderten
+        AGB. Wollen die Nutzer nicht an die Änderungen gebunden sein, müssen sie die
+        Nutzung des Dienstes einstellen und können den Vertrag kündigen.
+      </p>
+
+      <p>
+        Wenn die überarbeiteten Bedingungen nicht akzeptiert werden, kann jede
+        Partei den Vertrag kündigen. Für das Verhältnis vor der Annahme der
+        Änderungen durch den Nutzer gilt die jeweils gültige Vorgängerversion der
+        AGB. Der Nutzer kann jede frühere Version der AGB vom Anbieter erhalten.
+      </p>
+      <p>
+        Falls gesetzlich vorgeschrieben, wird der Anbieter die Nutzer im Voraus über
+        das Wirksamwerden der geänderten Bedingungen informieren.
+      </p>
+      <h4 id="ausnahme-fur-verbraucher-in-frankreich">
+        Ausnahme für Verbraucher in Frankreich
+      </h4>
+      <p>
+        Ungeachtet der obigen Ausführungen, wird jede Änderung dieser AGB spätestens
+        einen Monat vor Wirksamwerden in Textform mitgeteilt. Sollten Verbraucher in
+        Frankreich die geänderten AGB nicht akzeptieren, können sie den Vertrag bis
+        vier Monate nach Wirksamwerden der geänderten AGB kündigen, ohne dass ihnen
+        Nachteile (z. B. Strafzahlungen) daraus entstehen. Aufgrund der Kündigung
+        steht Verbrauchern kein Recht auf Schadensersatz zu.
+      </p>
+      <h3 id="abtretung-von-rechten-und-pflichten">
+        Abtretung von Rechten und Pflichten
+      </h3>
+      <p>
+        Der Anbieter behält sich das Recht vor, unter Berücksichtigung der
+        berechtigten Interessen des Nutzers alle Rechte und Pflichten aus diesen AGB
+        zu übertragen, abzutreten, durch Novation zu ersetzen oder weiterzugeben.
+        <br />
+        Die Bestimmungen zu Änderungen der AGB gelten entsprechend.
+      </p>
+
+      <p>
+        Die Nutzer dürfen ihre Rechte oder Pflichten aus den AGB ohne die
+        schriftliche Genehmigung des Anbieters in keiner Weise abtreten oder
+        übertragen.
+      </p>
+      <h3 id="kontakte">Kontakte</h3>
+      <p>
+        Alle Mitteilungen im Zusammenhang mit der Nutzung des Dienstes (diese
+        Anwendung) müssen an die in diesem Dokument angegebenen Kontaktdaten
+        gesendet werden.
+      </p>
+      <h3 id="salvatorische-klausel">Salvatorische Klausel</h3>
+      <p>
+        Sollte eine Bestimmung dieser AGB nach geltendem Recht ungültig oder
+        undurchsetzbar sein oder werden, so berührt dies die Gültigkeit der übrigen
+        Bestimmungen, die in vollem Umfang in Kraft und Wirkung bleiben, nicht.
+      </p>
+      <h4 id="us-nutzer">US-Nutzer</h4>
+      <p>
+        Etwaige solche unwirksamen oder undurchsetzbaren Bestimmungen werden
+        insoweit ausgelegt und abgeändert, dass sie wirksam, durchsetzbar und dem
+        ursprünglichen Zweck entsprechend werden. Diese AGB stellen die gesamte
+        Vereinbarung zwischen Nutzern und dem Anbieter zum Vertragsgegenstand dar
+        und gehen vor allen weiteren Mitteilungen zwischen den Parteien zum selben
+        Vertragsgegenstand vor, einschließlich etwaiger älterer Vereinbarungen.<br />
+        Diese AGB werden soweit wie gesetzlich zulässig durchgesetzt.
+      </p>
+      <h4 id="eu-nutzer">EU-Nutzer</h4>
+      <p>
+        Sollte eine Bestimmung dieser AGB unwirksam sein oder als unwirksam erachtet
+        werden, oder ungültig sein oder als ungültig erachtet werden, werden die
+        Parteien ihr Bestes tun, um auf gütliche Weise eine Vereinbarung über
+        gültige und durchsetzbare Bestimmungen zu erzielen und so die unwirksamen,
+        ungültigen oder nicht durchsetzbaren Teile zu ersetzen.<br />
+        Andernfalls werden die unwirksamen, ungültigen oder undurchsetzbaren
+        Bestimmungen durch die jeweils geltenden gesetzlichen Bestimmungen ersetzt,
+        sofern dies zulässig oder nach dem jeweils geltenden Recht vorgesehen ist.
+      </p>
+
+      <p>
+        Unbeschadet des Vorstehenden führen die Nichtigkeit, Ungültigkeit oder die
+        Undurchsetzbarkeit einzelner Bestimmungen dieser AGB nicht zur Nichtigkeit
+        der gesamten Vereinbarung, es sei denn, es handelt sich um
+        vertragswesentliche Bestimmungen oder um Bestimmungen von einer solchen
+        Wichtigkeit, dass die Parteien den Vertrag nicht abgeschlossen hätten, wenn
+        sie von der Ungültigkeit der Bestimmung gewusst hätten. Wenn die übrigen
+        Bedingungen zu einer unzumutbaren Härte für eine der Parteien führen würde,
+        hat die Nichtigkeit der einzelnen Bestimmung die Nichtigkeit der gesamten
+        Vereinbarung zur Folge.
+      </p>
+      <h3 id="anwendbares-recht">Anwendbares Recht</h3>
+      <p>
+        Diese AGB unterliegen dem Recht des Ortes, an dem der Anbieter seinen Sitz
+        hat, mit Ausnahme kollisionsrechtlicher Vorschriften. Die Angabe des Sitzes
+        finden Nutzer im entsprechenden Abschnitt dieses Dokuments.
+      </p>
+      <h4 id="vorrang-nationalen-rechts">Vorrang nationalen Rechts</h4>
+      <p>
+        Wenn jedoch das Recht des Landes, in dem sich der Nutzer befindet, einen
+        höheren Verbraucherschutzstandard vorsieht, so gilt jener höhere Standard.
+      </p>
+      <h4 id="excecao-para-consumidores-no-brasil">
+        Exceção para Consumidores no Brasil
+      </h4>
+      <p>
+        Se o Usuário se qualificar como um Consumidor Brasileiro e o produto e/ou
+        serviço for comercializado no Brasil, será aplicada a legislação brasileira.
+      </p>
+      <h3 id="gerichtsstand">Gerichtsstand</h3>
+      <p>
+        Die Gerichte des Ortes, in dem der Anbieter seinen Sitz hat – wie er sich
+        aus den Angaben in diesem Dokument ergibt – sind ausschließlich zuständig
+        für alle Streitigkeiten, die sich aus oder im Zusammenhang mit diesen AGB
+        ergeben.
+      </p>
+      <h4 id="ausnahme-fur-europaische-verbraucher">
+        Ausnahme für europäische Verbraucher
+      </h4>
+      <p>
+        Dies gilt weder für Nutzer, die als europäische Verbraucher handeln noch für
+        Nutzer im Vereinigten Königreich, in der Schweiz, Norwegen oder Island, die
+        als Verbraucher handeln.
+      </p>
+      <h4 id="excecao-para-consumidores-no-brasil">
+        Exceção para Consumidores no Brasil
+      </h4>
+      <p>
+        O acima não se aplica a Usuários no Brasil que se qualifiquem como
+        Consumidores.
+      </p>
+
+      <h2 id="streitbeilegung">Streitbeilegung</h2>
+      <h3 id="gutliche-streitbeilegung">Gütliche Streitbeilegung</h3>
+      <p>
+        Nutzer können sich mit allen Streitigkeiten an den Anbieter wenden, der
+        versuchen wird, sie gütlich beizulegen.
+      </p>
+
+      <p>
+        Das Recht des Nutzers, rechtliche Schritte einzuleiten, bleibt stets
+        unberührt. Im Falle von Streitigkeiten über die Nutzung des Dienstes (diese
+        Anwendung) oder des Dienstes wird der Nutzer jedoch gebeten, sich unter den
+        in diesem Dokument angegebenen Kontaktdaten an den Anbieter zu wenden.
+      </p>
+      <p>
+        Der Nutzer kann die Beschwerde einschließlich einer kurzen Beschreibung und
+        gegebenenfalls der Einzelheiten der zugehörigen Bestellung, des Kaufs oder
+        des Kontos an die in diesem Dokument angegebene E-Mail-Adresse des Anbieters
+        richten.
+      </p>
+
+      <p>
+        Der Anbieter wird die Anfrage unverzüglich innerhalb von 2 Tagen nach Erhalt
+        bearbeiten.
+      </p>
+      <h3 id="online-streitbeilegung-fur-verbraucher">
+        Online-Streitbeilegung für Verbraucher
+      </h3>
+      <p>
+        Die Europäische Kommission hat eine Online-Plattform für die alternative
+        Streitbeilegung eingerichtet, die ein außergerichtliches Verfahren zur
+        Lösung von Streitigkeiten im Zusammenhang mit online Verträgen mit
+        Verbrauchern bietet.
+      </p>
+
+      <p>
+        Infolgedessen können Verbraucher in der EU, Norwegen, Island oder
+        Liechtstein diese Plattform zur Beilegung von Streitigkeiten nutzen, die
+        sich aus Verträgen ergeben, die online abgeschlossen wurden. Die Plattform
+        ist
+        <a href="http://ec.europa.eu/consumers/odr/"
+          >unter folgendem Link erreichbar</a
+        >.
+      </p>
+
+      <div class="one_line_col">
+        <div class="box_primary box_10 definitions expand">
+          <h2 class="expand-click w_icon_24 icon_ribbon">
+            Begriffsbestimmungen und rechtliche Hinweise
+          </h2>
+          <div class="expand-content">
+            <h4>Diese Anwendung (oder diese Anwendung)</h4>
+            <p>
+              Die Anwendung, über die die Erbringung des Dienstes ermöglicht wird.
+            </p>
+            <h4>Vereinbarung</h4>
+            <p>
+              Jedes durch diese AGB geregelte rechtsverbindliche oder vertragliche
+              Verhältnis zwischen Anbieter und Nutzer.
+            </p>
+            <h4>Brasilianisch (oder Brasilien)</h4>
+            <p>
+              Gilt für Nutzer, die sich, unabhängig von ihrer Staatsangehörigkeit,
+              in Brasilien aufhalten.
+            </p>
+            <h4>Europäisch (oder Europa)</h4>
+            <p>
+              Gilt für Nutzer, die sich, unabhängig von ihrer Staatsangehörigkeit,
+              in der EU aufhalten.
+            </p>
+            <h4>Beispiel Widerrufsformular</h4>
+            <p><em>An:</em></p>
+
+            <p>
+              <em>Maksim Amelchenko <br/> Harscampstraße 49 <br/> 52062 Aachen, Germany</em
+              ><br />
+              <em>info@finex.io</em>
+            </p>
+
+            <p>
+              <em
+                >Ich/Wir teilen hiermit mit, dass ich/wir von meinem/unserem
+                Kaufvertrag über die folgenden Waren / zur Erbringung der folgenden
+                Dienstleistung zurücktreten:</em
+              >
+            </p>
+
+            <p>
+              <em
+                >_____________________________________________ (Beschreibung der
+                Waren/Dienstleistungen, die Gegenstand des Widerrufs sind)</em
+              >
+            </p>
+
+            <ul>
+              <li>
+                <em
+                  >Bestellt am: _____________________________________________ (Datum
+                  einfügen)</em
+                >
+              </li>
+              <li>
+                <em
+                  >Erhalten am: _____________________________________________ (Datum
+                  einfügen)</em
+                >
+              </li>
+              <li>
+                <em
+                  >Name des/der
+                  Verbraucher(s):_____________________________________________</em
+                >
+              </li>
+              <li>
+                <em
+                  >Adresse des/der
+                  Verbraucher(s):_____________________________________________</em
+                >
+              </li>
+              <li><em>Datum: _____________________________________________</em></li>
+            </ul>
+
+            <p>
+              <em
+                >(Unterschrift, wenn dieses Formular in Papierform übermittelt
+                wird)</em
+              >
+            </p>
+            <h4>Anbieter (oder Wir)</h4>
+            <p>
+              Ist die natürliche(n) oder juristische(n) Person(en), die diese
+              Anwendung und/oder den Dienst Nutzern zur Verfügung stellt.
+            </p>
+            <h4>Produkt</h4>
+            <p>
+              Eine Ware oder Dienstleistung, die über diese Anwendung zum Kauf
+              angeboten wird, wie z.B. physische Waren, digitale Dateien, Software,
+              Buchungsdienste usw.
+            </p>
+
+            <p>
+              Das Angebot von Produkten kann Teil des oben definierten Dienstes
+              sein.
+            </p>
+            <h4>Dienst</h4>
+            <p>
+              Der durch diese Anwendung erbrachte Dienst, wie in diesen AGB und auf
+              dem Dienst (diese Anwendung) beschrieben.
+            </p>
+            <h4>AGB</h4>
+            <p>
+              Alle Bedingungen, die auf die Nutzung des Dienstes, so wie er in
+              diesem Dokument beschrieben ist, und/oder auf diese Anwendung
+              anwendbar sind, einschließlich etwaiger damit verbundener Dokumente
+              oder Vereinbarungen in ihrer jeweils aktuellen Fassung.
+            </p>
+            <h4>Vereinigtes Königreich (oder UK)</h4>
+            <p>
+              Gilt, wenn sich Nutzer unabhängig von ihrer Staatsangehörigkeit im
+              Vereinigten Königreich befinden.
+            </p>
+            <h4>Nutzer</h4>
+            <p>
+              Alle Nutzer des Dienstes, unabhängig davon, ob es sich dabei um eine
+              natürliche oder eine juristische Person handelt.
+            </p>
+            <h4>Nutzer (oder Sie)</h4>
+            <p>
+              Ist jede natürliche oder juristische Person, die diese Anwendung
+              verwendet.
+            </p>
+            <h4>Verbraucher</h4>
+            <p>
+              Verbraucher sind Nutzer, die nach anwendbarem Recht als solche gelten.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="iub_footer">
+        <p>Letzte Aktualisierung: 20 Juni 2023</p>
+      </div>
+    </div>
+
+ru:
   title: Правила оказания информационных услуг
   content: >
     <p>
@@ -15,7 +2789,7 @@ en:
       <li>
         <b>Правила</b> – текст настоящего документа со всеми приложениями, изменениями и дополнениями к нему,
         размещенный на Сайте Исполнителя и доступный в сети Интернет по адресу:
-        <a href="https://finex.io/legal/terms/">https://finex.io/legal/terms/</a>
+        <a href="https://finex.io/ru/legal/terms/">https://finex.io/ru/legal/terms/</a>
       </li>
       <li>
         <b>Договор</b> – договор оказания возмездных Услуг, вместе со всеми относящимися к нему Обязательными
@@ -89,10 +2863,10 @@ en:
       применяемых к отношениям Сторон по Договору требований и положений, определенных следующими документами
       («Обязательные документы»):<br />
       2.3.1. Пользовательское соглашение, размещенное и/или доступное в сети Интернет по адресу
-      <a href="https://finex.io/legal/agreement/">https://finex.io/legal/agreement/</a> точный адрес и включающее общие условия
+      <a href="https://finex.io/ru/legal/agreement/">https://finex.io/ru/legal/agreement/</a> точный адрес и включающее общие условия
       регистрации в Приложении и использования Сервиса Исполнителя;<br />
       2.3.2. Политика конфиденциальности, размещенная и/или доступная в сети Интернет по адресу
-      <a href="https://finex.io/legal/privacy/">https://finex.io/legal/privacy/</a>, и содержащая правила предоставления и
+      <a href="https://finex.io/ru/legal/privacy/">https://finex.io/ru/legal/privacy/</a>, и содержащая правила предоставления и
       использования персональной информации, включая персональные данные Заказчика.<br />
       2.3.3. Тарифы, размещенные и/или доступные в Личном кабинете, применяемые Исполнителем для расчета стоимости Услуг
       на дату оформления Заказа и включающие применительно к соответствующему виду и составу Услуг сведения о

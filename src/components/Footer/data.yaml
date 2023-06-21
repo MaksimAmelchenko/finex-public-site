@@ -52,13 +52,10 @@ en:
           href: https://finex.userecho.com/
     - title: Legal
       links:
-        - title: Agreement
-          href: /legal/agreement/
-          rel: nofollow
         - title: Privacy Policy
           href: /legal/privacy/
           rel: nofollow
-        - title: Terms of Use
+        - title: Terms and conditions
           href: /legal/terms/
           rel: nofollow
         - title: 'Cookie Policy'
@@ -95,20 +92,17 @@ de:
           href: https://finex.userecho.com/
     - title: Rechtliches
       links:
-        - title: Vereinbarung
-          href: /legal/agreement/
-          rel: nofollow
-        - title: Datenschutz
+        - title: Datenschutzerklärung
           href: /legal/privacy/
           rel: nofollow
-        - title: Nutzungsbedingungen
+        - title: AGBs
           href: /legal/terms/
           rel: nofollow
         - title: Cookie-Richtlinie
           href: /legal/cookies-policy/
           rel: nofollow
         - id: cookieConsentSettings
-          title: Privatsphäre-Einstellungen
+          title: Cookies verwalten
           href: #
           rel: nofollow
         - id: impressum
