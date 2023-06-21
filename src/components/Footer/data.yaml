@@ -68,6 +68,9 @@ en:
           title: Cookie Settings
           href: #
           rel: nofollow
+        - id: impressum
+          title: 'Imprint/Impressum'
+          href: /legal/impressum/
   socialNetworks:
     - title: Telegram
       platform: telegram
@@ -107,6 +110,10 @@ de:
         - id: cookieConsentSettings
           title: Privatsphäre-Einstellungen
           href: #
+          rel: nofollow
+        - id: impressum
+          title: Impressum
+          href: /legal/impressum/
           rel: nofollow
   socialNetworks:
     - title: Telegram
