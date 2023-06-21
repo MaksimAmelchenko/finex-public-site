@@ -73,6 +73,7 @@ export function Footer({ className }: IFooterProps) {
                 <img src={logoSvg} className={styles.root__logo} alt="Logotype" />
                 <div className={styles.root__supportingText}>{supportingText}</div>
 
+                {/*
                 {locale === 'ru' && (
                   <div className={styles.root__contacts}>
                     <div>ИП Амельченко Максим Николаевич</div>
@@ -83,6 +84,7 @@ export function Footer({ className }: IFooterProps) {
                     </div>
                   </div>
                 )}
+                */}
               </div>
 
               <div className={styles.root__links}>
