@@ -1,11 +1,11 @@
 import React from 'react';
 import { useLocalization } from 'gatsby-theme-i18n';
 
-import { Container } from '../../../components/Container/Container';
-import { Footer } from '../../../components/Footer/Footer';
-import { Header } from '../../../containers/Header/Header';
-import { Seo } from '../../../components/Seo/Seo';
-import { useScrollToTop } from '../../../lib/use-scroll-to-top';
+import { Container } from '../../components/Container/Container';
+import { Footer } from '../../components/Footer/Footer';
+import { Header } from '../Header/Header';
+import { Seo } from '../../components/Seo/Seo';
+import { useScrollToTop } from '../../lib/use-scroll-to-top';
 
 import styles from './Impressum.module.scss';
 
