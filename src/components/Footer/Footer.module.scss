@@ -72,8 +72,7 @@
     gap: 6.4rem;
 
     @include media.only('sm') {
-      justify-content: space-between;
-      gap: 3.2rem;
+      flex-direction: column;
       width: 100%;
     }
   }

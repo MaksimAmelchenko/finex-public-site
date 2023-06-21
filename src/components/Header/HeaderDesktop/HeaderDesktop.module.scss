@@ -2,7 +2,10 @@
 @use 'src/styles/typography';
 
 .root {
-  position: relative;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +14,8 @@
 
   width: 100%;
   height: 8rem;
+
+  background-color: var(--color-white);
 
   @include media.down('lg') {
     display: none;

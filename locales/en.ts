@@ -19,8 +19,9 @@ export default {
       'We use cookies to improve your experience and for marketing.',
     'Learn more in our ': 'Learn more in our ',
     'Cookie Policy': 'Cookie Policy',
-    'Accept selected': 'Accept selected',
-    'Customize your choice': 'Customize your choice',
+    'Save and continue': 'Save and continue',
+    'Learn more and customize': 'Learn more and customize',
+    'Reject all': 'Reject all',
     'Accept all': 'Accept all',
   },
   HowItWork: {
@@ -28,8 +29,8 @@ export default {
     'Как работает FINEX': 'How FINEX works',
   },
   Jumbotron: {
-    Demo: 'Demo',
-    'Sign up': 'Sign up',
+    'Explore with Demo': 'Explore with Demo',
+    'Get started with FINEX': 'Get started with FINEX',
   },
   PriceCard: {
     'Get started': 'Get started',

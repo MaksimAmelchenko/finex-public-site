@@ -38,6 +38,9 @@ ru:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io
 en:
   supportingText: An online program that will help you achieve financial success.
   footerText: Online money management FINEX
@@ -52,13 +55,10 @@ en:
           href: https://finex.userecho.com/
     - title: Legal
       links:
-        - title: Agreement
-          href: /legal/agreement/
-          rel: nofollow
         - title: Privacy Policy
           href: /legal/privacy/
           rel: nofollow
-        - title: Terms of Use
+        - title: Terms and conditions
           href: /legal/terms/
           rel: nofollow
         - title: 'Cookie Policy'
@@ -68,6 +68,9 @@ en:
           title: Cookie Settings
           href: #
           rel: nofollow
+        - id: impressum
+          title: 'Imprint/Impressum'
+          href: /legal/impressum/
   socialNetworks:
     - title: Telegram
       platform: telegram
@@ -78,6 +81,9 @@ en:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io
 de:
   supportingText: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
   footerText: Online Geldverwaltung FINEX
@@ -92,21 +98,22 @@ de:
           href: https://finex.userecho.com/
     - title: Rechtliches
       links:
-        - title: Vereinbarung
-          href: /legal/agreement/
-          rel: nofollow
-        - title: Datenschutz
+        - title: Datenschutzerklärung
           href: /legal/privacy/
           rel: nofollow
-        - title: Nutzungsbedingungen
+        - title: AGBs
           href: /legal/terms/
           rel: nofollow
         - title: Cookie-Richtlinie
           href: /legal/cookies-policy/
           rel: nofollow
         - id: cookieConsentSettings
-          title: Privatsphäre-Einstellungen
+          title: Cookies verwalten
           href: #
+          rel: nofollow
+        - id: impressum
+          title: Impressum
+          href: /legal/impressum/
           rel: nofollow
   socialNetworks:
     - title: Telegram
@@ -118,3 +125,6 @@ de:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io

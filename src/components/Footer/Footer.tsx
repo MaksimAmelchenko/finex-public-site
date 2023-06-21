@@ -7,6 +7,7 @@ import { CookieConsent } from '../../containers/CookieConsent/CookieConsent';
 import { FooterLinksColumn } from './FooterLinksColumn/FooterLinksColumn';
 
 import gitHubSvg from './assets/github.svg';
+import linkedInSvg from './assets/linkedIn.svg';
 import logoSvg from '../Icons/logo-dart-mode.svg';
 import telegramSvg from './assets/telegram.svg';
 import twitterSvg from './assets/twitter.svg';
@@ -23,6 +24,7 @@ const SocialNetworkIconMap = {
   github: gitHubSvg,
   telegram: telegramSvg,
   twitter: twitterSvg,
+  linkedin: linkedInSvg,
 };
 
 interface IData {
@@ -73,6 +75,7 @@ export function Footer({ className }: IFooterProps) {
                 <img src={logoSvg} className={styles.root__logo} alt="Logotype" />
                 <div className={styles.root__supportingText}>{supportingText}</div>
 
+                {/*
                 {locale === 'ru' && (
                   <div className={styles.root__contacts}>
                     <div>ИП Амельченко Максим Николаевич</div>
@@ -83,6 +86,7 @@ export function Footer({ className }: IFooterProps) {
                     </div>
                   </div>
                 )}
+                */}
               </div>
 
               <div className={styles.root__links}>
@@ -102,13 +106,7 @@ export function Footer({ className }: IFooterProps) {
               </div>
               <div className={styles.root__socialIcons}>
                 {socialNetworks.map(({ title, platform, href }, index) => (
-                  <a
-                    className={styles.root_socialIcon}
-                    href={href}
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    key={platform}
-                  >
+                  <a href={href} target="_blank" rel="nofollow noopener noreferrer" key={platform}>
                     <img src={SocialNetworkIconMap[platform]} alt={title} />
                   </a>
                 ))}

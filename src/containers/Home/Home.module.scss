@@ -2,8 +2,10 @@
 @use 'src/styles/typography';
 
 .main {
-  &__jumbotron {
-    padding-top: 6rem;
+  padding-top: 8rem;
+
+  @include media.only('sm') {
+    padding-top: 0;
   }
 }
 
