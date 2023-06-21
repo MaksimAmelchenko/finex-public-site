@@ -9,7 +9,15 @@
   align-items: center;
   overflow-x: hidden;
   gap: 6.4rem;
-  padding: 6.4rem 0 9.6rem;
+  padding: 9.6rem 0;
+
+  @include media.down('lg') {
+    padding: 6.4rem 0;
+  }
+
+  @include media.only('sm') {
+    padding: 6.4rem 0;
+  }
 
   &__container {
     display: grid;
@@ -82,7 +90,7 @@
   }
 
   &__header {
-    @include typography.displayXLSemibold;
+    @include typography.displayLGSemibold;
     color: var(--color-gray-900);
 
     @include media.only('sm') {

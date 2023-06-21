@@ -36,10 +36,12 @@ export function Agreement(): JSX.Element {
         ]}
       />
       <Header />
-      <Container className={styles.root__content}>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: content }} />
-      </Container>
+      <main className={styles.root__main}>
+        <Container className={styles.root__content}>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: content }} />
+        </Container>
+      </main>
       <Footer />
     </div>
   );

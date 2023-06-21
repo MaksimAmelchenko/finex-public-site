@@ -56,7 +56,7 @@ export const Home = () => {
       <Seo lang={locale} />
       <Header />
       <main className={styles.main}>
-        <Jumbotron {...jumbotron} className={styles.main__jumbotron} />
+        <Jumbotron {...jumbotron} />
 
         <Features features={features} className={styles.main__features} />
 

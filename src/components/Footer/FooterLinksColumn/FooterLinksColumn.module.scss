@@ -1,3 +1,4 @@
+@use 'src/styles/media';
 @use 'src/styles/typography';
 
 .root {
@@ -7,14 +8,7 @@
   gap: 1.6rem;
 
   &__heading {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 2rem;
-
-    text-transform: uppercase;
-
+    @include typography.textSM;
     color: var(--color-gray-300);
   }
 
@@ -38,6 +32,8 @@
 
   a.root__link,
   button.root__link {
+    white-space: normal;
+
     color: var(--color-gray-200);
     @include typography.textMDSemibold;
 

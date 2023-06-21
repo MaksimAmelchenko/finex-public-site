@@ -27,6 +27,7 @@
   }
 
   &__text {
+    text-align: center;
     @include typography.textXLSemibold;
     color: var(--color-gray-900);
 

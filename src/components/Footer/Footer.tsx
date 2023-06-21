@@ -102,13 +102,7 @@ export function Footer({ className }: IFooterProps) {
               </div>
               <div className={styles.root__socialIcons}>
                 {socialNetworks.map(({ title, platform, href }, index) => (
-                  <a
-                    className={styles.root_socialIcon}
-                    href={href}
-                    target="_blank"
-                    rel="nofollow noopener noreferrer"
-                    key={platform}
-                  >
+                  <a href={href} target="_blank" rel="nofollow noopener noreferrer" key={platform}>
                     <img src={SocialNetworkIconMap[platform]} alt={title} />
                   </a>
                 ))}

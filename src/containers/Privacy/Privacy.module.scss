@@ -2,10 +2,17 @@
 @use 'src/styles/typography';
 
 .root {
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__main {
+    flex-grow: 1;
+  }
 
   &__content {
     margin-top: 8rem;
+    max-width: 100rem;
 
     h1 {
       margin: 2.4rem 0;
