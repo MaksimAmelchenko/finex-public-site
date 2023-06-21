@@ -28,8 +28,8 @@ export default {
     'Как работает FINEX': 'So funktioniert FINEX',
   },
   Jumbotron: {
-    Demo: 'Demo',
-    'Sign up': 'Registrieren',
+    'Explore with Demo': 'Erkunden Sie mit der Demo',
+    'Get started with FINEX': 'Starten Sie mit FINEX',
   },
   PriceCard: {
     'Get started': 'Loslegen',

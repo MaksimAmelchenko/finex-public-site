@@ -43,7 +43,7 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
               startIcon={<PlayCircleIcon />}
               className={styles.hero__button}
             >
-              {t('Demo')}
+              {t('Explore with Demo')}
             </Button>
             <Button
               variant="primary"
@@ -51,7 +51,7 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
               href={`https://app.finex.io/sign-up?locale=${locale}`}
               className={styles.hero__button}
             >
-              {t('Sign up')}
+              {t('Get started with FINEX')}
             </Button>
           </div>
         </div>
