@@ -38,6 +38,9 @@ ru:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io
 en:
   supportingText: An online program that will help you achieve financial success.
   footerText: Online money management FINEX
@@ -78,6 +81,9 @@ en:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io
 de:
   supportingText: Ein Online-Programm, das Ihnen hilft, finanziellen Erfolg zu erzielen.
   footerText: Online Geldverwaltung FINEX
@@ -119,3 +125,6 @@ de:
     - title: GitHub
       platform: github
       href: https://github.com/MaksimAmelchenko/finex-monorepo
+    - title: LinkedIn
+      platform: linkedin
+      href: https://www.linkedin.com/company/finex-io

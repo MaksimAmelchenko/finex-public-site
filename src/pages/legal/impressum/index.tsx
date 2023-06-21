@@ -1,5 +1,5 @@
 import React from 'react';
 
-import { Impressum } from './Impressum';
+import { Impressum } from '../../../containers/Impressum/Impressum';
 
 export default Impressum;
