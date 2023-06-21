@@ -103,6 +103,21 @@ export function CookieConsent(props: CookieConsentProps): JSX.Element | null {
     onClose();
   };
 
+  const handleRejectAllClick = () => {
+    const consent = {
+      ...consentMode,
+      ...consentTypes.reduce((acc, contentType) => {
+        acc[contentType] = 'denied';
+        return acc;
+      }, {}),
+    };
+
+    window.gtag('consent', 'update', consent);
+    window.gtag('event', 'consent-update');
+    localStorage.setItem('consentMode', JSON.stringify(consent));
+    onClose();
+  };
+
   const handleAcceptSelectionClick = () => {
     window.gtag('consent', 'update', consentMode);
     window.gtag('event', 'consent-update');
@@ -152,13 +167,16 @@ export function CookieConsent(props: CookieConsentProps): JSX.Element | null {
               className={styles.root__button}
               onClick={handleAcceptSelectionClick}
             >
-              {t('Accept selected')}
+              {t('Save and continue')}
             </Button>
           ) : (
             <Button size="lg" variant="secondaryGray" className={styles.root__button} onClick={handleMoreOptionsClick}>
-              {t('Customize your choice')}
+              {t('Learn more and customize')}
             </Button>
           )}
+          <Button size="lg" variant="secondaryColor" className={styles.root__button} onClick={handleRejectAllClick}>
+            {t('Reject all')}
+          </Button>
           <Button size="lg" variant="secondaryColor" className={styles.root__button} onClick={handleAcceptAllClick}>
             {t('Accept all')}
           </Button>

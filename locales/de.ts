@@ -19,9 +19,10 @@ export default {
       'Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und für Marketingzwecke.',
     'Learn more in our ': 'Erfahren Sie mehr in unserer ',
     'Cookie Policy': 'Cookie-Richtlinie',
-    'Accept selected': 'Auswahl erlauben',
-    'Customize your choice': 'Auswahl anpassen',
-    'Accept all': 'Allen zustimmen',
+    'Save and continue': 'Speichern und weitersurfen',
+    'Learn more and customize': 'Mehr erfahren und anpassen',
+    'Reject all': 'Alle ablehnen',
+    'Accept all': 'Alle akzeptieren',
   },
   HowItWork: {
     Описание: 'Wie es geht',

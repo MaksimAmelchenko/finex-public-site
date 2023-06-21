@@ -19,8 +19,9 @@ export default {
       'Мы используем файлы cookie, чтобы улучшить ваш опыт и для маркетинга.',
     'Learn more in our ': 'Узнайте больше в нашей ',
     'Cookie Policy': 'Политике в отношении файлов cookie',
-    'Accept selected': 'Принять выбранные',
-    'Customize your choice': 'Настроить выбор',
+    'Save and continue': 'Сохранить и продолжить',
+    'Learn more and customize': 'Узнать больше и настроить',
+    'Reject all': 'Отклонить все',
     'Accept all': 'Принять все',
   },
   HowItWork: {
