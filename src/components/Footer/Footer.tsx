@@ -7,6 +7,7 @@ import { CookieConsent } from '../../containers/CookieConsent/CookieConsent';
 import { FooterLinksColumn } from './FooterLinksColumn/FooterLinksColumn';
 
 import gitHubSvg from './assets/github.svg';
+import linkedInSvg from './assets/linkedIn.svg';
 import logoSvg from '../Icons/logo-dart-mode.svg';
 import telegramSvg from './assets/telegram.svg';
 import twitterSvg from './assets/twitter.svg';
@@ -23,6 +24,7 @@ const SocialNetworkIconMap = {
   github: gitHubSvg,
   telegram: telegramSvg,
   twitter: twitterSvg,
+  linkedin: linkedInSvg,
 };
 
 interface IData {
