@@ -22,11 +22,10 @@ ru:
       buttonVariant: secondaryGray
 en:
   navigation:
-    []
     #    - title: How it works
     #      link: /how-it-works/
-    #    - title: Pricing
-    #      link: /pricing/
+    - title: Pricing
+      link: /#pricing
     #    - title: Community
     #      link: https://finex.userecho.com
   actions:
@@ -47,11 +46,10 @@ en:
 #        - rel: 'nofollow'
 de:
   navigation:
-    []
     #    - title: Wie es funktioniert
     #      link: /how-it-works
-    #    - title: Pricing
-    #      link: /pricing/
+    - title: Preise
+      link: /#pricing
     #    - title: Gemeinschaft
     #      link: https://finex.userecho.com
   actions:
