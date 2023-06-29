@@ -5,12 +5,9 @@ import { useLocalization } from 'gatsby-theme-i18n';
 import { Container } from '../../components/Container/Container';
 import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../Header/Header';
-import { Link } from '../../components/Link/Link';
 import { Seo } from '../../components/Seo/Seo';
 import { Topic } from './Topic/Topic';
 import { useT } from '../../lib/i18n';
-
-import { ReactComponent as Logo } from '../../components/Icons/logo.svg';
 
 import styles from './HowItWorks.module.scss';
 

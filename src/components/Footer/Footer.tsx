@@ -8,9 +8,10 @@ import { FooterLinksColumn } from './FooterLinksColumn/FooterLinksColumn';
 
 import gitHubSvg from './assets/github.svg';
 import linkedInSvg from './assets/linkedIn.svg';
-import logoSvg from '../Icons/logo-dart-mode.svg';
 import telegramSvg from './assets/telegram.svg';
 import twitterSvg from './assets/twitter.svg';
+
+import { ReactComponent as Logo } from '../Icons/logotype.svg';
 
 import * as dataI18n from './data.yaml';
 
@@ -72,7 +73,7 @@ export function Footer({ className }: IFooterProps) {
           <Container>
             <div className={styles.root__linksSectionContent}>
               <div className={styles.root__logoAndSupportingText}>
-                <img src={logoSvg} className={styles.root__logo} alt="Logotype" />
+                <Logo className={styles.root__logo} />
                 <div className={styles.root__supportingText}>{supportingText}</div>
 
                 {/*
