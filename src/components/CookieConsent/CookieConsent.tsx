@@ -77,7 +77,8 @@ export function CookieConsent(props: CookieConsentProps): JSX.Element | null {
         'personalization_storage',
         'security_storage',
       ].forEach(consentType => {
-        if (['granted', 'denied'].includes(consentMode.ad_storage)) {
+        // validate stored consentMode
+        if (['granted', 'denied'].includes(consentMode[consentType])) {
           initialConsentMode[consentType] = consentMode[consentType];
         }
       });
