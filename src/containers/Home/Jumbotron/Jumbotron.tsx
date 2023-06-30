@@ -58,23 +58,294 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
 
         <div className={styles.root__images}>
           <div className={styles.images}>
-            <StaticImage
-              style={{ position: 'absolute' }}
-              src="./assets/screen-1.png"
-              className={styles.images__report}
-              alt="Report example"
-            />
-            <StaticImage
-              style={{ position: 'absolute' }}
-              src="./assets/screen-2.png"
-              className={styles.images__dashboard}
-              alt="Dashboard example"
-            />
+            {locale === 'de' ? (
+              <>
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/de/screen-1.png"
+                  className={styles.images__report}
+                  alt={t('Report example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/de/screen-2.png"
+                  className={styles.images__dashboard}
+                  alt={t('Outcome example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/de/screen-3-mobile.png"
+                  className={styles.images__mobile}
+                  alt={t('Mobile example')}
+                />
+              </>
+            ) : locale === 'ru' ? (
+              <>
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/ru/screen-1.png"
+                  className={styles.images__report}
+                  alt={t('Report example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/ru/screen-2.png"
+                  className={styles.images__dashboard}
+                  alt={t('Outcome example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/ru/screen-3-mobile.png"
+                  className={styles.images__mobile}
+                  alt={t('Mobile example')}
+                />
+              </>
+            ) : (
+              <>
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/en/screen-1.png"
+                  className={styles.images__report}
+                  alt={t('Report example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/en/screen-2.png"
+                  className={styles.images__dashboard}
+                  alt={t('Outcome example')}
+                />
+                <StaticImage
+                  style={{ position: 'absolute' }}
+                  src="./assets/en/screen-3-mobile.png"
+                  className={styles.images__mobile}
+                  alt={t('Mobile example')}
+                />
+              </>
+            )}
           </div>
         </div>
 
         <div className={styles.root__mobileImages}>
-          <StaticImage src="./assets/mobile-screens.png" alt="Screenshots example" />
+          {locale === 'de' ? (
+            <>
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-01.png"
+                alt={t('Outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-02.png"
+                alt={t('Transactions screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-03.png"
+                alt={t('Debts screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-04.png"
+                alt={t('Debt details screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-05.png"
+                alt={t('Bank connection screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-10.png"
+                alt={t('Desktop outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-11.png"
+                alt={t('Desktop CashFlows screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-12.png"
+                alt={t('Report Dynamic screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-13.png"
+                alt={t('Report Dynamic table screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/de/mobile-14.png"
+                alt={t('Report Distribution screen')}
+              />
+            </>
+          ) : locale === 'ru' ? (
+            <>
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-01.png"
+                alt={t('Outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-02.png"
+                alt={t('Transactions screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-03.png"
+                alt={t('Debts screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-04.png"
+                alt={t('Debt details screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-05.png"
+                alt={t('Bank connection screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-10.png"
+                alt={t('Desktop outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-11.png"
+                alt={t('Desktop CashFlows screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-12.png"
+                alt={t('Report Dynamic screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-13.png"
+                alt={t('Report Dynamic table screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/ru/mobile-14.png"
+                alt={t('Report Distribution screen')}
+              />
+            </>
+          ) : (
+            <>
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-01.png"
+                alt={t('Outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-02.png"
+                alt={t('Transactions screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-03.png"
+                alt={t('Debts screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-04.png"
+                alt={t('Debt details screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-05.png"
+                alt={t('Bank connection screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-10.png"
+                alt={t('Desktop outcome screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-11.png"
+                alt={t('Desktop CashFlows screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-12.png"
+                alt={t('Report Dynamic screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-13.png"
+                alt={t('Report Dynamic table screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={400}
+                src="./assets/en/mobile-14.png"
+                alt={t('Report Distribution screen')}
+              />
+            </>
+          )}
         </div>
       </Container>
     </section>

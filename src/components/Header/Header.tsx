@@ -2,6 +2,7 @@ import React from 'react';
 
 import { HeaderDesktop } from './HeaderDesktop/HeaderDesktop';
 import { HeaderMobile } from './HeaderMobile/HeaderMobile';
+import { useDeviceSize } from '../../lib/use-device-size';
 
 export interface INavItem {
   title: string;
@@ -24,10 +25,11 @@ interface HeaderProps {
 }
 
 export function Header({ navigation, actions, mobileActions, className }: HeaderProps) {
-  return (
-    <>
-      <HeaderDesktop navigation={navigation} actions={actions} className={className} />
-      <HeaderMobile navigation={navigation} actions={mobileActions} className={className} />
-    </>
-  );
+  const { isLarge } = useDeviceSize();
+
+  if (isLarge) {
+    return <HeaderDesktop navigation={navigation} actions={actions} className={className} />;
+  }
+
+  return <HeaderMobile navigation={navigation} actions={mobileActions} className={className} />;
 }

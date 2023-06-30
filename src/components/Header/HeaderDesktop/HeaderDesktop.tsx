@@ -6,7 +6,7 @@ import { Button } from '../../Button/Button';
 import { Container } from '../../Container/Container';
 import { Link } from '../../Link/Link';
 
-import logoSvg from '../../Icons/logomark.svg';
+import { ReactComponent as Logo } from '../../Icons/logotype.svg';
 
 import styles from './HeaderDesktop.module.scss';
 
@@ -38,7 +38,7 @@ export function HeaderDesktop({ navigation, actions, className }: HeaderDesktopP
         <div className={styles.root__content}>
           <div className={styles.root__logo}>
             <Link to="/" className={styles.logo} aria-label="Go to home page">
-              <img src={logoSvg} alt="logo" />
+              <Logo />
             </Link>
           </div>
 

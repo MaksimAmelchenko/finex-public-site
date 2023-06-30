@@ -5,7 +5,7 @@ import { useLocalization } from 'gatsby-theme-i18n';
 import { Button } from '../../Button/Button';
 import { Link } from '../../Link/Link';
 
-import logoSvg from '../../Icons/logomark.svg';
+import { ReactComponent as Logo } from '../../Icons/logotype.svg';
 
 import styles from './HeaderMobile.module.scss';
 
@@ -45,7 +45,7 @@ export function HeaderMobile({ navigation, actions, className }: HeaderMobilePro
         </div>
         <div className={styles.root__logo}>
           <Link to="/" className={styles.logo} aria-label="Go to home page">
-            <img src={logoSvg} alt="logo" />
+            <Logo />
           </Link>
         </div>
       </div>
