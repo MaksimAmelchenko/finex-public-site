@@ -254,13 +254,6 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
                 placeholder="blurred"
                 layout="fixed"
                 height={400}
-                src="./assets/de/mobile-15.png"
-                alt={t('Desktop Planning screen')}
-              />
-              <StaticImage
-                placeholder="blurred"
-                layout="fixed"
-                height={400}
                 src="./assets/ru/mobile-12.png"
                 alt={t('Report Dynamic screen')}
               />
