@@ -1,0 +1,124 @@
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+  flex: 1 0 0;
+
+  @include media.only(sm) {
+    gap: 2.4rem;
+  }
+
+  &__iconAndText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+  }
+
+  &__checkItems {
+    display: flex;
+    padding-left: 1.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+    margin: 0;
+
+    @include media.only(sm) {
+      gap: 1.6rem;
+      padding-left: 0.8rem;
+    }
+  }
+}
+
+.featuredIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.8rem solid var(--color-primary-50);
+  border-radius: 50%;
+
+  padding: 1.2rem;
+  background: var(--color-primary-100);
+
+  color: var(--color-primary-600);
+
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    @include media.only('sm') {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+.headingAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+  align-self: stretch;
+
+  @include media.only(sm) {
+    gap: 0.8rem;
+  }
+
+  &__heading {
+    margin: 0;
+    @include typography.displaySMSemibold;
+    color: var(--color-gray-900);
+
+    @include media.only(sm) {
+      @include typography.displayXSSemibold;
+    }
+  }
+
+  &__supportingText {
+    @include typography.textLG;
+    color: var(--color-gray-600);
+
+    @include media.only(sm) {
+      @include typography.textMD;
+    }
+  }
+}
+
+.checkItem {
+  display: flex;
+  gap: 1.2rem;
+
+  &__checkIcon {
+    display: flex;
+    width: 2.8rem;
+    height: 2.8rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    color: var(--color-primary-600);
+  }
+
+  &__textWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    color: var(--color-gray-600);
+  }
+
+  &__text {
+    align-self: stretch;
+    @include typography.textLG;
+
+    @include media.only(sm) {
+      @include typography.textMD;
+    }
+  }
+}

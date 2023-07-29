@@ -4,8 +4,8 @@
 .main {
   padding-top: 8rem;
 
-  @include media.only('sm') {
-    padding-top: 0;
+  @include media.down('lg') {
+    padding-top: 5rem;
   }
 }
 
@@ -153,5 +153,29 @@
       width: 100%;
       gap: 4.8rem;
     }
+  }
+}
+
+:global(.finexLogotype) {
+  border-radius: 0.4rem;
+  padding: 0 0.8rem;
+  font-weight: bold;
+  background: var(--color-orange-500);
+  color: var(--color-white);
+}
+
+:global(.mcoLogotype) {
+  border-bottom: 1px solid transparent;
+
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  text-decoration: none;
+  color: rgb(66, 101, 227);
+
+  &:hover {
+    border-bottom-color: currentColor;
+    border-bottom-width: 2px;
   }
 }

@@ -24,6 +24,9 @@ export default {
     'Reject all': 'Reject all',
     'Accept all': 'Accept all',
   },
+  FeatureCard: {
+    'Learn more': 'Learn more',
+  },
   HowItWork: {
     Описание: 'How it works',
     'Как работает FINEX': 'How FINEX works',

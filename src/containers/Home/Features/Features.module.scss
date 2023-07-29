@@ -10,6 +10,7 @@
 
     @include media.only('sm') {
       grid-template-columns: 100%;
+      padding: 0;
     }
   }
 }

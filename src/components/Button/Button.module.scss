@@ -231,6 +231,31 @@
     }
   }
 
+  &_variant_linkColor {
+    border: none;
+    padding: 0;
+    color: var(--color-primary-700);
+    background: none;
+
+    &:hover,
+    &:global(:not(.disabled)):hover {
+      color: var(--color-primary-800);
+    }
+
+    &:active,
+    &:focus,
+    &:global(:not(.disabled)):active,
+    &:global(:not(.disabled)):focus {
+      color: var(--color-primary-700);
+    }
+
+    &:disabled,
+    &[disabled],
+    &:global(.disabled) {
+      color: var(--color-gray-300);
+    }
+  }
+
   & svg {
     width: 2rem;
     height: 2rem;
