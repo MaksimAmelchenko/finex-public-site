@@ -1,4 +1,4 @@
-FROM node:18-alpine as build
+FROM node:20-alpine as build
 
 ARG NODE_ENV=production
 ENV NODE_ENV=$NODE_ENV
@@ -21,7 +21,7 @@ ENV GIT_HASH=$GIT_HASH
 
 RUN NODE_ENV=$NODE_ENV GIT_TAG=$GIT_TAG GIT_HASH=$GIT_HASH npm run build
 
-FROM nginx:1.21.5-alpine
+FROM nginx:1.25.1-alpine
 
 WORKDIR /usr/share/nginx/html/
 
