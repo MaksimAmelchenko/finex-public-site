@@ -44,10 +44,11 @@ export default {
     'Bank connection screen': 'Экран подключения банка',
     'Desktop outcome screen': 'Экран итогов для ПК',
     'Desktop CashFlows screen': 'Экран денежных потоков для ПК',
-    'Desktop Planning screen': 'Экран планирования для ПК',
     'Report Dynamic screen': 'Экран динамического отчета',
     'Report Dynamic table screen': 'Экран динамической таблицы',
     'Report Distribution screen': 'Экран распределения',
+    'Cash Flows screen': 'Экран денежных потоков',
+    'Settings screen': 'Экран настроек',
   },
   PriceCard: {
     'Get started': 'Начать',

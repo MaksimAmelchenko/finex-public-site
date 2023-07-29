@@ -15,7 +15,7 @@ import styles from './Jumbotron.module.scss';
 interface IJumbotronProps {
   title: string;
   supportingText: string;
-  className: string;
+  className?: string;
 }
 
 export function Jumbotron({ title, supportingText, className }: IJumbotronProps) {
@@ -131,70 +131,70 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-01.png"
                 alt={t('Outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-02.png"
                 alt={t('Transactions screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-03.png"
                 alt={t('Debts screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-04.png"
                 alt={t('Debt details screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-05.png"
                 alt={t('Bank connection screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-10.png"
                 alt={t('Desktop outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-11.png"
                 alt={t('Desktop CashFlows screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-12.png"
                 alt={t('Report Dynamic screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-13.png"
                 alt={t('Report Dynamic table screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/de/mobile-14.png"
                 alt={t('Report Distribution screen')}
               />
@@ -204,70 +204,77 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-01.png"
                 alt={t('Outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-02.png"
                 alt={t('Transactions screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-03.png"
+                alt={t('Cash Flows screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/ru/mobile-04.png"
                 alt={t('Debts screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
-                src="./assets/ru/mobile-04.png"
+                height={500}
+                src="./assets/ru/mobile-05.png"
                 alt={t('Debt details screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
-                src="./assets/ru/mobile-05.png"
-                alt={t('Bank connection screen')}
+                height={500}
+                src="./assets/ru/mobile-06.png"
+                alt={t('Settings screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-10.png"
                 alt={t('Desktop outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-11.png"
                 alt={t('Desktop CashFlows screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-12.png"
                 alt={t('Report Dynamic screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-13.png"
                 alt={t('Report Dynamic table screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/ru/mobile-14.png"
                 alt={t('Report Distribution screen')}
               />
@@ -277,70 +284,70 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-01.png"
                 alt={t('Outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-02.png"
                 alt={t('Transactions screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-03.png"
                 alt={t('Debts screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-04.png"
                 alt={t('Debt details screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-05.png"
                 alt={t('Bank connection screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-10.png"
                 alt={t('Desktop outcome screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-11.png"
                 alt={t('Desktop CashFlows screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-12.png"
                 alt={t('Report Dynamic screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-13.png"
                 alt={t('Report Dynamic table screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
-                height={400}
+                height={500}
                 src="./assets/en/mobile-14.png"
                 alt={t('Report Distribution screen')}
               />

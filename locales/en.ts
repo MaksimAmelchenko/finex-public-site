@@ -44,10 +44,11 @@ export default {
     'Bank connection screen': 'Bank connection screen',
     'Desktop outcome screen': 'Desktop outcome screen',
     'Desktop CashFlows screen': 'Desktop CashFlows screen',
-    'Desktop Planning screen': 'Desktop Planning screen',
     'Report Dynamic screen': 'Report Dynamic screen',
     'Report Dynamic table screen': 'Report Dynamic table screen',
     'Report Distribution screen': 'Report Distribution screen',
+    'Cash Flows screen': 'Cash Flows screen',
+    'Settings screen': 'Settings screen',
   },
   PriceCard: {
     'Get started': 'Get started',
