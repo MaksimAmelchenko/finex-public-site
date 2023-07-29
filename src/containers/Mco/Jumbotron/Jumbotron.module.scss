@@ -1,0 +1,173 @@
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  gap: 6.4rem;
+  padding: 9.6rem 0;
+
+  @include media.down('lg') {
+    padding: 6.4rem 0;
+  }
+
+  @include media.only('sm') {
+    padding: 6.4rem 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+    align-self: stretch;
+
+    @include media.only('sm') {
+    }
+  }
+
+  &__images {
+    position: relative;
+    min-height: 44rem;
+
+    @include media.only('sm') {
+      display: none;
+    }
+  }
+
+  &__mobileImages {
+    display: none;
+
+    @include media.only('sm') {
+      display: flex;
+      column-gap: 0.8rem;
+      width: 100%;
+      overflow-y: scroll;
+      padding: 0.8rem;
+      & > * {
+        flex-shrink: 0;
+        filter: drop-shadow(0 0.4rem 0.4rem rgba(0, 0, 0, 0.2));
+      }
+    }
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 4.8rem;
+
+  @include media.only('sm') {
+    gap: 3.2rem;
+  }
+
+  &__headingAndSupportingText {
+  }
+
+  &__actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+    @include media.only('sm') {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__button {
+    @include media.only('sm') {
+      width: 100%;
+      min-width: auto;
+    }
+  }
+}
+
+.headingAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  text-align: center;
+
+  width: 100rem;
+
+  @include media.down('lg') {
+    gap: 1.6rem;
+    width: 100%;
+  }
+
+  &__header {
+    @include typography.displayLGSemibold;
+    color: var(--color-gray-900);
+
+    @include media.only('sm') {
+      @include typography.displaySMSemibold;
+    }
+  }
+
+  &__badge {
+    position: relative;
+    top: -2.4rem;
+
+    @include media.only('sm') {
+      top: -1.2rem;
+    }
+  }
+
+  &__logotype {
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+    font-weight: bold;
+    background: var(--color-orange-500);
+    color: var(--color-white);
+  }
+
+  &__supportingText {
+    @include typography.textXL;
+    color: var(--color-gray-600);
+
+    @include media.only('sm') {
+      @include typography.textLG;
+    }
+  }
+}
+
+.images {
+  position: relative;
+
+  &__banner {
+    background: linear-gradient(315deg, var(--color-primary-600) 0%, var(--color-primary-400) 100%);
+    box-shadow: 0 0rem 2.4rem rgba(0, 0, 0, 0.4);
+  }
+}
+
+.finexLogotype {
+  border-radius: 0.4rem;
+  padding: 0 0.8rem;
+  font-weight: bold;
+  background: var(--color-orange-500);
+  color: var(--color-white);
+}
+
+.mcoLogotype {
+  border-bottom: 1px solid transparent;
+
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  text-decoration: none;
+
+  color: rgb(66, 101, 227);
+
+  &:hover {
+    border-bottom-color: currentColor;
+    border-bottom-width: 1px;
+  }
+}
