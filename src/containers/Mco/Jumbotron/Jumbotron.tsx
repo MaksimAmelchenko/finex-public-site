@@ -31,8 +31,8 @@ export function Jumbotron({ className }: IJumbotronProps) {
               <a href={mcoLink} className={styles.mcoLogotype}>
                 МОИ ЧЕКИ ОНЛАЙН
               </a>{' '}
-              и <span className={styles.finexLogotype}>FINEX</span> автоматически создаст операции расходов на основе
-              ваших электронных чеков
+              ФНС России и <span className={styles.finexLogotype}>FINEX</span> автоматически создаст операции расходов
+              на основе ваших электронных чеков
             </p>
           </div>
 

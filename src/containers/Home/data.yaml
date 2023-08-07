@@ -6,7 +6,7 @@ ru:
     - icon: zapIcon
       heading: Минимальный ручной ввод
       supportingText: >
-        Подключите <a class="mcoLogotype" href="https://mco.nalog.ru/" target="_blank" rel="nofollow noopener noreferrer">МОИ ЧЕКИ ОНЛАЙН</a> и <span class="finexLogotype">FINEX</span> автоматически создаст операции расходов на основе ваших электронных чеков.
+        Подключите <a class="mcoLogotype" href="https://mco.nalog.ru/" target="_blank" rel="nofollow noopener noreferrer">МОИ ЧЕКИ ОНЛАЙН</a> ФНС России и <span class="finexLogotype">FINEX</span> автоматически создаст операции расходов на основе ваших электронных чеков.
       items:
         - 'Экономьте время: расходные операции создаются автоматически.'
       link: /ru/moi-cheki-onlain/

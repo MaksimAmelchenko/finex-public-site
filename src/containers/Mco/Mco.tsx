@@ -19,7 +19,7 @@ export const Mco = () => {
 
   return (
     <div className={styles.root}>
-      <Seo lang={locale} title="Подключение МОИ ЧЕКИ ОНЛАЙН">
+      <Seo lang={locale} title="Подключение МОИ ЧЕКИ ОНЛАЙН ФНС России">
         {locale !== 'ru' && <link rel="canonical" href="https://finex.io/ru/moi-cheki-onlain/" />}
       </Seo>
       <Header />
@@ -32,12 +32,12 @@ export const Mco = () => {
               <h2 className={styles.infoSection__heading}>
                 Что такое{' '}
                 <a href={mcoLink} className={styles.mcoLogotype}>
+                  <span className={styles.mcoLogoMark}>
+                    <LogoMco />
+                  </span>
                   МОИ ЧЕКИ ОНЛАЙН
-                </a>
-                <div className={styles.mcoLogoMark}>
-                  <LogoMco />
-                </div>{' '}
-                ?
+                </a>{' '}
+                ФНС России ?
               </h2>
               <div className={styles.infoSection__content}>
                 <p>
@@ -57,7 +57,7 @@ export const Mco = () => {
         <section className={styles.root__section}>
           <Container>
             <FeatureCard
-              heading={<div>Преимущества подключения МОИ ЧЕКИ ОНЛАЙН к FINEX</div>}
+              heading={<div>Преимущества подключения МОИ ЧЕКИ ОНЛАЙН ФНС России к FINEX</div>}
               items={[
                 'Экономьте время: расходные операции создаются автоматически.',
                 'Объедините управление и контроль ваших финансов в одном удобном интерфейсе.',
@@ -74,7 +74,7 @@ export const Mco = () => {
                 'Зарегистрируйтесь на сервисе FINEX',
                 'Перейдите на страницу "Настройки" -> "МОИ ЧЕКИ ОНЛАЙН"',
                 'Введите номер телефона и нажмите на кнопку "Подключить"',
-                'Вы будете перенаправлены на портал "МОИ ЧЕКИ ОНЛАЙН", где вам потребуется авторизоваться и принять приглашение от FINEX.',
+                'Вы будете перенаправлены на сервис "МОИ ЧЕКИ ОНЛАЙН" ФНС России, где вам потребуется авторизоваться и принять приглашение от FINEX.',
                 'После возврата в приложение FINEX укажите счета для "наличных" и "безналичных" расходов, операции по которым будут создаваться на основе ваших чеков.',
               ]}
             />
