@@ -1,3 +1,4 @@
 User-Agent: *
 Allow: /
 Sitemap: https://finex.io/sitemap-index.xml
+Clean-param: etext&gtm_debug
