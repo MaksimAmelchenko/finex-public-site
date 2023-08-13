@@ -24,6 +24,9 @@ export default {
     'Reject all': 'Отклонить все',
     'Accept all': 'Принять все',
   },
+  FeatureCard: {
+    'Learn more': 'Подробнее',
+  },
   HowItWork: {
     Описание: 'Описание',
     'Как работает FINEX': 'Как работает FINEX',
@@ -36,15 +39,17 @@ export default {
     'Mobile example': 'Пример мобильного приложения',
     'Outcome screen': 'Экран итогов',
     'Transactions screen': 'Экран операций',
+    'Cash Flows screen': 'Экран денежных потоков',
     'Debts screen': 'Экран долгов',
     'Debt details screen': 'Экран деталей долга',
+    'Planning screen': 'Экран планирования',
     'Bank connection screen': 'Экран подключения банка',
     'Desktop outcome screen': 'Экран итогов для ПК',
     'Desktop CashFlows screen': 'Экран денежных потоков для ПК',
-    'Desktop Planning screen': 'Экран планирования для ПК',
     'Report Dynamic screen': 'Экран динамического отчета',
     'Report Dynamic table screen': 'Экран динамической таблицы',
     'Report Distribution screen': 'Экран распределения',
+    'Settings screen': 'Экран настроек',
   },
   PriceCard: {
     'Get started': 'Начать',

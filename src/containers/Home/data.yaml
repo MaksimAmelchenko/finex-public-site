@@ -3,54 +3,81 @@ ru:
     title: Управление личными финансами с помощью онлайн сервиса
     supportingText: С легкостью организуйте свои финансы с помощью удобного инструмента для ведения домашней бухгалтерии. Зарегистрируйтесь сейчас и добейтесь финансового успеха!
   features:
+    - icon: zapIcon
+      heading: Минимальный ручной ввод
+      supportingText: >
+        Подключите <a class="mcoLogotype" href="https://mco.nalog.ru/" target="_blank" rel="nofollow noopener noreferrer">МОИ ЧЕКИ ОНЛАЙН</a> ФНС России и <span class="finexLogotype">FINEX</span> автоматически создаст операции расходов на основе ваших электронных чеков.
+      items:
+        - 'Экономьте время: расходные операции создаются автоматически.'
+      link: /ru/moi-cheki-onlain/
     - icon: budgetIcon
-      title: Домашний бюджет
-      description: >
-        <p>
-          Получите полный контроль над своими деньгами. Установите лимиты расходов для разных категорий - будь то продукты, развлечения или транспорт, и отслеживайте свои траты в реальном времени. Обнаруживайте области потенциального перерасхода и корректируйте свой бюджет, чтобы достичь своих целей в экономии.
-        </p>
+      heading: Введение домашнего бюджета
+      supportingText: >
+        Полное управление финансами с установкой лимитов и отслеживанием расходов в реальном времени.
+      items:
+        - Установите лимиты расходов для разных категорий
+        - Предотвращение перерасхода
+        - Достигайте целей экономии
+      link:
     - icon: planningIcon
-      title: Планирование
-      description: >
-        <p>
-          Будьте на шаг впереди, заранее планируя свои финансы. Создавайте и управляйте одноразовыми и регулярными транзакциями, а также оценивайте будущие доходы, чтобы с уверенностью двигаться к своим финансовым целям.
-        </p>
+      heading: Планирование
+      supportingText: >
+        Будьте на шаг впереди с управлением транзакциями и оценкой будущих доходов для достижения финансовых целей.
+      items:
+        - Одноразовые и регулярные операции
+        - Оценка будущего финансового состояния
+        - Выявление и предотвращения "ухода в минус"
+      link:
     - icon: cashFlowIcon
-      title: Денежные потоки
-      description: >
-        <p>
-          Следите и анализируйте долгосрочные финансовые операции. Если вы владеете арендуемой недвижимостью, вы можете сгруппировать все доходы и расходы в одном месте. Это поможет вам оценить рентабельность и принять основательное решение о дальнейших инвестициях.
-        </p>
+      heading: Денежные потоки
+      supportingText: >
+        Группировка и анализ финансовых операций, связанных с определенным активом или субъектом.
+      items:
+        - Группировка операций
+        - Определение финансового результата
+        - Оценка итоговой стоимости активов и пассивов
+      link:
     - icon: detailsIcon
-      title: Детализация учета
-      description: >
-        <p>
-           Выбирайте уровень детализации учета, который идеально подходит для вас. Например, отслеживайте все ваши транзакции с определенным продавцом или провайдером услуг, организуйте свои расходы по многоуровневым категориям и используйте теги для добавления дополнительных сведений или заметок к своим транзакциям.
-        </p>
+      heading: Детализация учета
+      supportingText: >
+        Персонализированное управление финансами, которое отвечает именно вашим потребностям.
+      items:
+        - Многоуровневые категории
+        - Заметки и Теги для операций и денежных потоков
+        - Продавцы и провайдеры услуг
+      link:
     - icon: projectsIcon
-      title: Проекты
-      description: >
-        <p>
-          Создайте уникальные "проекты" для управления и отслеживания финансов различных аспектов вашей жизни, будь то семейный бюджет или рабочий проект. С каждым проектом, изолированным от остальных, вы сможете полностью сосредоточиться на его финансах, приглашая при этом соработников или членов семьи, чтобы они могли вам помочь.
-        </p>
+      heading: Проекты
+      supportingText: >
+        Персонализированный контроль над финансами различных аспектов вашей жизни, от семейного бюджета до финансов малого бизнеса.
+      items:
+        - Произвольное количество отдельных проектов
+        - Семейный бюджет и/или Управление малым бизнесом
+      link:
     - icon: multiUserIcon
-      title: Совместный учет
-      description: >
-        <p>
-           Сотрудничайте в финансовых вопросах с членами семьи или доверенными лицами, предоставляя им возможность просмотра и редактирования выбранных аккаунтов или проектов. Например, предоставьте партнеру возможность просмотра текущего счета, распределяя при этом финансовые обязанности, но сохраняя контроль над своей личной финансовой информацией.
-        </p>
+      heading: Совместный учет
+      supportingText: >
+        Объедините усилия для эффективного управления финансами с членами семьи или доверенными лицами, сохраняя при этом полный контроль.
+      items:
+        - Совместный доступ к финансам
+        - Распределение финансовых обязанностей
+      link:
     - icon: multiCurrencyIcon
-      title: Мультивалютные счета
-      description: >
-        <p>
-          Управляйте своими средствами в различных валютах с максимальной простотой. Мы поддерживаем не только традиционные фиатные валюты, но и криптовалюты, акции и множество других финансовых активов, позволяя вам легко переключаться между ними и иметь всестороннее представление о своем финансовом положении.
-        </p>
-    - icon: securityIcon
-      title: Безопасность и надежность
-      description: >
-        <p>
-          Мы придаем первостепенное значение безопасности вашей финансовой информации, используя современные технологии защиты, включая брандмауэры и регулярные проверки безопасности, чтобы гарантировать, что ваша информация всегда остается недоступной для несанкционированного доступа.
-        </p>
+      heading: Мультивалютные счета
+      supportingText: >
+        Одна платформа для всех ваших финансовых активов, включая фиатные валюты, криптовалюты и акции.
+      items:
+        - Учет в разных валютах, в том числе в криптовалютах
+        - Перерасчет стоимости активов в различных валютах
+      link:
+  #    - icon: securityIcon
+  #      heading: Безопасность и надежность
+  #      supportingText: >
+  #        Ваша финансовая информация находится под надежной защитой благодаря использованию передовых технологий безопасности.
+  #      items:
+  #        - Современные технологии защиты
+  #        - Регулярные проверки безопасности
+  #      link:
   cta:
     title: Начните с 14-дневной бесплатной версии
     supportingText: Присоединяйтесь к 1600+ пользователям, уже идущим по пути к финансовому успеху вместе с FINEX
@@ -80,65 +107,80 @@ en:
     supportingText: Experience a new level of financial clarity and control. Automate your EU bank account data, perform advanced cash flow analysis, manage projects, and much more. All in one simple, secure, and web-accessible platform.
   features:
     - icon: bankIcon
-      title: Effortless EU Bank Account Integration
-      description: >
-        <p>
-          Simplify your life with FINEX's effortless EU bank account integration. Connect your accounts and let the automatic data export take over, putting an end to tedious manual data entry. Streamline your financial management experience like never before.
-        </p>
+      heading: Effortless EU Bank Account Integration
+      supportingText: >
+        Simplify your life with FINEX's effortless EU bank account integration. Connect your accounts and let the automatic data export take over, putting an end to tedious manual data entry. Streamline your financial management experience like never before.
+      items:
+        - One-click bank account integration
+        - Automatic data import
+        - Automatic categorization of transactions
     - icon: cashFlowIcon
-      title: Advanced Cash Flow Analysis
-      description: >
-        <p>
-          Enhance your investment insight with advanced cash flow analysis. Ideal for property owners or long-term investors, this feature allows you to consolidate income and expenses, making financial performance assessments a breeze.
-        </p>
+      heading: Advanced Cash Flow Analysis
+      supportingText: >
+        Enhance your investment insight with advanced cash flow analysis. Ideal for property owners or long-term investors, this feature allows you to consolidate income and expenses, making financial performance assessments a breeze.
+      items:
+        - Grouping of transactions
+        - Calculation of financial results
+        - Estimation of the final value of assets and liabilities
     - icon: projectsIcon
-      title: Project-Based Financial Management
-      description: >
-        <p>
-          Manage your finances project by project with our innovative feature, 'Projects'. Each project stays separate, allowing you to focus on one thing at a time, with the added ability to collaborate with others.
-        </p>
+      heading: Project-Based Financial Management
+      supportingText: >
+        Manage your finances project by project with our innovative feature, 'Projects'. Each project stays separate, allowing you to focus on one thing at a time, with the added ability to collaborate with others.
+      items:
+        - Unlimited number of projects
+        - Family budget and/or Small business management
     - icon: overviewIcon
-      title: Comprehensive Financial Overview
-      description: >
-        <p>
-          Get a panoramic view of your financial landscape. Consolidate and view all your accounts, credit cards, loans, and investments in one place, providing you with an all-encompassing financial snapshot.
-        </p>
+      heading: Comprehensive Financial Overview
+      supportingText: >
+        Get a panoramic view of your financial landscape. Consolidate and view all your accounts, credit cards, loans, and investments in one place, providing you with an all-encompassing financial snapshot.
+      items:
+        - Consolidated view of all accounts
+        - Right decisions at the right time
     - icon: planningIcon
-      title: Proactive Financial Planning
-      description: >
-        <p>
-          Future-proof your finances with our proactive financial planning tools. Estimate future funds, create and manage transactions, and enhance your budgeting and goal-setting strategies.
-        </p>
+      heading: Proactive Financial Planning
+      supportingText: >
+        Future-proof your finances with our proactive financial planning tools. Estimate future funds, create and manage transactions, and enhance your budgeting and goal-setting strategies.
+      items:
+        - Recurring and one-time transactions
+        - Forecasting of future funds
     - icon: detailsIcon
-      title: Detailed Transaction Tracking
-      description: >
-        <p>
-          Get in-depth with your financial tracking using our directory of counterparties, multi-level categories, and tags. Organize your expenses, track transactions, and add detailed notes, all tailored to your needs.
-        </p>
+      heading: Detailed Transaction Tracking
+      supportingText: >
+        Get in-depth with your financial tracking using our directory of counterparties, multi-level categories, and tags. Organize your expenses, track transactions, and add detailed notes, all tailored to your needs.
+      items:
+        - Multi-level categories
+        - Tags and notes
+        - Directory of counterparties
     - icon: multiUserIcon
-      title: Multiple Users
-      description: >
-        <p>
-          Collaborate and manage finances with other family members or trusted individuals. Grant viewing and/or editing access to specific accounts or projects within your account to other users.
-        </p>
+      heading: Multiple Users
+      supportingText: >
+        Collaborate and manage finances with other family members or trusted individuals. Grant viewing and/or editing access to specific accounts or projects within your account to other users.
+      items:
+        - Shared access to accounts and projects
+        - Different levels of access
+        - Control over access rights
     - icon: multiCurrencyIcon
-      title: Multi-Currency Support
-      description: >
-        <p>
-          Navigate global finances with our multi-currency support, accommodating traditional fiat, crypto, shares, and more. Seamlessly switch between currencies and get a comprehensive view of your financial situation.
-        </p>
+      heading: Multi-Currency Support
+      supportingText: >
+        Navigate global finances with our multi-currency support, accommodating traditional fiat, crypto, shares, and more. Seamlessly switch between currencies and get a comprehensive view of your financial situation.
+      items:
+        - Multi-currency accounts
+        - Automatic conversion of currencies
+        - Calculation of the total value of assets
     - icon: budgetIcon
-      title: Budgeting Simplicity
-      description: >
-        <p>
-          Take control of your finances with our easy-to-use budgeting tools. Set personalized spending limits, track your expenses, and adjust your budgets in real-time.
-        </p>
+      heading: Budgeting Simplicity
+      supportingText: >
+        Take control of your finances with our easy-to-use budgeting tools. Set personalized spending limits, track your expenses, and adjust your budgets in real-time.
+      items:
+        - Personalized spending limits
+        - Tracking of expenses
     - icon: securityIcon
-      title: Secure Data Protection
-      description: >
-        <p>
-          Trust in our commitment to your financial data's security. With robust security measures, your information remains private, encrypted, and securely stored.
-        </p>
+      heading: Secure Data Protection
+      supportingText: >
+        Trust in our commitment to your financial data's security. With robust security measures, your information remains private, encrypted, and securely stored.
+      items:
+        - Modern security technologies
+        - Regular security checks
   cta:
     title: Start your 14-day free trial
     supportingText: Join thousands of users leveraging FINEX to simplify their financial management. With multi-currency support, project-based financial control, and seamless integration with EU bank accounts, we help you see the bigger picture and make informed financial decisions.
@@ -156,11 +198,11 @@ en:
       - title: Monthly Subscription
         description: >
           &nbsp
-        price: 2,90€/mth
+        price: 3,70€/mth
       - title: Annual Subscription
         description: >
           Save <strong>20%</strong> with an annual subscription
-        price: 27,80€/year
+        price: 35,50€/year
         isPopular: true
 de:
   jumbotron:
@@ -168,65 +210,78 @@ de:
     supportingText: Erleben Sie ein neues Niveau an finanzieller Klarheit und Kontrolle. Automatisieren Sie Ihre EU-Bankkontodaten, führen Sie erweiterte Cashflow-Analysen durch, verwalten Sie Projekte und vieles mehr. Alles auf einer einfachen, sicheren und webzugänglichen Plattform.
   features:
     - icon: bankIcon
-      title: Mühelose Integration von EU-Bankkonten
-      description: >
-        <p>
-          Vereinfachen Sie Ihr Leben mit der mühelosen Integration von EU-Bankkonten bei FINEX. Verbinden Sie Ihre Konten und lassen Sie den automatischen Datenexport die Arbeit übernehmen, um lästige manuelle Dateneingaben zu beenden. Optimieren Sie Ihr Finanzmanagement-Erlebnis wie nie zuvor.
-        </p>
+      heading: Mühelose Integration von EU-Bankkonten
+      supportingText: >
+        Vereinfachen Sie Ihr Leben mit der mühelosen Integration von EU-Bankkonten bei FINEX. Verbinden Sie Ihre Konten und lassen Sie den automatischen Datenexport die Arbeit übernehmen, um lästige manuelle Dateneingaben zu beenden. Optimieren Sie Ihr Finanzmanagement-Erlebnis wie nie zuvor.
+      items:
+        - Ein-Klick-Bankkonto-Integration
+        - Automatischer Datenimport
+        - Automatische Kategorisierung von Transaktionen
     - icon: cashFlowIcon
-      title: Erweiterte Cashflow-Analyse
-      description: >
-        <p>
-          Verbessern Sie Ihre Investment-Einsicht mit der erweiterten Cashflow-Analyse. Ideal für Immobilienbesitzer oder langfristige Investoren, ermöglicht diese Funktion die Konsolidierung von Einnahmen und Ausgaben, um finanzielle Leistungsbewertungen zu erleichtern.
-        </p>
+      heading: Erweiterte Cashflow-Analyse
+      supportingText: >
+        Verbessern Sie Ihre Investment-Einsicht mit der erweiterten Cashflow-Analyse. Ideal für Immobilienbesitzer oder langfristige Investoren, ermöglicht diese Funktion die Konsolidierung von Einnahmen und Ausgaben, um finanzielle Leistungsbewertungen zu erleichtern.
+      items:
+        - Gruppierung von Transaktionen
+        - Berechnung der finanziellen Ergebnisse
     - icon: projectsIcon
-      title: Projektbasiertes Finanzmanagement
-      description: >
-        <p>
-          Verwalten Sie Ihre Finanzen Projekt für Projekt mit unserer innovativen Funktion 'Projekte'. Jedes Projekt bleibt getrennt, sodass Sie sich jeweils auf eine Sache konzentrieren können und die zusätzliche Möglichkeit haben, mit anderen zusammenzuarbeiten.
-        </p>
+      heading: Projektbasiertes Finanzmanagement
+      supportingText: >
+        Verwalten Sie Ihre Finanzen Projekt für Projekt mit unserer innovativen Funktion 'Projekte'. Jedes Projekt bleibt getrennt, sodass Sie sich jeweils auf eine Sache konzentrieren können und die zusätzliche Möglichkeit haben, mit anderen zusammenzuarbeiten.
+      items:
+        - Unbegrenzte Anzahl von Projekten
+        - Familienbudget und/oder Kleinunternehmen
     - icon: overviewIcon
-      title: Umfassender Finanzüberblick
-      description: >
-        <p>
-          Erhalten Sie einen Panoramablick auf Ihre finanzielle Landschaft. Konsolidieren und betrachten Sie all Ihre Konten, Kreditkarten, Darlehen und Investitionen an einem Ort, um einen umfassenden finanziellen Überblick zu erhalten.
-        </p>
+      heading: Umfassender Finanzüberblick
+      supportingText: >
+        Erhalten Sie einen Panoramablick auf Ihre finanzielle Landschaft. Konsolidieren und betrachten Sie all Ihre Konten, Kreditkarten, Darlehen und Investitionen an einem Ort, um einen umfassenden finanziellen Überblick zu erhalten.
+      items:
+        - Konsolidierte Ansicht aller Konten
+        - Richtige Entscheidungen zur richtigen Zeit
     - icon: planningIcon
-      title: Proaktive Finanzplanun
-      description: >
-        <p>
-          Machen Sie Ihre Finanzen mit unseren proaktiven Finanzplanungswerkzeugen zukunftssicher. Schätzen Sie zukünftige Fonds ein, erstellen und verwalten Sie Transaktionen und verbessern Sie Ihre Budget- und Zielsetzungsstrategien.
-        </p>
+      heading: Proaktive Finanzplanun
+      supportingText: >
+        Machen Sie Ihre Finanzen mit unseren proaktiven Finanzplanungswerkzeugen zukunftssicher. Schätzen Sie zukünftige Fonds ein, erstellen und verwalten Sie Transaktionen und verbessern Sie Ihre Budget- und Zielsetzungsstrategien.
+      items:
+        - Einmalige und regelmäßige Einsätze
+        - Schätzung zukünftiger Fonds
     - icon: detailsIcon
-      title: Detaillierte Transaktionsverfolgung
-      description: >
-        <p>
-          Tauchen Sie tiefer in Ihre Finanzverfolgung ein, mit unserem Verzeichnis von Gegenparteien, mehrstufigen Kategorien und Tags. Organisieren Sie Ihre Ausgaben, verfolgen Sie Transaktionen und fügen Sie detaillierte Notizen hinzu, alles auf Ihre Bedürfnisse zugeschnitten
-        </p>
+      heading: Detaillierte Transaktionsverfolgung
+      supportingText: >
+        Tauchen Sie tiefer in Ihre Finanzverfolgung ein, mit unserem Verzeichnis von Gegenparteien, mehrstufigen Kategorien und Tags. Organisieren Sie Ihre Ausgaben, verfolgen Sie Transaktionen und fügen Sie detaillierte Notizen hinzu, alles auf Ihre Bedürfnisse zugeschnitten
+      items:
+        - Mehrstufige Kategorien
+        - Tags
+        - Verzeichnis von Gegenparteien
     - icon: multiUserIcon
-      title: Mehrere Benutzer
-      description: >
-        <p>
-          Kooperieren und verwalten Sie Finanzen mit anderen Familienmitgliedern oder vertrauenswürdigen Personen. Gewähren Sie anderen Benutzern die Anzeige- und/oder Bearbeitungsberechtigung für bestimmte Konten oder Projekte innerhalb Ihres Kontos.
-        </p>
+      heading: Mehrere Benutzer
+      supportingText: >
+        Kooperieren und verwalten Sie Finanzen mit anderen Familienmitgliedern oder vertrauenswürdigen Personen. Gewähren Sie anderen Benutzern die Anzeige- und/oder Bearbeitungsberechtigung für bestimmte Konten oder Projekte innerhalb Ihres Kontos.
+      items:
+        - Anzeige- und/oder Bearbeitungsberechtigung
+        - Verteilung der finanziellen Verantwortlichkeiten
     - icon: multiCurrencyIcon
-      title: Unterstützung mehrerer Währungen
-      description: >
-        <p>
-          Navigieren Sie durch die globalen Finanzen mit unserer Multi-Währungsunterstützung, die traditionelle Fiat-Währungen, Kryptowährungen, Aktien und mehr unterstützt. Wechseln Sie nahtlos zwischen Währungen und erhalten Sie einen umfassenden Überblick über Ihre finanzielle Situation.
-        </p>
+      heading: Unterstützung mehrerer Währungen
+      supportingText: >
+        Navigieren Sie durch die globalen Finanzen mit unserer Multi-Währungsunterstützung, die traditionelle Fiat-Währungen, Kryptowährungen, Aktien und mehr unterstützt. Wechseln Sie nahtlos zwischen Währungen und erhalten Sie einen umfassenden Überblick über Ihre finanzielle Situation.
+      items:
+        - Traditionelle Fiat-Währungen
+        - Kryptowährungen
+        - Neuberechnung des Wertes von Vermögenswerten in verschiedenen Währungen
     - icon: budgetIcon
-      title: Einfache Budgetierung
-      description: >
-        <p>
-          Übernehmen Sie mit unseren einfach zu bedienenden Budgetierungstools die Kontrolle über Ihre Finanzen. Legen Sie personalisierte Ausgabenlimits fest, verfolgen Sie Ihre Ausgaben und passen Sie Ihre Budgets in Echtzeit an.
-        </p>
+      heading: Einfache Budgetierung
+      supportingText: >
+        Übernehmen Sie mit unseren einfach zu bedienenden Budgetierungstools die Kontrolle über Ihre Finanzen. Legen Sie personalisierte Ausgabenlimits fest, verfolgen Sie Ihre Ausgaben und passen Sie Ihre Budgets in Echtzeit an.
+      items:
+        - Personalisierte Ausgabenlimits
+        - Verfolgung von Ausgaben
     - icon: securityIcon
-      title: Sichere Datenprotektion
-      description: >
-        <p>
-          Vertrauen Sie auf unser Engagement für die Sicherheit Ihrer Finanzdaten. Mit robusten Sicherheitsmaßnahmen bleiben Ihre Informationen privat, verschlüsselt und sicher gespeichert.
-        </p>
+      heading: Sichere Datenprotektion
+      supportingText: >
+        Vertrauen Sie auf unser Engagement für die Sicherheit Ihrer Finanzdaten. Mit robusten Sicherheitsmaßnahmen bleiben Ihre Informationen privat, verschlüsselt und sicher gespeichert.
+      items:
+        - 256-Bit-Verschlüsselung
+        - GDPR-konform
   cta:
     title: Starten Sie Ihre 14-tägige kostenlose Testversion
     supportingText: Tausende von Benutzern setzen auf FINEX, um ihr Finanzmanagement zu vereinfachen. Mit Unterstützung für mehrere Währungen, projektbasierter Finanzkontrolle und nahtloser Integration mit EU-Bankkonten helfen wir Ihnen, das große Ganze zu sehen und fundierte finanzielle Entscheidungen zu treffen.
@@ -244,9 +299,9 @@ de:
       - title: Monatliches Abo
         description: >
           &nbsp
-        price: 2,90€/Monat
+        price: 3,70€/Monat
       - title: Jahresabonnement
         description: >
           Sparen Sie <strong>20%</strong> mit einem Jahresabonnement
-        price: 27,80€/Jahr
+        price: 35,50€/Jahr
         isPopular: true

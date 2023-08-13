@@ -1,0 +1,174 @@
+@use 'src/styles/media';
+@use 'src/styles/typography';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  @include media.only('sm') {
+  }
+
+  &__main {
+    flex-grow: 1;
+  }
+
+  &__section {
+    padding: 0 0 9.6rem;
+
+    @include media.only('sm') {
+      padding: 0 0 6.4rem;
+    }
+  }
+
+  &__getInTouch {
+    padding: 0 0 9.6rem;
+
+    @include media.only('sm') {
+      padding: 0 0 6.4rem;
+    }
+  }
+
+  &__sectionHeader {
+    //margin: 0;
+    @include typography.displayMDSemibold;
+    @include media.only('sm') {
+      @include typography.displaySMSemibold;
+    }
+  }
+
+  &__sectionText {
+    //margin: 0;
+    @include typography.textLG;
+    @include media.only('sm') {
+      @include typography.textMD;
+    }
+  }
+}
+
+.main {
+  padding-top: 8rem;
+
+  @include media.only('sm') {
+    padding-top: 0;
+  }
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3.2rem;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+  background-color: var(--color-primary-50);
+
+  @include media.only(sm) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
+    padding: 3.2rem 2rem;
+  }
+
+  &__headingAndSupportingText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    max-width: 76.8rem;
+  }
+
+  &__heading {
+    margin: 0;
+    @include typography.textXLSemibold;
+    color: var(--color-gray-900);
+  }
+
+  &__supportingText {
+    @include typography.textLG;
+    color: var(--color-gray-600);
+
+    @include media.only(sm) {
+      @include typography.textMD;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.2rem;
+    flex-shrink: 0;
+  }
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+  flex: 1 0 0;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+
+  border: 1px solid var(--color-gray-200);
+  background: var(--color-gray-50);
+
+  @include media.only(sm) {
+    gap: 2.4rem;
+    padding: 3.2rem 2rem;
+  }
+
+  &__heading {
+    @include typography.displaySMSemibold;
+
+    @include media.only(sm) {
+      @include typography.displayXSSemibold;
+    }
+  }
+
+  &__content {
+    @include typography.textLG;
+
+    @include media.only(sm) {
+      @include typography.textMD;
+    }
+  }
+}
+
+.mcoLogotype {
+  border-bottom: 1px solid transparent;
+
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+
+  text-decoration: none;
+  white-space: nowrap;
+  color: rgb(66, 101, 227);
+
+  &:hover {
+    border-bottom-color: currentColor;
+    border-bottom-width: 2px;
+  }
+}
+
+.mcoLogoMark {
+  position: relative;
+  top: 0.4rem;
+  margin-right: 0.8rem;
+
+  @include media.only(sm) {
+    top: 0.2rem;
+    margin-right: 0.4rem;
+  }
+
+  & svg {
+    height: 3.2rem;
+    width: 3.2rem;
+
+    @include media.only(sm) {
+      height: 2.4rem;
+      width: 2.4rem;
+    }
+  }
+}

@@ -9,9 +9,10 @@ interface ISeoProps {
   description?: string;
   keywords?: string;
   meta?: any[];
+  children?: React.ReactNode;
 }
 
-export function Seo({ title, lang, description, keywords, meta = [] }: ISeoProps): JSX.Element {
+export function Seo({ title, lang, description, keywords, meta = [], children }: ISeoProps): JSX.Element {
   const t = useT('Seo');
   const defaultTitle = t('FINEX | Budget Tracker & Planner | Personal Finance Management Online');
   const metaDescription =
@@ -83,6 +84,8 @@ export function Seo({ title, lang, description, keywords, meta = [] }: ISeoProps
           content: `@finex_${lang}`,
         },
       ].concat(meta)}
-    />
+    >
+      {children}
+    </Helmet>
   );
 }
