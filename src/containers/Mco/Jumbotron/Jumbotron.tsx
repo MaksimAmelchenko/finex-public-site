@@ -2,7 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 import { StaticImage } from 'gatsby-plugin-image';
 
-import { Badge } from '../../../components/Badge/Badge';
 import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
 import { GridBackground } from '../../../components/GridBackground/GridBackground';
@@ -24,10 +23,7 @@ export function Jumbotron({ className }: IJumbotronProps) {
       <Container>
         <div className={styles.hero}>
           <div className={clsx(styles.hero__headingAndSupportingText, styles.headingAndSupportingText)}>
-            <h1 className={styles.headingAndSupportingText__header}>
-              Забудьте о ручном вводе расходов{' '}
-              <Badge className={styles.headingAndSupportingText__badge}>Будет доступно в августа 2023</Badge>
-            </h1>
+            <h1 className={styles.headingAndSupportingText__header}>Забудьте о ручном вводе расходов</h1>
 
             <p className={styles.headingAndSupportingText__supportingText}>
               Подключите{' '}
