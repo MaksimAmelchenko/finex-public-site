@@ -147,20 +147,34 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
                 layout="fixed"
                 height={500}
                 src="./assets/de/mobile-03.png"
-                alt={t('Debts screen')}
+                alt={t('Cash Flows screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
                 height={500}
                 src="./assets/de/mobile-04.png"
-                alt={t('Debt details screen')}
+                alt={t('Debts screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
                 height={500}
                 src="./assets/de/mobile-05.png"
+                alt={t('Debt details screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/de/mobile-06.png"
+                alt={t('Planning screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/de/mobile-07.png"
                 alt={t('Bank connection screen')}
               />
               <StaticImage
@@ -241,6 +255,13 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
                 layout="fixed"
                 height={500}
                 src="./assets/ru/mobile-06.png"
+                alt={t('Planning screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/ru/mobile-07.png"
                 alt={t('Settings screen')}
               />
               <StaticImage
@@ -300,20 +321,34 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
                 layout="fixed"
                 height={500}
                 src="./assets/en/mobile-03.png"
-                alt={t('Debts screen')}
+                alt={t('Cash Flows screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
                 height={500}
                 src="./assets/en/mobile-04.png"
-                alt={t('Debt details screen')}
+                alt={t('Debts screen')}
               />
               <StaticImage
                 placeholder="blurred"
                 layout="fixed"
                 height={500}
                 src="./assets/en/mobile-05.png"
+                alt={t('Debt details screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/en/mobile-06.png"
+                alt={t('Planning screen')}
+              />
+              <StaticImage
+                placeholder="blurred"
+                layout="fixed"
+                height={500}
+                src="./assets/en/mobile-07.png"
                 alt={t('Bank connection screen')}
               />
               <StaticImage
