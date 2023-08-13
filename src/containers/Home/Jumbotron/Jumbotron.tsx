@@ -5,6 +5,7 @@ import { useLocalization } from 'gatsby-theme-i18n';
 
 import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
+import { GridBackground } from '../../../components/GridBackground/GridBackground';
 import { useDeviceSize } from '../../../lib/use-device-size';
 import { useT } from '../../../lib/i18n';
 
@@ -26,6 +27,7 @@ export function Jumbotron({ title, supportingText, className }: IJumbotronProps)
 
   return (
     <section className={clsx(styles.root, className)}>
+      <GridBackground />
       <Container className={styles.root__container}>
         <div className={styles.hero}>
           <div className={clsx(styles.hero__headingAndSupportingText, styles.headingAndSupportingText)}>

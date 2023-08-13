@@ -1,7 +1,9 @@
 import React from 'react';
+import clsx from 'clsx';
 
 import { Container } from '../../../components/Container/Container';
 import { FeatureCard } from '../../../components/FeatureCard/FeatureCard';
+import { GridBackground } from '../../../components/GridBackground/GridBackground';
 
 import { ReactComponent as BankIcon } from '../../../components/Icons/bank.svg';
 import { ReactComponent as Coins02Icon } from '../../../components/Icons/coins-02.svg';
@@ -30,7 +32,6 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 import styles from './Features.module.scss';
-import clsx from 'clsx';
 
 export interface IFeature {
   icon: string;
@@ -50,6 +51,7 @@ interface IFeaturesProps {
 export function Features({ features, className }: IFeaturesProps) {
   return (
     <section className={clsx(styles.root, className)}>
+      <GridBackground />
       <Container>
         <div className={styles.root__container}>
           {features.map(({ icon, heading, supportingText, items, link }, index) => (

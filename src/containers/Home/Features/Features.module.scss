@@ -1,6 +1,8 @@
 @use 'src/styles/media';
 
 .root {
+  position: relative;
+
   &__container {
     display: grid;
     grid-template-columns: 1fr 1fr;

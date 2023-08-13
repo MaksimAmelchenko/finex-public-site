@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { Badge } from '../../../components/Badge/Badge';
 import { Button } from '../../../components/Button/Button';
 import { Container } from '../../../components/Container/Container';
+import { GridBackground } from '../../../components/GridBackground/GridBackground';
 import { useDeviceSize } from '../../../lib/use-device-size';
 
 import styles from './Jumbotron.module.scss';
@@ -18,6 +19,8 @@ export function Jumbotron({ className }: IJumbotronProps) {
   const { isSmall } = useDeviceSize();
   return (
     <section className={clsx(styles.root, className)}>
+      <GridBackground />
+
       <Container>
         <div className={styles.hero}>
           <div className={clsx(styles.hero__headingAndSupportingText, styles.headingAndSupportingText)}>
