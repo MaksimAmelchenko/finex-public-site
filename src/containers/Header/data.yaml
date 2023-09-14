@@ -8,17 +8,17 @@ ru:
     #      link: https://finex.userecho.com
   actions:
     - title: Вход
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sign-in?locale=ru
       buttonVariant: tertiaryGray
     - title: Регистрация
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=ru
       buttonVariant: primary
   mobileActions:
     - title: Регистрация
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=ru
       buttonVariant: primary
     - title: Вход
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sign-in?locale=ru
       buttonVariant: secondaryGray
 en:
   navigation:
@@ -30,17 +30,17 @@ en:
     #      link: https://finex.userecho.com
   actions:
     - title: Log in
-      link: https://app.finex.io/sing-in?locale=en
+      link: https://app.finex.io/sign-in?locale=en
       buttonVariant: tertiaryGray
     - title: Sign up
       link: https://app.finex.io/sign-up?locale=en
       buttonVariant: primary
   mobileActions:
     - title: Sign up
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=en
       buttonVariant: primary
     - title: Log in
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sign-in?locale=en
       buttonVariant: secondaryGray
 #      params:
 #        - rel: 'nofollow'
@@ -54,15 +54,15 @@ de:
     #      link: https://finex.userecho.com
   actions:
     - title: Einloggen
-      link: https://app.finex.io/sing-in?locale=de
+      link: https://app.finex.io/sign-in?locale=de
       buttonVariant: tertiaryGray
     - title: Registrieren
       link: https://app.finex.io/sign-up?locale=de
       buttonVariant: primary
   mobileActions:
     - title: Registrieren
-      link: https://app.finex.io/sign-up
+      link: https://app.finex.io/sign-up?locale=de
       buttonVariant: primary
     - title: Einloggen
-      link: https://app.finex.io/sing-in
+      link: https://app.finex.io/sign-in?locale=de
       buttonVariant: secondaryGray
