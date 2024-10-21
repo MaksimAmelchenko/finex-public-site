@@ -21,7 +21,7 @@ ENV GIT_HASH=$GIT_HASH
 
 RUN NODE_ENV=$NODE_ENV GIT_TAG=$GIT_TAG GIT_HASH=$GIT_HASH npm run build
 
-FROM nginx:1.25.1-alpine
+FROM nginx:1.27-alpine
 
 WORKDIR /usr/share/nginx/html/
 
