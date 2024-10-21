@@ -179,3 +179,11 @@
     border-bottom-width: 2px;
   }
 }
+
+:global(.qrCodeIcon) {
+  display: inline-block;
+  margin-bottom: -0.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-image: url('../../components/Icons/qr-code-02.svg');
+}
